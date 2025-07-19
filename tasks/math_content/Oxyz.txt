@@ -8,7 +8,7 @@
     Câu trả lời không được phép giống nhau, nếu là số thập phân bắt buộc là dấu '.' là dấu thập phân, làm tròn hai chữ số sau dấu thập phân.
 ***PHONG CÁCH***: Đề thi cần được trình bày hoàn toàn bằng tiếng Việt, với phong cách chuyên nghiệp, chính xác và chuyên sâu. Kèm theo đó là đáp án đúng và lời giải chi tiết từng bước. Các câu tự luận có cả ví dụ thực tế. Các câu hỏi nên đa dạng, tránh lặp lại dạng của câu cũ.
 Không được phép có bất kỳ lời bình, tiêu đề, đề mục nào được xuất hiện, chỉ có đề bài với các câu hỏi được biểu hiện như ví dụ
-Câu trả lời không được phép giống nhau, nếu là số thập phân bắt buộc là dấu '.' là dấu thập phân, làm tròn hai chữ số sau dấu thập phân.
+Các lựa chọn trả lời trong trả lời trắc nghiệm KHÔNG ĐƯỢC PHÉP như nhau, nếu là số thập phân bắt buộc là dấu '.' là dấu thập phân, làm tròn hai chữ số sau dấu thập phân.
 
 ***FORMAT ĐỀ***: Đề phải được soạn dưới dạng *Markdown, có thể chuyển trực tiếp sang bộ câu hỏi trên nền tảng Canvas LMS**. Chi tiết về định dạng sẽ được đề cập ở đây [https://github.com/gpoore/text2qti], bạn (AI) hãy truy cập vào link và tham khảo
 
