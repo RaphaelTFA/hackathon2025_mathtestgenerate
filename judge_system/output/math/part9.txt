@@ -1,0 +1,129 @@
+::Câu 1:: Gieo một con xúc xắc cân đối và đồng chất. Xác suất để mặt xuất hiện có số chấm là số chẵn là?
+... Lời giải: Trên một con xúc xắc có 6 mặt với số chấm từ 1 đến 6. Các số chẵn là 2, 4, 6. Vậy có 3 trường hợp thuận lợi trên tổng 6 trường hợp có thể xảy ra. Xác suất cần tìm là $\frac{3}{6} = \frac{1}{2}$.
+a) $\frac{1}{3}$
+*b) $\frac{1}{2}$
+c) $\frac{2}{3}$
+d) $\frac{3}{4}$
+
+::Câu 2:: Một hộp có 12 viên bi, trong đó có 5 viên bi đỏ và 7 viên bi xanh. Chọn ngẫu nhiên một viên bi. Xác suất để chọn được viên bi đỏ là?
+... Lời giải: Số cách chọn một viên bi từ 12 viên bi là 12. Số cách chọn một viên bi đỏ là 5. Vậy xác suất cần tìm là $\frac{5}{12}$.
+*a) $\frac{5}{12}$
+b) $\frac{7}{12}$
+c) $\frac{5}{7}$
+d) $\frac{7}{5}$
+
+::Câu 3:: Từ một bộ bài tú lơ khơ 52 lá, rút ngẫu nhiên một lá bài. Xác suất để rút được lá bài Át là?
+... Lời giải: Trong bộ bài tú lơ khơ 52 lá có 4 lá bài Át (Át cơ, Át rô, Át chuồn, Át bích). Vậy xác suất cần tìm là $\frac{4}{52} = \frac{1}{13}$.
+a) $\frac{1}{4}$
+b) $\frac{1}{12}$
+*c) $\frac{1}{13}$
+d) $\frac{4}{13}$
+
+::Câu 4:: Một lớp học có 25 học sinh nam và 15 học sinh nữ. Chọn ngẫu nhiên một học sinh làm lớp trưởng. Xác suất để chọn được học sinh nữ là?
+... Lời giải: Tổng số học sinh trong lớp là $25 + 15 = 40$. Số học sinh nữ là 15. Vậy xác suất cần tìm là $\frac{15}{40} = \frac{3}{8}$.
+a) $\frac{5}{8}$
+*b) $\frac{3}{8}$
+c) $\frac{15}{25}$
+d) $\frac{1}{3}$
+
+::Câu 5:: Gieo đồng thời hai con xúc xắc cân đối và đồng chất. Xác suất để tổng số chấm xuất hiện trên hai mặt bằng 8 là?
+... Lời giải: Số phần tử của không gian mẫu là $6 \times 6 = 36$. Các cặp có tổng bằng 8 là: (2,6), (3,5), (4,4), (5,3), (6,2). Có 5 trường hợp thuận lợi. Vậy xác suất cần tìm là $\frac{5}{36}$.
+a) $\frac{1}{6}$
+*b) $\frac{5}{36}$
+c) $\frac{7}{36}$
+d) $\frac{1}{9}$
+
+::Câu 6:: Có hai hộp bi. Hộp I có 3 bi đỏ và 2 bi xanh. Hộp II có 4 bi đỏ và 3 bi xanh. Chọn ngẫu nhiên một hộp rồi từ hộp đó lấy ngẫu nhiên một viên bi. Xác suất để lấy được bi đỏ là?
+... Lời giải: Xác suất chọn hộp I là $\frac{1}{2}$, từ hộp I lấy bi đỏ có xác suất $\frac{3}{5}$. Xác suất chọn hộp II là $\frac{1}{2}$, từ hộp II lấy bi đỏ có xác suất $\frac{4}{7}$. Theo công thức xác suất đầy đủ: $P = \frac{1}{2} \cdot \frac{3}{5} + \frac{1}{2} \cdot \frac{4}{7} = \frac{3}{10} + \frac{4}{14} = \frac{3}{10} + \frac{2}{7} = \frac{21 + 20}{70} = \frac{41}{70}$.
+a) $\frac{3}{5}$
+b) $\frac{4}{7}$
+*c) $\frac{41}{70}$
+d) $\frac{1}{2}$
+
+::Câu 7:: Một sinh viên thi hai môn độc lập. Xác suất đậu môn thứ nhất là 0,8; xác suất đậu môn thứ hai là 0,7. Biết rằng sinh viên đó đã đậu ít nhất một môn. Xác suất để sinh viên đó đậu cả hai môn là?
+... Lời giải: Gọi A là biến cố đậu môn 1, B là biến cố đậu môn 2. Ta có $P(A) = 0,8$, $P(B) = 0,7$. Xác suất đậu cả hai môn là $P(A \cap B) = P(A) \cdot P(B) = 0,8 \times 0,7 = 0,56$. Xác suất đậu ít nhất một môn là $P(A \cup B) = P(A) + P(B) - P(A \cap B) = 0,8 + 0,7 - 0,56 = 0,94$. Xác suất cần tìm là $P(A \cap B | A \cup B) = \frac{P(A \cap B)}{P(A \cup B)} = \frac{0,56}{0,94} = \frac{28}{47}$.
+a) $\frac{14}{25}$
+*b) $\frac{28}{47}$
+c) $\frac{4}{5}$
+d) $\frac{7}{10}$
+
+::Câu 8:: Một bệnh hiếm gặp với tỉ lệ mắc bệnh trong dân số là 0,1%. Một xét nghiệm có độ chính xác: nếu có bệnh thì xét nghiệm dương tính với xác suất 99%, nếu không có bệnh thì xét nghiệm âm tính với xác suất 95%. Một người được xét nghiệm có kết quả dương tính. Xác suất người đó thực sự mắc bệnh là?
+... Lời giải: Gọi B là biến cố mắc bệnh, T là biến cố xét nghiệm dương tính. Ta có $P(B) = 0,001$, $P(\overline{B}) = 0,999$, $P(T|B) = 0,99$, $P(\overline{T}|\overline{B}) = 0,95$ nên $P(T|\overline{B}) = 0,05$. Theo công thức Bayes: $P(B|T) = \frac{P(T|B) \cdot P(B)}{P(T|B) \cdot P(B) + P(T|\overline{B}) \cdot P(\overline{B})} = \frac{0,99 \times 0,001}{0,99 \times 0,001 + 0,05 \times 0,999} = \frac{0,00099}{0,00099 + 0,04995} = \frac{0,00099}{0,05094} = \frac{99}{5094} = \frac{33}{1698}$.
+a) $\frac{99}{100}$
+b) $\frac{1}{100}$
+*c) $\frac{33}{1698}$
+d) $\frac{95}{100}$
+
+::Câu 9:: Trong một lớp có 30 học sinh. Biết rằng 18 học sinh thích môn Toán, 15 học sinh thích môn Văn, 8 học sinh thích cả hai môn. Chọn ngẫu nhiên một học sinh thích môn Toán. Xác suất để học sinh đó cũng thích môn Văn là?
+... Lời giải: Gọi T là biến cố học sinh thích Toán, V là biến cố học sinh thích Văn. Ta có số học sinh thích Toán là 18, số học sinh thích cả hai môn là 8. Xác suất cần tìm là $P(V|T) = \frac{P(V \cap T)}{P(T)} = \frac{\frac{8}{30}}{\frac{18}{30}} = \frac{8}{18} = \frac{4}{9}$.
+a) $\frac{8}{30}$
+b) $\frac{8}{15}$
+*c) $\frac{4}{9}$
+d) $\frac{15}{30}$
+
+::Câu 10:: Một túi có 5 bi đỏ và 3 bi xanh. Lấy ngẫu nhiên không hoàn lại 2 bi. Biết rằng bi thứ nhất lấy được là bi đỏ. Xác suất để bi thứ hai cũng là bi đỏ là?
+... Lời giải: Sau khi lấy bi đỏ ở lần đầu, trong túi còn 4 bi đỏ và 3 bi xanh, tổng cộng 7 bi. Xác suất để bi thứ hai là bi đỏ là $\frac{4}{7}$.
+a) $\frac{5}{8}$
+*b) $\frac{4}{7}$
+c) $\frac{4}{8}$
+d) $\frac{5}{7}$
+
+::Câu 11:: Gieo một đồng xu cân đối 4 lần. Các mệnh đề sau đúng hay sai?
+
+	a) Số phần tử của không gian mẫu là 16.
+
+	b) Xác suất để được đúng 2 mặt sấp là $\frac{3}{8}$.
+... Lời giải: a) Mỗi lần gieo có 2 kết quả, gieo 4 lần nên số phần tử không gian mẫu là $2^4 = 16$. Mệnh đề đúng. b) Số cách có đúng 2 mặt sấp từ 4 lần gieo là $C_4^2 = 6$. Xác suất là $\frac{6}{16} = \frac{3}{8}$. Mệnh đề đúng.
+* ĐĐ
+
+::Câu 12:: Một hộp có 6 viên bi đỏ và 4 viên bi xanh. Lấy ngẫu nhiên 3 viên bi. Các mệnh đề sau đúng hay sai?
+
+	a) Xác suất để lấy được 3 viên bi cùng màu là $\frac{1}{6}$.
+
+	b) Xác suất để lấy được ít nhất 1 viên bi đỏ là $\frac{29}{30}$.
+... Lời giải: a) Tổng số cách lấy 3 bi từ 10 bi là $C_{10}^3 = 120$. Số cách lấy 3 bi đỏ là $C_6^3 = 20$, số cách lấy 3 bi xanh là $C_4^3 = 4$. Xác suất lấy 3 bi cùng màu là $\frac{20 + 4}{120} = \frac{24}{120} = \frac{1}{5}$. Mệnh đề sai. b) Xác suất lấy toàn bi xanh là $\frac{C_4^3}{C_{10}^3} = \frac{4}{120} = \frac{1}{30}$. Xác suất lấy ít nhất 1 bi đỏ là $1 - \frac{1}{30} = \frac{29}{30}$. Mệnh đề đúng.
+* SĐ
+
+::Câu 13:: Hai xạ thủ A và B bắn độc lập vào bia. Xác suất bắn trúng của A là 0,7; của B là 0,6. Các mệnh đề sau đúng hay sai?
+
+	a) Xác suất cả hai đều bắn trúng là 0,42.
+
+	b) Xác suất có ít nhất một người bắn trúng là 0,88.
+... Lời giải: a) Xác suất cả hai bắn trúng là $0,7 \times 0,6 = 0,42$. Mệnh đề đúng. b) Xác suất cả hai đều trượt là $(1-0,7)(1-0,6) = 0,3 \times 0,4 = 0,12$. Xác suất có ít nhất một người trúng là $1 - 0,12 = 0,88$. Mệnh đề đúng.
+* ĐĐ
+
+::Câu 14:: Một sinh viên thi ba môn độc lập với xác suất đậu mỗi môn lần lượt là 0,8; 0,7; 0,9. Biết sinh viên đó đậu ít nhất hai môn. Các mệnh đề sau đúng hay sai?
+
+	a) Xác suất sinh viên đậu đúng hai môn là 0,398.
+
+	b) Xác suất có điều kiện sinh viên đậu cả ba môn khi biết đậu ít nhất hai môn là $\frac{0,504}{0,902}$.
+... Lời giải: a) Gọi $A_1, A_2, A_3$ là biến cố đậu môn 1, 2, 3. Xác suất đậu đúng 2 môn là: $P(A_1 A_2 \overline{A_3}) + P(A_1 \overline{A_2} A_3) + P(\overline{A_1} A_2 A_3) = 0,8 \times 0,7 \times 0,1 + 0,8 \times 0,3 \times 0,9 + 0,2 \times 0,7 \times 0,9 = 0,056 + 0,216 + 0,126 = 0,398$. Mệnh đề đúng. b) Xác suất đậu cả 3 môn là $0,8 \times 0,7 \times 0,9 = 0,504$. Xác suất đậu ít nhất 2 môn là $0,398 + 0,504 = 0,902$. Xác suất có điều kiện là $\frac{0,504}{0,902}$. Mệnh đề đúng.
+* ĐĐ
+
+::Câu 15:: Ba chiếc hộp chứa bi như sau: Hộp 1 có 2 bi đỏ và 3 bi xanh, hộp 2 có 4 bi đỏ và 1 bi xanh, hộp 3 có 3 bi đỏ và 2 bi xanh. Chọn ngẫu nhiên một hộp rồi từ hộp đó lấy một bi. Các mệnh đề sau đúng hay sai?
+
+	a) Xác suất lấy được bi đỏ là $\frac{53}{75}$.
+
+	b) Biết đã lấy được bi đỏ, xác suất bi đó từ hộp 2 là $\frac{4}{53} \times 15$.
+... Lời giải: a) Xác suất lấy bi đỏ từ hộp 1 là $\frac{2}{5}$, từ hộp 2 là $\frac{4}{5}$, từ hộp 3 là $\frac{3}{5}$. Xác suất lấy được bi đỏ là $\frac{1}{3}(\frac{2}{5} + \frac{4}{5} + \frac{3}{5}) = \frac{1}{3} \times \frac{9}{5} = \frac{3}{5}$. Mệnh đề sai vì $\frac{3}{5} \neq \frac{53}{75}$. b) Theo công thức Bayes, xác suất bi đỏ từ hộp 2 là $\frac{\frac{1}{3} \times \frac{4}{5}}{\frac{3}{5}} = \frac{\frac{4}{15}}{\frac{3}{5}} = \frac{4}{15} \times \frac{5}{3} = \frac{4}{9}$. Mệnh đề sai vì $\frac{4}{9} \neq \frac{4}{53} \times 15$.
+* SS
+
+::Câu 16:: Chọn ngẫu nhiên 3 số từ tập $\{1, 2, 3, 4, 5, 6\}$. Xác suất để tổng 3 số được chọn chia hết cho 3 là bao nhiêu (làm tròn đến hai chữ số thập phân)?
+... Lời giải: Tổng số cách chọn 3 số từ 6 số là $C_6^3 = 20$. Các bộ 3 số có tổng chia hết cho 3: {1,2,3}, {1,2,6}, {1,3,5}, {1,4,5}, {1,5,6}, {2,3,4}, {2,4,6}, {3,4,5}, {3,5,6}, {4,5,6}. Tổng cộng có 10 bộ. Tuy nhiên, cần kiểm tra lại: {1,2,3} có tổng 6, {1,2,6} có tổng 9, {1,3,5} có tổng 9, {1,4,5} có tổng 10, {1,5,6} có tổng 12, {2,3,4} có tổng 9, {2,4,6} có tổng 12, {3,4,5} có tổng 12, {3,5,6} có tổng 14, {4,5,6} có tổng 15. Các tổng chia hết cho 3: 6, 9, 9, 12, 9, 12, 12, 15. Có 8 bộ. Xác suất là $\frac{8}{20} = 0,40$.
+* 0.40
+
+::Câu 17:: Một túi chứa 20 chiếc thẻ được đánh số từ 1 đến 20. Lấy ngẫu nhiên 4 thẻ. Xác suất để 4 thẻ được lấy có đúng 2 thẻ mang số chẵn là bao nhiêu (làm tròn đến hai chữ số thập phân)?
+... Lời giải: Trong 20 thẻ có 10 thẻ số chẵn và 10 thẻ số lẻ. Tổng số cách chọn 4 thẻ từ 20 thẻ là $C_{20}^4 = 4845$. Số cách chọn 2 thẻ chẵn từ 10 thẻ chẵn là $C_{10}^2 = 45$. Số cách chọn 2 thẻ lẻ từ 10 thẻ lẻ là $C_{10}^2 = 45$. Số cách chọn 4 thẻ có đúng 2 thẻ chẵn là $45 \times 45 = 2025$. Xác suất là $\frac{2025}{4845} = \frac{405}{969} = \frac{135}{323} \approx 0,42$.
+* 0.42
+
+::Câu 18:: Một nhà máy sản xuất bóng đèn với tỉ lệ sản phẩm lỗi là 5%. Lấy ngẫu nhiên 10 bóng đèn. Xác suất để có đúng 1 bóng đèn bị lỗi là bao nhiêu (làm tròn đến hai chữ số thập phân)?
+... Lời giải: Đây là bài toán phân phối nhị thức với $n = 10$, $p = 0,05$. Xác suất có đúng 1 bóng đèn lỗi là $P(X = 1) = C_{10}^1 \times 0,05^1 \times 0,95^9 = 10 \times 0,05 \times 0,95^9 = 0,5 \times 0,630249 = 0,315$.
+* 0.31
+
+::Câu 19:: Tung một đồng xu cân đối liên tục cho đến khi xuất hiện mặt sấp lần đầu tiên. Xác suất để quá trình dừng lại ở lần tung thứ 4 là bao nhiêu (làm tròn đến hai chữ số thập phân)?
+... Lời giải: Để quá trình dừng ở lần tung thứ 4, ba lần đầu phải là mặt ngửa và lần thứ 4 là mặt sấp. Xác suất này là $(\frac{1}{2})^3 \times \frac{1}{2} = \frac{1}{16} = 0,0625 \approx 0,06$.
+* 0.06
+
+::Câu 20:: Hai máy sản xuất độc lập cùng loại sản phẩm. Máy A sản xuất với tỉ lệ lỗi 3%, máy B với tỉ lệ lỗi 4%. Trong một lô hàng, 60% sản phẩm từ máy A và 40% từ máy B. Lấy ngẫu nhiên một sản phẩm thấy bị lỗi. Xác suất sản phẩm đó do máy A sản xuất là bao nhiêu (làm tròn đến hai chữ số thập phân)?
+... Lời giải: Gọi A là biến cố sản phẩm từ máy A, L là biến cố sản phẩm lỗi. Ta có $P(A) = 0,6$, $P(\overline{A}) = 0,4$, $P(L|A) = 0,03$, $P(L|\overline{A}) = 0,04$. Xác suất sản phẩm lỗi là $P(L) = P(L|A)P(A) + P(L|\overline{A})P(\overline{A}) = 0,03 \times 0,6 + 0,04 \times 0,4 = 0,018 + 0,016 = 0,034$. Theo công thức Bayes: $P(A|L) = \frac{P(L|A)P(A)}{P(L)} = \frac{0,018}{0,034} = \frac{18}{34} = \frac{9}{17} \approx 0,53$.
+* 0.53

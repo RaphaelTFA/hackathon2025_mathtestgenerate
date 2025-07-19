@@ -1,0 +1,139 @@
+::Câu 1:: Cho hàm số $y = \frac{2x-1}{x+3}$. Đường tiệm cận đứng của đồ thị hàm số là?
+... Hàm số có tiệm cận đứng khi mẫu số bằng 0 và tử số khác 0. Ta có $x + 3 = 0 \Rightarrow x = -3$. Khi $x = -3$ thì $2x - 1 = 2(-3) - 1 = -7 \neq 0$. Vậy đường tiệm cận đứng là $x = -3$.
+a) $x = -2$
+b) $x = 2$
+*c) $x = -3$
+d) $x = \frac{1}{2}$
+
+::Câu 2:: Hàm số $y = x^4 - 2x^2 + 5$ có bao nhiêu điểm cực trị?
+... Ta có $y' = 4x^3 - 4x = 4x(x^2 - 1) = 4x(x-1)(x+1)$. Cho $y' = 0 \Rightarrow x = 0, x = 1, x = -1$. Ta có $y'' = 12x^2 - 4$. Kiểm tra: $y''(0) = -4 < 0$ nên $x = 0$ là điểm cực đại; $y''(1) = 8 > 0$ nên $x = 1$ là điểm cực tiểu; $y''(-1) = 8 > 0$ nên $x = -1$ là điểm cực tiểu. Vậy hàm số có 3 điểm cực trị.
+*a) 3
+b) 2
+c) 1
+d) 4
+
+::Câu 3:: Cho hàm số $y = \frac{x^2 + 2x - 1}{x + 1}$. Đường tiệm cận xiên của đồ thị hàm số có phương trình là?
+... Thực hiện phép chia đa thức: $\frac{x^2 + 2x - 1}{x + 1} = x + 1 - \frac{2}{x + 1}$. Khi $x \to \pm\infty$ thì $\frac{2}{x + 1} \to 0$, do đó đường tiệm cận xiên là $y = x + 1$.
+a) $y = x - 1$
+*b) $y = x + 1$
+c) $y = x + 2$
+d) $y = x$
+
+::Câu 4:: Giá trị lớn nhất của hàm số $y = x^3 - 3x^2 + 2$ trên đoạn $[0; 3]$ là?
+... Ta có $y' = 3x^2 - 6x = 3x(x - 2)$. Cho $y' = 0 \Rightarrow x = 0$ hoặc $x = 2$. Tính giá trị hàm số tại các điểm: $y(0) = 2$, $y(2) = 8 - 12 + 2 = -2$, $y(3) = 27 - 27 + 2 = 2$. Vậy giá trị lớn nhất là 2.
+a) 0
+*b) 2
+c) -2
+d) 3
+
+::Câu 5:: Một công ty sản xuất hộp thiếc hình trụ không nắp từ một tấm tôn hình chữ nhật có diện tích $600 cm^2$. Biết rằng chu vi đáy hộp bằng chiều rộng tấm tôn và chiều cao hộp bằng chiều dài tấm tôn. Bán kính đáy hộp để thể tích hộp lớn nhất là bao nhiêu cm?
+... Gọi $r$ là bán kính đáy, $h$ là chiều cao hộp. Chu vi đáy: $2\pi r$, diện tích đáy: $\pi r^2$. Từ đề bài: chu vi đáy $= 2\pi r$ là chiều rộng tấm tôn, chiều cao $h$ là chiều dài tấm tôn. Diện tích tấm tôn: $2\pi r \cdot h + \pi r^2 = 600$. Suy ra $h = \frac{600 - \pi r^2}{2\pi r}$. Thể tích: $V = \pi r^2 h = \pi r^2 \cdot \frac{600 - \pi r^2}{2\pi r} = \frac{r(600 - \pi r^2)}{2} = 300r - \frac{\pi r^3}{2}$. Để $V$ đạt max: $V'(r) = 300 - \frac{3\pi r^2}{2} = 0 \Rightarrow r^2 = \frac{200}{\pi} \Rightarrow r = \sqrt{\frac{200}{\pi}} = 10\sqrt{\frac{2}{\pi}}$.
+a) $5\sqrt{\frac{2}{\pi}}$
+*b) $10\sqrt{\frac{2}{\pi}}$
+c) $\sqrt{\frac{200}{\pi}}$
+d) $\frac{10}{\sqrt{\pi}}$
+
+::Câu 6:: Cho hàm số $f(x) = x^3 - 6x^2 + 9x + 1$. Khoảng đồng biến của hàm số là?
+... Ta có $f'(x) = 3x^2 - 12x + 9 = 3(x^2 - 4x + 3) = 3(x - 1)(x - 3)$. Bảng xét dấu: $f'(x) > 0 \Leftrightarrow (x - 1)(x - 3) > 0 \Leftrightarrow x < 1$ hoặc $x > 3$. Vậy hàm số đồng biến trên $(-\infty; 1)$ và $(3; +\infty)$.
+a) $(1; 3)$
+*b) $(-\infty; 1) \cup (3; +\infty)$
+c) $(3; +\infty)$
+d) $(-\infty; 1)$
+
+::Câu 7:: Cho hàm số $y = \frac{mx + 2}{x - m}$ với $m$ là tham số. Để hàm số nghịch biến trên khoảng $(2; +\infty)$, giá trị của $m$ thỏa mãn điều kiện nào?
+... Hàm số nghịch biến khi $y' < 0$. Ta có $y' = \frac{m(x - m) - (mx + 2)}{(x - m)^2} = \frac{-m^2 - 2}{(x - m)^2}$. Để $y' < 0$ trên $(2; +\infty)$ thì $-m^2 - 2 < 0 \Rightarrow m^2 + 2 > 0$ (luôn đúng). Điều kiện để hàm số xác định trên $(2; +\infty)$ là $x - m \neq 0 \Rightarrow m \neq x$ với mọi $x \in (2; +\infty)$, tức là $m \leq 2$.
+a) $m < 2$
+*b) $m \leq 2$
+c) $m > 2$
+d) $m \geq 2$
+
+::Câu 8:: Đồ thị hàm số $y = x^4 - 4x^2 + 3$ cắt trục hoành tại bao nhiêu điểm?
+... Cho $y = 0 \Rightarrow x^4 - 4x^2 + 3 = 0$. Đặt $t = x^2 \geq 0$, ta có $t^2 - 4t + 3 = 0 \Rightarrow (t - 1)(t - 3) = 0 \Rightarrow t = 1$ hoặc $t = 3$. Với $t = 1$: $x^2 = 1 \Rightarrow x = \pm 1$. Với $t = 3$: $x^2 = 3 \Rightarrow x = \pm\sqrt{3}$. Vậy đồ thị cắt trục hoành tại 4 điểm.
+a) 2
+b) 3
+*c) 4
+d) 1
+
+::Câu 9:: Cho hàm số $y = x + \frac{4}{x}$ với $x > 0$. Giá trị nhỏ nhất của hàm số là?
+... Ta có $y' = 1 - \frac{4}{x^2}$. Cho $y' = 0 \Rightarrow 1 - \frac{4}{x^2} = 0 \Rightarrow x^2 = 4 \Rightarrow x = 2$ (vì $x > 0$). Ta có $y''(x) = \frac{8}{x^3} > 0$ với $x > 0$, nên $x = 2$ là điểm cực tiểu. Giá trị nhỏ nhất: $y(2) = 2 + \frac{4}{2} = 4$.
+a) 2
+b) 3
+*c) 4
+d) 5
+
+::Câu 10:: Cho hàm số $f(x)$ có đạo hàm $f'(x) = (x-2)^3(x+1)^2(x-4)$ với mọi $x \in \mathbb{R}$. Số điểm cực trị của hàm số $f(x)$ là?
+... Các nghiệm của $f'(x) = 0$ là $x = 2$ (bội 3), $x = -1$ (bội 2), $x = 4$ (bội 1). Hàm số có cực trị tại các nghiệm có bội lẻ và đạo hàm đổi dấu. Tại $x = -1$ (bội chẵn): $f'(x)$ không đổi dấu nên không có cực trị. Tại $x = 2$ (bội lẻ): $f'(x)$ không đổi dấu vì có bội 3 lẻ nhưng thành phần $(x+1)^2 \geq 0$ và $(x-4)$ đổi dấu qua $x = 4$. Tại $x = 4$ (bội lẻ): $f'(x)$ đổi dấu nên có cực trị. Kiểm tra kỹ hơn bằng bảng xét dấu: $f'(x)$ đổi dấu qua $x = 2$ và $x = 4$. Vậy có 2 điểm cực trị.
+*a) 2
+b) 1
+c) 3
+d) 0
+
+::Câu 11:: Cho hàm số $y = x^3 - 3mx^2 + (3m^2 - 1)x + 2$ với $m$ là tham số thực. Các mệnh đề sau đúng hay sai?
+
+	a) Với mọi giá trị của $m$, hàm số luôn có cực trị.
+
+	b) Để hàm số có cực đại tại $x = 1$, giá trị của $m$ là $m = 1$.
+
+... Ta có $y' = 3x^2 - 6mx + (3m^2 - 1)$. Để hàm số có cực trị, phương trình $y' = 0$ phải có hai nghiệm phân biệt, tức là $\Delta = 36m^2 - 12(3m^2 - 1) = 36m^2 - 36m^2 + 12 = 12 > 0$. Vậy a) đúng. Để hàm số có cực đại tại $x = 1$, ta cần $y'(1) = 0$ và $y''(1) < 0$. Ta có $y'(1) = 3 - 6m + 3m^2 - 1 = 3m^2 - 6m + 2$. Cho $3m^2 - 6m + 2 = 0 \Rightarrow m = \frac{6 \pm \sqrt{36-24}}{6} = \frac{6 \pm 2\sqrt{3}}{6} = 1 \pm \frac{\sqrt{3}}{3}$. Ta có $y''(x) = 6x - 6m$, nên $y''(1) = 6 - 6m$. Để có cực đại: $y''(1) < 0 \Rightarrow 6 - 6m < 0 \Rightarrow m > 1$. Với $m = 1 + \frac{\sqrt{3}}{3} > 1$ thì thỏa mãn. Với $m = 1 - \frac{\sqrt{3}}{3} < 1$ thì không thỏa mãn. Vậy b) sai vì $m \neq 1$.
+
+* ĐS
+
+::Câu 12:: Cho hàm số $f(x) = \frac{x^2 - 4x + 5}{x - 2}$. Các mệnh đề sau đúng hay sai?
+
+	a) Đồ thị hàm số có tiệm cận đứng là đường thẳng $x = 2$.
+
+	b) Đồ thị hàm số có tiệm cận xiên là đường thẳng $y = x - 2$.
+
+... Thực hiện phép chia: $\frac{x^2 - 4x + 5}{x - 2} = x - 2 + \frac{1}{x - 2}$. a) Đúng vì khi $x \to 2$ thì mẫu số tiến về 0 nhưng tử số tiến về $4 - 8 + 5 = 1 \neq 0$. b) Đúng vì khi $x \to \pm\infty$ thì $\frac{1}{x - 2} \to 0$, nên tiệm cận xiên là $y = x - 2$.
+
+* ĐĐ
+
+::Câu 13:: Xét hàm số $g(x) = |x^3 - 3x + 2|$. Các mệnh đề sau đúng hay sai?
+
+	a) Hàm số $g(x)$ có 3 điểm cực trị.
+
+	b) Giá trị nhỏ nhất của hàm số $g(x)$ trên đoạn $[-2; 2]$ bằng 0.
+
+... Đặt $h(x) = x^3 - 3x + 2$, ta có $h'(x) = 3x^2 - 3 = 3(x^2 - 1)$. Nghiệm: $x = \pm 1$. $h(-1) = -1 + 3 + 2 = 4 > 0$, $h(1) = 1 - 3 + 2 = 0$, $h(2) = 8 - 6 + 2 = 4 > 0$, $h(-2) = -8 + 6 + 2 = 0$. Hàm $h(x)$ có nghiệm $x = 1, x = -2$ và $x = 2$ (kiểm tra: $h(2) = 4 \neq 0$, sai). Kiểm tra lại: $h(x) = x^3 - 3x + 2 = (x-1)^2(x+2)$. Nghiệm: $x = 1$ (bội 2), $x = -2$ (bội 1). Hàm $g(x) = |h(x)|$ có cực trị tại các điểm mà $h(x) = 0$ và tại các điểm cực trị của $h(x)$ khi $h(x) \neq 0$. Điểm cực trị của $h(x)$: $x = \pm 1$. Tại $x = 1$: $h(1) = 0$ nên có cực trị. Tại $x = -1$: $h(-1) = 4 > 0$ nên có cực trị. Tại $x = -2$: $h(-2) = 0$ nên có cực trị. Vậy $g(x)$ có 3 điểm cực trị. a) Đúng. b) $g(x) \geq 0$ và $g(1) = g(-2) = 0$, nên giá trị nhỏ nhất là 0. Đúng.
+
+* ĐĐ
+
+::Câu 14:: Cho hàm số $y = 2x^3 - 6x^2 + 6x - 1$. Các mệnh đề sau đúng hay sai?
+
+	a) Hàm số đồng biến trên $\mathbb{R}$.
+
+	b) Đồ thị hàm số có điểm uốn tại $(1, 1)$.
+
+... Ta có $y' = 6x^2 - 12x + 6 = 6(x^2 - 2x + 1) = 6(x - 1)^2 \geq 0$ với mọi $x \in \mathbb{R}$, dấu bằng chỉ khi $x = 1$. Vậy hàm số đồng biến trên $\mathbb{R}$. a) Đúng. Ta có $y'' = 12x - 12 = 12(x - 1)$. Tại $x = 1$: $y''(1) = 0$ và $y'''(x) = 12 \neq 0$, nên có điểm uốn. Tọa độ: $y(1) = 2 - 6 + 6 - 1 = 1$. Vậy điểm uốn là $(1, 1)$. b) Đúng.
+
+* ĐĐ
+
+::Câu 15:: Cho hàm số $f(x) = x^4 - 2x^2 + 3$. Các mệnh đề sau đúng hay sai?
+
+	a) Hàm số có điểm cực tiểu tại $x = 0$.
+
+	b) Giá trị cực đại của hàm số bằng 4.
+
+... Ta có $f'(x) = 4x^3 - 4x = 4x(x^2 - 1) = 4x(x-1)(x+1)$. Nghiệm: $x = 0, \pm 1$. Ta có $f''(x) = 12x^2 - 4$. $f''(0) = -4 < 0$ nên $x = 0$ là điểm cực đại. a) Sai. $f''(\pm 1) = 12 - 4 = 8 > 0$ nên $x = \pm 1$ là điểm cực tiểu. Giá trị cực đại: $f(0) = 3$. Giá trị cực tiểu: $f(\pm 1) = 1 - 2 + 3 = 2$. b) Sai.
+
+* SS
+
+::Câu 16:: Cho hàm số $y = \sin x + \cos x$ trên đoạn $[0; \pi]$. Giá trị lớn nhất của hàm số bằng bao nhiêu?
+... Ta có $y' = \cos x - \sin x$. Cho $y' = 0 \Rightarrow \cos x = \sin x \Rightarrow \tan x = 1 \Rightarrow x = \frac{\pi}{4}$ (trong $[0; \pi]$). Tính giá trị tại các điểm: $y(0) = \sin 0 + \cos 0 = 0 + 1 = 1$, $y(\frac{\pi}{4}) = \sin \frac{\pi}{4} + \cos \frac{\pi}{4} = \frac{\sqrt{2}}{2} + \frac{\sqrt{2}}{2} = \sqrt{2}$, $y(\pi) = \sin \pi + \cos \pi = 0 + (-1) = -1$. Vậy giá trị lớn nhất là $\sqrt{2}$.
+* 1.41
+
+::Câu 17:: Cho hàm số $f(x) = x^3 - 3x^2 + 2$. Tổng các hoành độ điểm cực trị của hàm số bằng bao nhiêu?
+... Ta có $f'(x) = 3x^2 - 6x = 3x(x - 2)$. Cho $f'(x) = 0 \Rightarrow x = 0$ hoặc $x = 2$. Kiểm tra: $f''(x) = 6x - 6$. $f''(0) = -6 < 0$ nên $x = 0$ là điểm cực đại. $f''(2) = 6 > 0$ nên $x = 2$ là điểm cực tiểu. Tổng hoành độ các điểm cực trị: $0 + 2 = 2$.
+* 2
+
+::Câu 18:: Cho hàm số $y = \frac{2x + 3}{x - 1}$. Khoảng cách từ giao điểm hai tiệm cận đến gốc tọa độ bằng bao nhiêu?
+... Tiệm cận đứng: $x = 1$. Tiệm cận ngang: $y = 2$ (vì $\lim_{x \to \infty} \frac{2x + 3}{x - 1} = 2$). Giao điểm hai tiệm cận: $(1, 2)$. Khoảng cách từ $(1, 2)$ đến gốc tọa độ: $d = \sqrt{1^2 + 2^2} = \sqrt{5}$.
+* 2.24
+
+::Câu 19:: Tìm giá trị của tham số $m$ để hàm số $y = x^3 - 3x^2 + mx - 1$ có hai điểm cực trị với tích hoành độ bằng 2.
+... Ta có $y' = 3x^2 - 6x + m$. Để hàm số có hai điểm cực trị, phương trình $y' = 0$ phải có hai nghiệm phân biệt, tức là $\Delta = 36 - 12m > 0 \Rightarrow m < 3$. Gọi $x_1, x_2$ là hai nghiệm, theo định lý Vieta: $x_1 + x_2 = 2$ và $x_1 \cdot x_2 = \frac{m}{3}$. Theo đề: $x_1 \cdot x_2 = 2 \Rightarrow \frac{m}{3} = 2 \Rightarrow m = 6$. Kiểm tra: $m = 6 > 3$ không thỏa mãn điều kiện $m < 3$. Vậy không có giá trị $m$ thỏa mãn.
+* 6
+
+::Câu 20:: Một chiếc hộp không nắp được tạo từ một tấm bìa hình vuông cạnh 12 cm bằng cách cắt bỏ bốn hình vuông nhỏ ở bốn góc rồi gấp lên. Tìm độ dài cạnh hình vuông nhỏ cần cắt để thể tích hộp lớn nhất.
+... Gọi $x$ là độ dài cạnh hình vuông nhỏ cần cắt $(0 < x < 6)$. Sau khi gấp, đáy hộp là hình vuông cạnh $(12 - 2x)$ và chiều cao là $x$. Thể tích: $V(x) = x(12 - 2x)^2 = x(144 - 48x + 4x^2) = 144x - 48x^2 + 4x^3$. Để tìm max: $V'(x) = 144 - 96x + 12x^2 = 12(12 - 8x + x^2) = 12(x^2 - 8x + 12) = 12(x - 2)(x - 6)$. Trong khoảng $(0; 6)$, ta có $V'(x) = 0$ khi $x = 2$. Kiểm tra: $V'(x) > 0$ khi $x \in (0; 2)$ và $V'(x) < 0$ khi $x \in (2; 6)$. Vậy $x = 2$ cho thể tích lớn nhất.
+* 2

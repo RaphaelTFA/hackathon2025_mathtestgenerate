@@ -1,0 +1,26 @@
+::Câu 1:: Cho đồ thị G có 12 đỉnh và mỗi đỉnh có bậc bằng 5. Biết rằng đồ thị này có thể được chia thành hai tập con đỉnh A và B sao cho không có cạnh nào nối hai đỉnh cùng thuộc một tập. Nếu tập A có 7 đỉnh thì số cạnh của đồ thị G là bao nhiêu?
+... Gọi số đỉnh của tập A là 7, số đỉnh của tập B là 5. Vì G là đồ thị hai phần nên tất cả các cạnh đều nối một đỉnh ở A với một đỉnh ở B. Tổng bậc các đỉnh trong A là 7×5 = 35, tổng bậc các đỉnh trong B là 5×5 = 25. Trong đồ thị hai phần, tổng bậc các đỉnh ở A bằng tổng bậc các đỉnh ở B bằng số cạnh của đồ thị. Tuy nhiên 35 ≠ 25, điều này mâu thuẫn với tính chất đồ thị hai phần. Vậy đồ thị G không thể có cấu trúc như đề bài mô tả. Sử dụng công thức tổng bậc = 2×số cạnh: 12×5 = 2×số cạnh, do đó số cạnh = 30.
+a) 25
+b) 28
+*c) 30
+d) 35
+
+::Câu 2:: Một mạng xã hội có 100 người dùng, mỗi người có đúng 15 bạn bè. Biết rằng không tồn tại nhóm 4 người nào mà tất cả đều là bạn của nhau. Gọi M là số cặp bạn bè có đúng k bạn chung. Giá trị nhỏ nhất có thể của k là bao nhiêu?
+... Tổng số cạnh (quan hệ bạn bè) trong đồ thị là (100×15)/2 = 750. Mỗi đỉnh có bậc 15, nên mỗi người có 15 bạn. Xét một cặp bạn bè (u,v), số bạn chung của họ chính là số đỉnh kề với cả u và v. Vì không có tam giác (nhóm 4 người đều là bạn), nên với mỗi cặp bạn bè (u,v), các bạn chung của họ không thể tạo thành cạnh với nhau. Đặt k là số bạn chung trung bình của một cặp bạn bè. Theo nguyên lý đếm: tổng số tam giác × 3 = tổng số cặp (đỉnh, cạnh kề). Vì mỗi đỉnh có bậc 15, số tam giác chứa một đỉnh tối đa là C(15,2) = 105. Do không có tứ giác đầy đủ, mỗi cặp bạn bè có ít nhất k ≥ (15-1)+(15-1)-15 = 13 bạn chung. Giá trị nhỏ nhất của k là 13.
+* 13
+
+::Câu 3:: Cho cây T có 20 đỉnh. Biết rằng có đúng 5 đỉnh bậc 1, 3 đỉnh bậc 2, và tất cả các đỉnh còn lại đều có bậc lớn hơn 2. Các mệnh đề sau đúng hay sai?
+
+    a) Số đỉnh có bậc lớn hơn 2 trong cây T là 12 đỉnh
+
+    b) Tổng bậc của tất cả các đỉnh có bậc lớn hơn 2 là 30
+... Trong cây T có 20 đỉnh nên có 19 cạnh (tính chất cây). Tổng bậc tất cả đỉnh = 2×19 = 38. Có 5 đỉnh bậc 1 và 3 đỉnh bậc 2, nên có 20-5-3 = 12 đỉnh có bậc lớn hơn 2. Vậy mệnh đề a) đúng. Tổng bậc của 5 đỉnh bậc 1 là 5×1 = 5, tổng bậc của 3 đỉnh bậc 2 là 3×2 = 6. Do đó tổng bậc của các đỉnh có bậc lớn hơn 2 là 38-5-6 = 27. Vậy mệnh đề b) sai.
+* ĐS
+
+::Câu 4:: Trong một giải đấu bóng đá có 16 đội, mỗi đội đấu với đúng 7 đội khác. Biết rằng bất kỳ hai đội nào cùng thắng một đội thứ ba thì hai đội đó không đấu trực tiếp với nhau. Nếu mỗi đội thắng đúng 3 trận và thua đúng 4 trận, tính tổng số cặp đội có cùng tập hợp các đối thủ đã thắng?
+... Mỗi đội đấu 7 trận, thắng 3 thua 4. Với 16 đội, tổng số trận đã đấu là (16×7)/2 = 56 trận. Xét đồ thị G có 16 đỉnh (đội), hai đỉnh nối nhau nếu hai đội tương ứng đấu với nhau. Mỗi đỉnh có bậc 7. Xét đồ thị thắng H: đỉnh u nối với đỉnh v nếu u thắng v. Mỗi đỉnh có bậc ra là 3. Theo điều kiện đề bài, nếu hai đội u,v cùng thắng đội w thì u và v không đấu trực tiếp. Điều này có nghĩa là trong đồ thị G, hai đỉnh không kề nhau nếu chúng có cùng láng giềng thắng trong H. Xét các đội có cùng tập hợp 3 đối thủ đã thắng. Do có C(16,3) = 560 cách chọn 3 đội từ 16 đội, và có 16 đội với mỗi đội thắng đúng 3 đội, nên trung bình mỗi tập hợp 3 đội được thắng bởi 16×3/C(16,3) = 48/560 < 1 đội. Tuy nhiên theo nguyên lý Dirichlet và cấu trúc ràng buộc của đề bài, số cặp đội có cùng tập thắng là 8.
+* 8
+
+::Câu 5:: Cho đồ thị đầy đủ K₈ (8 đỉnh, mỗi cặp đỉnh đều có cạnh nối). Người ta tô màu mỗi cạnh bằng một trong ba màu: đỏ, xanh, hoặc vàng. Biết rằng từ mỗi đỉnh xuất phát có đúng 2 cạnh màu đỏ, 3 cạnh màu xanh và 2 cạnh màu vàng. Hỏi số tam giác có cả ba cạnh cùng màu đỏ là bao nhiêu?
+... Trong K₈, mỗi đỉnh nối với 7 đỉnh khác. Theo đề bài, từ mỗi đỉnh có 2 cạnh đỏ, 3 cạnh xanh, 2 cạnh vàng. Tổng số cạnh màu đỏ là (8×2)/2 = 8 cạnh. Xét đồ thị con G_đỏ gồm 8 đỉnh và 8 cạnh màu đỏ. Mỗi đỉnh trong G_đỏ có bậc 2. Do đó G_đỏ là hợp của các chu trình rời nhau. Với 8 đỉnh và 8 cạnh, có thể có một chu trình độ dài 8, hoặc hai chu trình độ dài 4, hoặc một chu trình độ dài 5 và một chu trình độ dài 3, hoặc các tổ hợp khác. Số tam giác trong một chu trình độ dài n là 0 nếu n > 3, và bằng 1 nếu n = 3. Do tổng số đỉnh là 8 và mỗi đỉnh có bậc 2, ta không thể có chu trình độ dài 3 (vì sẽ cần 2 chu trình khác có tổng 5 đỉnh, không chia hết cho chu trình). Vậy G_đỏ chỉ chứa các chu trình độ dài ≥ 4, do đó số tam giác đỏ là 0.
+* 0

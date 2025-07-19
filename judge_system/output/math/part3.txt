@@ -1,0 +1,125 @@
+::Câu 1:: Phương trình $\sin(2x + \frac{\pi}{4}) = \frac{1}{2}$ có nghiệm tổng quát là:
+... Giải thích: $\sin(2x + \frac{\pi}{4}) = \frac{1}{2}$ nên $2x + \frac{\pi}{4} = \frac{\pi}{6} + k2\pi$ hoặc $2x + \frac{\pi}{4} = \frac{5\pi}{6} + k2\pi$, suy ra $x = -\frac{\pi}{24} + k\pi$ hoặc $x = \frac{7\pi}{24} + k\pi$.
+a) $x = -\frac{\pi}{24} + k2\pi$ hoặc $x = \frac{7\pi}{24} + k2\pi$
+*b) $x = -\frac{\pi}{24} + k\pi$ hoặc $x = \frac{7\pi}{24} + k\pi$
+c) $x = \frac{\pi}{24} + k\pi$ hoặc $x = \frac{5\pi}{24} + k\pi$
+d) $x = -\frac{\pi}{12} + k\pi$ hoặc $x = \frac{5\pi}{12} + k\pi$
+
+::Câu 2:: Trong máy xay sinh tố, lưỡi dao quay với tốc độ góc 120 vòng/phút. Góc lượng giác mà lưỡi dao quay được sau 15 giây là:
+... Giải thích: Tốc độ góc là 120 vòng/phút = 2 vòng/giây = $4\pi$ rad/giây. Sau 15 giây, góc quay là $4\pi \times 15 = 60\pi$ rad.
+a) $30\pi$
+*b) $60\pi$
+c) $120\pi$
+d) $240\pi$
+
+::Câu 3:: Phương trình $\cos^2 x - \sin^2 x = \frac{\sqrt{3}}{2}$ có nghiệm tổng quát là:
+... Giải thích: $\cos^2 x - \sin^2 x = \cos 2x = \frac{\sqrt{3}}{2}$, suy ra $2x = \pm\frac{\pi}{6} + k2\pi$, do đó $x = \pm\frac{\pi}{12} + k\pi$.
+a) $x = \pm\frac{\pi}{6} + k\pi$
+*b) $x = \pm\frac{\pi}{12} + k\pi$
+c) $x = \pm\frac{\pi}{12} + k2\pi$
+d) $x = \frac{\pi}{12} + k\frac{\pi}{2}$
+
+::Câu 4:: Số nghiệm của phương trình $\sin(3x - \frac{\pi}{6}) = 0$ trong khoảng $[0, \pi]$ là:
+... Giải thích: $\sin(3x - \frac{\pi}{6}) = 0$ nên $3x - \frac{\pi}{6} = k\pi$, suy ra $x = \frac{\pi}{18} + \frac{k\pi}{3}$. Với $x \in [0, \pi]$, ta có $k = 0, 1, 2, 3$ tương ứng với 4 nghiệm.
+a) 2
+b) 3
+*c) 4
+d) 5
+
+::Câu 5:: Trong khoảng $(0, 2\pi)$, tập nghiệm của bất phương trình $\tan x < -1$ là:
+... Giải thích: $\tan x < -1$ xảy ra khi $x \in (\frac{3\pi}{4}, \pi) \cup (\frac{7\pi}{4}, 2\pi)$.
+a) $(\frac{\pi}{4}, \frac{\pi}{2}) \cup (\frac{5\pi}{4}, \frac{3\pi}{2})$
+*b) $(\frac{3\pi}{4}, \pi) \cup (\frac{7\pi}{4}, 2\pi)$
+c) $(\frac{\pi}{2}, \frac{3\pi}{4}) \cup (\frac{3\pi}{2}, \frac{7\pi}{4})$
+d) $(\frac{\pi}{4}, \frac{3\pi}{4}) \cup (\frac{5\pi}{4}, \frac{7\pi}{4})$
+
+::Câu 6:: Hàm số $y = 2\sin(3x - \frac{\pi}{4}) + 1$ có chu kì là:
+... Giải thích: Hàm $y = A\sin(Bx + C) + D$ có chu kì $T = \frac{2\pi}{|B|}$. Với $B = 3$, chu kì là $\frac{2\pi}{3}$.
+a) $\frac{\pi}{3}$
+*b) $\frac{2\pi}{3}$
+c) $\frac{4\pi}{3}$
+d) $2\pi$
+
+::Câu 7:: Một chiếc vòng đu quay có bán kính 20m, quay với tốc độ không đổi 2 vòng/phút. Độ cao của một cabin so với mặt đất thay đổi theo công thức $h(t) = 25 + 20\sin(\frac{\pi t}{15} - \frac{\pi}{2})$ (m), trong đó $t$ là thời gian tính bằng giây. Độ cao cực đại của cabin là:
+... Giải thích: Hàm $h(t) = 25 + 20\sin(\frac{\pi t}{15} - \frac{\pi}{2})$ có giá trị cực đại khi $\sin(\frac{\pi t}{15} - \frac{\pi}{2}) = 1$, tức là $h_{max} = 25 + 20 = 45$ m.
+a) 25m
+b) 40m
+*c) 45m
+d) 50m
+
+::Câu 8:: Phương trình $2\cos^2 x + 3\sin x - 3 = 0$ có bao nhiêu nghiệm trong khoảng $[0, 2\pi)$:
+... Giải thích: Thay $\cos^2 x = 1 - \sin^2 x$: $2(1 - \sin^2 x) + 3\sin x - 3 = 0 \Rightarrow -2\sin^2 x + 3\sin x - 1 = 0 \Rightarrow (2\sin x - 1)(\sin x - 1) = 0$. Suy ra $\sin x = \frac{1}{2}$ hoặc $\sin x = 1$, có 3 nghiệm: $x = \frac{\pi}{6}, \frac{5\pi}{6}, \frac{\pi}{2}$.
+a) 1
+b) 2
+*c) 3
+d) 4
+
+::Câu 9:: Giá trị lớn nhất của biểu thức $P = 3\sin x + 4\cos x - 2$ là:
+... Giải thích: $3\sin x + 4\cos x = 5\sin(x + \alpha)$ với $\cos \alpha = \frac{3}{5}, \sin \alpha = \frac{4}{5}$. Giá trị lớn nhất là $5 - 2 = 3$.
+a) 2
+*b) 3
+c) 5
+d) 7
+
+::Câu 10:: Một bánh xe đạp có bán kính 30cm quay với tốc độ 60 vòng/phút. Tốc độ dài của một điểm trên vành bánh xe là:
+... Giải thích: Tốc độ góc $\omega = 60 \times 2\pi = 120\pi$ rad/phút = $2\pi$ rad/giây. Tốc độ dài $v = r\omega = 0.3 \times 2\pi = 0.6\pi \approx 1.88$ m/s.
+a) 1.57 m/s
+*b) 1.88 m/s
+c) 3.14 m/s
+d) 6.28 m/s
+
+::Câu 11:: Cho phát biểu về phương trình lượng giác:
+
+	a) Phương trình $\sin x = 2$ vô nghiệm vì $|\sin x| \leq 1$.
+
+	b) Phương trình $\tan x = -\sqrt{3}$ có nghiệm $x = -\frac{\pi}{3} + k\pi$.
+... Giải thích: a) đúng vì giá trị sin luôn trong $[-1,1]$. b) đúng vì $\tan(-\frac{\pi}{3}) = -\sqrt{3}$ và tan có chu kì $\pi$.
+* ĐĐ
+
+::Câu 12:: Cho phát biểu về hàm lượng giác:
+
+	a) Hàm số $y = \sin x$ đồng biến trên khoảng $(\frac{\pi}{2}, \pi)$.
+
+	b) Tập giá trị của hàm số $y = 3\cos x + 1$ là $[-2, 4]$.
+... Giải thích: a) sai vì sin nghịch biến trên $(\frac{\pi}{2}, \pi)$. b) đúng vì $\cos x \in [-1,1]$ nên $3\cos x + 1 \in [-2,4]$.
+* SĐ
+
+::Câu 13:: Cho phát biểu về công thức lượng giác:
+
+	a) $\sin(x + \frac{\pi}{2}) = \cos x$ với mọi $x$.
+
+	b) $\cos 2x = 2\cos^2 x - 1$ với mọi $x$.
+... Giải thích: a) đúng theo công thức cộng góc. b) đúng theo công thức nhân đôi cosine.
+* ĐĐ
+
+::Câu 14:: Cho phát biểu về nghiệm phương trình lượng giác:
+
+	a) Phương trình $\cos x = 0$ có nghiệm $x = k\pi$.
+
+	b) Phương trình $\sin 2x = 1$ có nghiệm $x = \frac{\pi}{4} + k\pi$.
+... Giải thích: a) sai vì $\cos x = 0$ có nghiệm $x = \frac{\pi}{2} + k\pi$. b) đúng vì $2x = \frac{\pi}{2} + k2\pi$ nên $x = \frac{\pi}{4} + k\pi$.
+* SĐ
+
+::Câu 15:: Chiều cao của nước biển so với mực nước trung bình tại một bến cảng được mô tả bởi hàm số $h(t) = 1.5\cos(\frac{\pi t}{6}) + 2$ (m), trong đó $t$ là thời gian tính bằng giờ. Thời điểm nước biển đạt chiều cao 3.5m lần đầu tiên là:
+... Giải thích: $1.5\cos(\frac{\pi t}{6}) + 2 = 3.5 \Rightarrow \cos(\frac{\pi t}{6}) = 1 \Rightarrow \frac{\pi t}{6} = 0 \Rightarrow t = 0$ giờ.
+* 0.00
+
+::Câu 16:: Trong phương trình $\sin^2 x - 3\sin x + 2 = 0$, tổng các nghiệm thuộc đoạn $[0, 2\pi]$ bằng:
+... Giải thích: Đặt $u = \sin x$: $u^2 - 3u + 2 = 0 \Rightarrow (u-1)(u-2) = 0$. Vì $u = 2 > 1$ không thỏa mãn nên $u = 1$, tức $\sin x = 1 \Rightarrow x = \frac{\pi}{2}$. Tổng nghiệm là $\frac{\pi}{2} \approx 1.57$.
+* 1.57
+
+::Câu 17:: Một con lắc đồng hồ dao động theo phương trình $\theta(t) = 0.1\sin(2\pi t + \frac{\pi}{3})$ (radian), trong đó $t$ tính bằng giây. Góc lệch cực đại của con lắc là:
+... Giải thích: Biên độ dao động là 0.1 radian, đây chính là góc lệch cực đại.
+* 0.10
+
+::Câu 18:: Giá trị của biểu thức $\sin^2 15° + \cos^2 15° + \tan^2 30°$ bằng:
+... Giải thích: $\sin^2 15° + \cos^2 15° = 1$ và $\tan 30° = \frac{1}{\sqrt{3}}$ nên $\tan^2 30° = \frac{1}{3}$. Vậy biểu thức bằng $1 + \frac{1}{3} = \frac{4}{3} \approx 1.33$.
+* 1.33
+
+::Câu 19:: Trong công viên, bánh xe Ferris có đường kính 50m, quay với chu kì 10 phút. Nếu tại thời điểm $t = 0$ một cabin ở vị trí thấp nhất, thì độ cao của cabin sau 2.5 phút là:
+... Giải thích: Bán kính $R = 25$m, độ cao trung tâm từ mặt đất là 25m. Phương trình độ cao: $h(t) = 25 - 25\cos(\frac{2\pi t}{10}) = 25 - 25\cos(\frac{\pi t}{5})$. Tại $t = 2.5$: $h(2.5) = 25 - 25\cos(\frac{\pi}{2}) = 25 - 0 = 25$.
+* 25.00
+
+::Câu 20:: Số nghiệm của phương trình $\cos(2x + \frac{\pi}{3}) = \frac{\sqrt{3}}{2}$ trong khoảng $[0, \pi]$ là:
+... Giải thích: $\cos(2x + \frac{\pi}{3}) = \frac{\sqrt{3}}{2} \Rightarrow 2x + \frac{\pi}{3} = \pm\frac{\pi}{6} + k2\pi$. Suy ra $2x = -\frac{\pi}{6} + k2\pi$ hoặc $2x = -\frac{\pi}{2} + k2\pi$. Trong $[0,\pi]$ có đúng 2 nghiệm.
+* 2.00

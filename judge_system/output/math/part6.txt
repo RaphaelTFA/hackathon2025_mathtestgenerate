@@ -1,0 +1,129 @@
+::Câu 1:: Nguyên hàm của hàm số $f(x) = 3x^2 - 4x + 5$ là:
+... Ta có $\int (3x^2 - 4x + 5)dx = \int 3x^2 dx - \int 4x dx + \int 5 dx = 3 \cdot \frac{x^3}{3} - 4 \cdot \frac{x^2}{2} + 5x + C = x^3 - 2x^2 + 5x + C$.
+*a) $x^3 - 2x^2 + 5x + C$
+b) $3x^3 - 4x^2 + 5x + C$
+c) $6x - 4 + C$
+d) $x^3 - x^2 + 5x + C$
+
+::Câu 2:: Tính $\int e^{3x} dx$:
+... Sử dụng công thức nguyên hàm $\int e^{ax} dx = \frac{1}{a}e^{ax} + C$, ta có $\int e^{3x} dx = \frac{1}{3}e^{3x} + C$.
+a) $3e^{3x} + C$
+*b) $\frac{1}{3}e^{3x} + C$
+c) $e^{3x} + C$
+d) $\frac{1}{9}e^{3x} + C$
+
+::Câu 3:: Cho hàm số $f(x) = \sin(2x - 1)$. Nguyên hàm của $f(x)$ là:
+... Đặt $u = 2x - 1$, ta có $du = 2dx$, nên $dx = \frac{du}{2}$. Khi đó $\int \sin(2x - 1)dx = \int \sin u \cdot \frac{du}{2} = \frac{1}{2} \int \sin u du = -\frac{1}{2}\cos u + C = -\frac{1}{2}\cos(2x - 1) + C$.
+a) $\frac{1}{2}\cos(2x - 1) + C$
+*b) $-\frac{1}{2}\cos(2x - 1) + C$
+c) $-2\cos(2x - 1) + C$
+d) $\cos(2x - 1) + C$
+
+::Câu 4:: Biết $F(x)$ là một nguyên hàm của $f(x) = \frac{2x + 3}{x^2 + 3x + 1}$ và $F(0) = 2$. Tính $F(1)$:
+... Ta có $f(x) = \frac{2x + 3}{x^2 + 3x + 1}$. Nhận thấy tử số là đạo hàm của mẫu số, nên $\int f(x)dx = \ln|x^2 + 3x + 1| + C$. Với điều kiện $F(0) = 2$, ta có $F(0) = \ln|1| + C = 0 + C = 2$, suy ra $C = 2$. Vậy $F(x) = \ln|x^2 + 3x + 1| + 2$. Do đó $F(1) = \ln|1 + 3 + 1| + 2 = \ln 5 + 2$.
+a) $\ln 5 + 1$
+b) $\ln 3 + 2$
+*c) $\ln 5 + 2$
+d) $\ln 4 + 2$
+
+::Câu 5:: Tích phân $\int_0^1 (2x + 1)^3 dx$ bằng:
+... Đặt $u = 2x + 1$, khi đó $du = 2dx$, suy ra $dx = \frac{du}{2}$. Khi $x = 0$ thì $u = 1$, khi $x = 1$ thì $u = 3$. Vậy $\int_0^1 (2x + 1)^3 dx = \int_1^3 u^3 \cdot \frac{du}{2} = \frac{1}{2} \int_1^3 u^3 du = \frac{1}{2} \left[\frac{u^4}{4}\right]_1^3 = \frac{1}{8}(3^4 - 1^4) = \frac{1}{8}(81 - 1) = \frac{80}{8} = 10$.
+a) $8$
+*b) $10$
+c) $12$
+d) $16$
+
+::Câu 6:: Cho $\int_1^3 f(x)dx = 5$ và $\int_1^3 g(x)dx = -2$. Tính $\int_1^3 [2f(x) - 3g(x)]dx$:
+... Sử dụng tính chất tuyến tính của tích phân: $\int_1^3 [2f(x) - 3g(x)]dx = 2\int_1^3 f(x)dx - 3\int_1^3 g(x)dx = 2 \cdot 5 - 3 \cdot (-2) = 10 + 6 = 16$.
+a) $4$
+b) $13$
+*c) $16$
+d) $19$
+
+::Câu 7:: Một chất điểm chuyển động thẳng có vận tốc $v(t) = 6t^2 - 4t + 2$ (m/s) tại thời điểm $t$ giây. Quãng đường đi được từ $t = 0$ đến $t = 2$ giây là:
+... Quãng đường đi được là $S = \int_0^2 |v(t)|dt$. Do $v(t) = 6t^2 - 4t + 2$ và $v'(t) = 12t - 4$, ta có $v'(t) = 0$ khi $t = \frac{1}{3}$. Kiểm tra: $v(0) = 2 > 0$, $v(\frac{1}{3}) = 6 \cdot \frac{1}{9} - 4 \cdot \frac{1}{3} + 2 = \frac{2}{3} - \frac{4}{3} + 2 = \frac{4}{3} > 0$, $v(2) = 24 - 8 + 2 = 18 > 0$. Vậy $v(t) > 0$ trên $[0, 2]$, nên $S = \int_0^2 v(t)dt = \int_0^2 (6t^2 - 4t + 2)dt = [2t^3 - 2t^2 + 2t]_0^2 = 16 - 8 + 4 = 12$.
+a) $10$
+*b) $12$
+c) $14$
+d) $16$
+
+::Câu 8:: Diện tích hình phẳng giới hạn bởi đồ thị hàm số $y = x^2 - 4x + 3$, trục hoành và các đường thẳng $x = 1$, $x = 3$ là:
+... Ta có $y = x^2 - 4x + 3 = (x-1)(x-3)$. Hàm số đổi dấu tại $x = 1$ và $x = 3$. Trên $(1, 3)$, ta có $y < 0$. Diện tích cần tìm là $S = \int_1^3 |x^2 - 4x + 3|dx = -\int_1^3 (x^2 - 4x + 3)dx = -[\frac{x^3}{3} - 2x^2 + 3x]_1^3 = -[(\frac{27}{3} - 18 + 9) - (\frac{1}{3} - 2 + 3)] = -[(9 - 18 + 9) - (\frac{1}{3} + 1)] = -[0 - \frac{4}{3}] = \frac{4}{3}$.
+*a) $\frac{4}{3}$
+b) $\frac{8}{3}$
+c) $2$
+d) $4$
+
+::Câu 9:: Cho hàm số $f(x) = \frac{1}{x^2 + 2x + 5}$. Nguyên hàm của $f(x)$ là:
+... Ta có $x^2 + 2x + 5 = (x+1)^2 + 4$. Đặt $u = x + 1$, khi đó $du = dx$ và $\int \frac{1}{x^2 + 2x + 5}dx = \int \frac{1}{u^2 + 4}du = \int \frac{1}{4(\frac{u^2}{4} + 1)}du = \frac{1}{4} \int \frac{1}{(\frac{u}{2})^2 + 1}du$. Đặt $t = \frac{u}{2}$, ta có $dt = \frac{du}{2}$, suy ra $du = 2dt$. Vậy $\frac{1}{4} \int \frac{1}{(\frac{u}{2})^2 + 1}du = \frac{1}{4} \int \frac{2dt}{t^2 + 1} = \frac{1}{2} \arctan t + C = \frac{1}{2} \arctan(\frac{u}{2}) + C = \frac{1}{2} \arctan(\frac{x+1}{2}) + C$.
+*a) $\frac{1}{2}\arctan(\frac{x+1}{2}) + C$
+b) $\arctan(\frac{x+1}{2}) + C$
+c) $\frac{1}{2}\arctan(x+1) + C$
+d) $\arctan(x+1) + C$
+
+::Câu 10:: Tích phân $\int_0^{\frac{\pi}{4}} \tan x dx$ bằng:
+... Ta có $\int \tan x dx = \int \frac{\sin x}{\cos x}dx$. Đặt $u = \cos x$, khi đó $du = -\sin x dx$. Vậy $\int \frac{\sin x}{\cos x}dx = -\int \frac{du}{u} = -\ln|u| + C = -\ln|\cos x| + C = \ln|\sec x| + C$. Do đó $\int_0^{\frac{\pi}{4}} \tan x dx = [\ln|\sec x|]_0^{\frac{\pi}{4}} = \ln|\sec(\frac{\pi}{4})| - \ln|\sec(0)| = \ln(\sqrt{2}) - \ln(1) = \ln(\sqrt{2}) = \frac{1}{2}\ln 2$.
+a) $\ln 2$
+*b) $\frac{1}{2}\ln 2$
+c) $1$
+d) $\frac{\pi}{4}$
+
+::Câu 11:: Cho hàm số $f(x) = x^3 - 6x^2 + 9x + 1$. Các mệnh đề sau đúng hay sai?
+
+	a) Đạo hàm của hàm số $f(x)$ là $f'(x) = 3x^2 - 12x + 9$.
+
+	b) Hàm số $f(x)$ đạt cực trị tại $x = 1$ và $x = 3$.
+... Mệnh đề a) đúng vì $f'(x) = 3x^3-1 - 6 \cdot 2x + 9 = 3x^2 - 12x + 9$. Mệnh đề b) đúng vì $f'(x) = 3x^2 - 12x + 9 = 3(x^2 - 4x + 3) = 3(x-1)(x-3)$, nên $f'(x) = 0$ khi $x = 1$ hoặc $x = 3$, và tại các điểm này $f'(x)$ đổi dấu nên là các điểm cực trị.
+* ĐĐ
+
+::Câu 12:: Cho tích phân $\int_0^1 x^2 e^x dx$. Các mệnh đề sau đúng hay sai?
+
+	a) Sử dụng phương pháp tích phân từng phần với $u = x^2$ và $dv = e^x dx$, ta có $\int x^2 e^x dx = x^2 e^x - 2\int x e^x dx$.
+
+	b) Giá trị của tích phân $\int_0^1 x^2 e^x dx$ bằng $e - 2$.
+... Mệnh đề a) đúng vì áp dụng công thức tích phân từng phần $\int u dv = uv - \int v du$ với $u = x^2$, $dv = e^x dx$, ta có $du = 2x dx$, $v = e^x$, nên $\int x^2 e^x dx = x^2 e^x - \int e^x \cdot 2x dx = x^2 e^x - 2\int x e^x dx$. Mệnh đề b) đúng vì tiếp tục tích phân từng phần cho $\int x e^x dx$ với $u = x$, $dv = e^x dx$, ta có $\int x e^x dx = xe^x - \int e^x dx = xe^x - e^x = e^x(x-1)$, nên $\int x^2 e^x dx = x^2 e^x - 2e^x(x-1) = e^x(x^2 - 2x + 2)$. Vậy $\int_0^1 x^2 e^x dx = [e^x(x^2 - 2x + 2)]_0^1 = e(1 - 2 + 2) - 1(0 - 0 + 2) = e - 2$.
+* ĐĐ
+
+::Câu 13:: Cho hàm số $f(x) = \frac{1}{x+2}$ với $x \neq -2$. Các mệnh đề sau đúng hay sai?
+
+	a) Nguyên hàm của $f(x)$ là $F(x) = \ln|x+2| + C$.
+
+	b) Tích phân $\int_0^1 \frac{1}{x+2} dx = \ln(\frac{3}{2})$.
+... Mệnh đề a) đúng vì đây là công thức nguyên hàm cơ bản $\int \frac{1}{x+a} dx = \ln|x+a| + C$. Mệnh đề b) đúng vì $\int_0^1 \frac{1}{x+2} dx = [\ln|x+2|]_0^1 = \ln|1+2| - \ln|0+2| = \ln 3 - \ln 2 = \ln(\frac{3}{2})$.
+* ĐĐ
+
+::Câu 14:: Cho hàm số $g(x) = \sin^2 x$. Các mệnh đề sau đúng hay sai?
+
+	a) Ta có $g'(x) = 2\sin x \cos x = \sin 2x$.
+
+	b) Nguyên hàm của $g(x)$ là $\int \sin^2 x dx = \frac{x}{2} - \frac{\sin 2x}{4} + C$.
+... Mệnh đề a) đúng vì áp dụng quy tắc đạo hàm hàm hợp: $g'(x) = 2\sin x \cdot (\sin x)' = 2\sin x \cos x = \sin 2x$. Mệnh đề b) đúng vì sử dụng công thức $\sin^2 x = \frac{1 - \cos 2x}{2}$, ta có $\int \sin^2 x dx = \int \frac{1 - \cos 2x}{2} dx = \frac{1}{2} \int (1 - \cos 2x) dx = \frac{1}{2}(x - \frac{\sin 2x}{2}) + C = \frac{x}{2} - \frac{\sin 2x}{4} + C$.
+* ĐĐ
+
+::Câu 15:: Cho hàm số $h(x) = e^{-x^2}$. Các mệnh đề sau đúng hay sai?
+
+	a) Đạo hàm của $h(x)$ là $h'(x) = -2xe^{-x^2}$.
+
+	b) Hàm số $h(x)$ có nguyên hàm sơ cấp đơn giản.
+... Mệnh đề a) đúng vì áp dụng quy tắc đạo hàm hàm hợp: $h'(x) = e^{-x^2} \cdot (-x^2)' = e^{-x^2} \cdot (-2x) = -2xe^{-x^2}$. Mệnh đề b) sai vì nguyên hàm của $e^{-x^2}$ không thể biểu diễn qua các hàm sơ cấp, nó liên quan đến tích phân Gauss và hàm lỗi.
+* ĐS
+
+::Câu 16:: Một bể nước có hình dạng paraboloid quay được tạo bởi việc quay đường cong $y = x^2$ quanh trục Oy từ $y = 0$ đến $y = 4$. Tính thể tích nước có thể chứa trong bể (đơn vị: $m^3$)?
+... Thể tích được tính theo công thức $V = \pi \int_0^4 x^2 dy$. Từ $y = x^2$, ta có $x^2 = y$, nên $V = \pi \int_0^4 y dy = \pi [\frac{y^2}{2}]_0^4 = \pi \cdot \frac{16}{2} = 8\pi$.
+* 25.13
+
+::Câu 17:: Một vật chuyển động từ vị trí $x = 0$ với vận tốc $v(t) = 3t^2 - 6t + 4$ (m/s). Tính tổng quãng đường đi được trong 3 giây đầu?
+... Quãng đường đi được là $S = \int_0^3 |v(t)| dt$. Ta tìm nghiệm của $v(t) = 0$: $3t^2 - 6t + 4 = 0$. Discriminant $\Delta = 36 - 48 = -12 < 0$, nên $v(t) > 0$ với mọi $t$ (do hệ số $a = 3 > 0$). Vậy $S = \int_0^3 v(t) dt = \int_0^3 (3t^2 - 6t + 4) dt = [t^3 - 3t^2 + 4t]_0^3 = 27 - 27 + 12 = 12$.
+* 12.00
+
+::Câu 18:: Cho hàm số $f(x) = x^4 - 4x^3 + 6x^2 - 4x + 2$. Tính giá trị của tích phân $\int_0^2 f'(x) dx$?
+... Ta có $f'(x) = 4x^3 - 12x^2 + 12x - 4$. Theo định lý cơ bản của giải tích, $\int_0^2 f'(x) dx = f(2) - f(0) = [2^4 - 4 \cdot 2^3 + 6 \cdot 2^2 - 4 \cdot 2 + 2] - [0 - 0 + 0 - 0 + 2] = [16 - 32 + 24 - 8 + 2] - 2 = 2 - 2 = 0$.
+* 0.00
+
+::Câu 19:: Một công ty sản xuất hàng hóa có hàm chi phí biên là $C'(x) = 2x + 30$ (triệu đồng) khi sản xuất $x$ tấn hàng. Biết chi phí cố định là 50 triệu đồng. Chi phí để sản xuất 10 tấn hàng đầu tiên là bao nhiêu triệu đồng?
+... Chi phí tổng cộng là $C(x) = \int C'(x) dx = \int (2x + 30) dx = x^2 + 30x + C$. Với chi phí cố định 50 triệu đồng, ta có $C(0) = 50$, suy ra $C = 50$. Vậy $C(x) = x^2 + 30x + 50$. Chi phí để sản xuất 10 tấn hàng đầu tiên là $C(10) = 100 + 300 + 50 = 450$.
+* 450.00
+
+::Câu 20:: Cho diện tích hình phẳng được giới hạn bởi đường cong $y = \sqrt{x}$, trục hoành và đường thẳng $x = 9$. Tính diện tích này?
+... Diện tích cần tìm là $S = \int_0^9 \sqrt{x} dx = \int_0^9 x^{1/2} dx = [\frac{x^{3/2}}{3/2}]_0^9 = \frac{2}{3} x^{3/2} |_0^9 = \frac{2}{3} \cdot 9^{3/2} = \frac{2}{3} \cdot 27 = 18$.
+* 18.00

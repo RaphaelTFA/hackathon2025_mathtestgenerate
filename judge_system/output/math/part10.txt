@@ -1,0 +1,161 @@
+::Câu 1:: Trong một cuộc khảo sát tuổi của khách hàng tại một cửa hàng, ta thu được dữ liệu: 25, 30, 35, 40, 45. Dấu hiệu nghiên cứu ở đây là gì?
+a) Số khách hàng
+b) Cửa hàng
+*c) Tuổi của khách hàng
+d) Thời gian khảo sát
+
+::Câu 2:: Cho dãy số liệu: 2, 4, 6, 6, 8, 10. Mốt của dãy số liệu này là:
+a) 4
+*b) 6
+c) 7
+d) 8
+
+::Câu 3:: Trong bảng phân bố tần số, tổng tất cả các tần số luôn bằng:
+a) Số giá trị khác nhau của dấu hiệu
+*b) Cỡ mẫu
+c) Giá trị lớn nhất của dấu hiệu
+d) Phương sai của mẫu
+
+::Câu 4:: Biểu đồ hình quạt thường được sử dụng để biểu diễn dữ liệu thuộc loại nào?
+*a) Dữ liệu định tính
+b) Dữ liệu định lượng liên tục
+c) Dữ liệu định lượng rời rạc có nhiều giá trị
+d) Dữ liệu ghép lớp
+
+::Câu 5:: Một bảng khảo sát điểm kiểm tra Toán của 30 học sinh được chia thành 5 lớp điểm với điểm giữa các lớp lần lượt là: 3, 5, 7, 9, 11 và tần số tương ứng là: 2, 8, 12, 6, 2. Điểm trung bình của lớp học này xấp xỉ bằng:
+a) 6.8
+*b) 7.0
+c) 7.2
+d) 7.4
+
+::Câu 6:: Cho bảng phân bố thời gian chờ xe bus (đơn vị: phút) của 100 người với các lớp [0;5), [5;10), [10;15), [15;20), [20;25) có số người lần lượt là 15, 25, 35, 20, 5. Tần suất tương đối của lớp [10;15) là:
+a) 0.25
+*b) 0.35
+c) 0.20
+d) 0.15
+
+::Câu 7:: Trong một nghiên cứu về chiều cao của học sinh, nếu độ lệch chuẩn của lớp A nhỏ hơn độ lệch chuẩn của lớp B, điều này có nghĩa là:
+a) Chiều cao trung bình của lớp A nhỏ hơn lớp B
+b) Chiều cao trung bình của lớp A lớn hơn lớp B
+*c) Chiều cao của học sinh lớp A đồng đều hơn lớp B
+d) Chiều cao của học sinh lớp B đồng đều hơn lớp A
+
+::Câu 8:: Một công ty muốn khảo sát mức lương của nhân viên bằng cách chọn ngẫu nhiên 50 nhân viên từ 500 nhân viên. Phương pháp lấy mẫu này được gọi là:
+*a) Lấy mẫu ngẫu nhiên đơn
+b) Lấy mẫu phân tầng
+c) Lấy mẫu có hệ thống
+d) Lấy mẫu thuận tiện
+
+::Câu 9:: Cho dữ liệu về số sản phẩm bán được trong 6 ngày: 10, 15, 12, 18, 20, 9. Khoảng biến thiên của dữ liệu này là:
+a) 9
+*b) 11
+c) 14
+d) 20
+
+::Câu 10:: Trong bảng phân bố tần số ghép lớp với các lớp [a₁;a₂), [a₂;a₃), [a₃;a₄), độ dài của mỗi lớp được tính bằng công thức:
+a) a₂ + a₁
+*b) a₂ - a₁
+c) (a₂ + a₁)/2
+d) |a₂ - a₁|/2
+
+::Câu 11:: Cho bảng phân bố khối lượng (kg) của 40 học sinh với các khoảng [40;45), [45;50), [50;55), [55;60) có tần số lần lượt là 8, 15, 12, 5. Phương sai mẫu xấp xỉ bằng:
+a) 12.2
+b) 15.8
+*c) 18.4
+d) 21.6
+
+::Câu 12:: Trong một cuộc khảo sát về màu sắc yêu thích, kết quả cho thấy: Đỏ (30%), Xanh (25%), Vàng (20%), Tím (15%), Khác (10%). Để biểu diễn dữ liệu này, biểu đồ phù hợp nhất là:
+a) Biểu đồ tần số (histogram)
+*b) Biểu đồ hình quạt
+c) Đường gấp khúc tần số
+d) Biểu đồ phân tán
+
+::Câu 13:: Cho mẫu dữ liệu gồm 9 giá trị được sắp xếp theo thứ tự tăng dần: 2, 4, 6, 8, 10, 12, 14, 16, 18. Tứ phân vị thứ nhất (Q₁) của mẫu này là:
+a) 4
+*b) 5
+c) 6
+d) 8
+
+::Câu 14:: Trong nghiên cứu tương quan giữa số giờ ôn tập và điểm thi, nếu hệ số tương quan r = 0.85, điều này cho biết:
+a) Mối quan hệ nghịch chiều mạnh
+*b) Mối quan hệ thuận chiều mạnh
+c) Mối quan hệ thuận chiều yếu
+d) Không có mối quan hệ tuyến tính
+
+::Câu 15:: Một siêu thị muốn ước lượng số tiền trung bình mà khách hàng chi tiêu với sai số không quá 50.000 đồng ở mức tin cậy 95%. Biết độ lệch chuẩn ước tính là 200.000 đồng. Cỡ mẫu tối thiểu cần lấy xấp xỉ:
+a) 48
+*b) 62
+c) 75
+d) 84
+
+::Câu 16:: Cho dữ liệu về doanh thu hàng tháng (triệu đồng) của một cửa hàng trong 12 tháng với các khoảng [10;15), [15;20), [20;25), [25;30) có tần số lần lượt là 2, 4, 5, 1. Nếu dựng đường hồi quy tuyến tính y = ax + b để dự đoán doanh thu, hệ số góc a có ý nghĩa gì?
+a) Doanh thu cố định hàng tháng
+*b) Mức tăng trung bình của doanh thu theo thời gian
+c) Sai số của mô hình
+d) Doanh thu tối đa có thể đạt được
+
+::Câu 17:: Một nghiên cứu về thời gian xem TV của học sinh trong tuần được chia thành các nhóm tuổi khác nhau, sau đó chọn ngẫu nhiên một số học sinh từ mỗi nhóm. Phương pháp lấy mẫu này gọi là gì? Các mệnh đề sau đúng hay sai?
+
+	a) Đây là phương pháp lấy mẫu phân tầng.
+
+	b) Phương pháp này đảm bảo mỗi nhóm tuổi đều được đại diện trong mẫu.
+* ĐĐ
+
+::Câu 18:: Cho bảng phân bố điểm thi Văn của 50 học sinh gồm: điểm 5 (5 học sinh), điểm 6 (8 học sinh), điểm 7 (15 học sinh), điểm 8 (12 học sinh), điểm 9 (7 học sinh), điểm 10 (3 học sinh). Các mệnh đề sau đúng hay sai?
+
+	a) Điểm trung bình của lớp là 7.24.
+
+	b) Trung vị của dữ liệu này là 7.
+* ĐS
+
+::Câu 19:: Trong một cuộc khảo sát về chiều cao và cân nặng của học sinh, người ta tính được hệ số tương quan r = -0.2 giữa chiều cao và thời gian chạy 100m. Các mệnh đề sau đúng hay sai?
+
+	a) Có mối quan hệ nghịch chiều yếu giữa chiều cao và thời gian chạy.
+
+	b) Học sinh cao thường chạy chậm hơn học sinh thấp.
+* ĐS
+
+::Câu 20:: Cho bảng thống kê số con trong các gia đình gồm: 0 con (2 gia đình), 1 con (8 gia đình), 2 con (15 gia đình), 3 con (10 gia đình), 4 con (5 gia đình). Các mệnh đề sau đúng hay sai?
+
+	a) Dấu hiệu nghiên cứu là biến định lượng rời rạc.
+
+	b) Phương sai của dữ liệu này bằng 1.09.
+* ĐS
+
+::Câu 21:: Một công ty khảo sát độ hài lòng của khách hàng với 5 mức độ: Rất hài lòng (25%), Hài lòng (35%), Bình thường (20%), Không hài lòng (15%), Rất không hài lòng (5%). Các mệnh đề sau đúng hay sai?
+
+	a) Đây là dữ liệu định tính.
+
+	b) Nếu tổng số khách hàng khảo sát là 200 thì có 70 người hài lòng.
+* ĐĐ
+
+::Câu 22:: Cho dữ liệu về lượng mưa hàng tháng (mm) trong năm với các khoảng [0;50), [50;100), [100;150), [150;200) có tần số lần lượt là 3, 5, 3, 1. Các mệnh đề sau đúng hay sai?
+
+	a) Tổng cỡ mẫu là 12.
+
+	b) Lượng mưa trung bình trong năm xấp xỉ 87.5mm.
+* ĐĐ
+
+::Câu 23:: Cho dữ liệu thu nhập hàng tháng của 25 nhân viên: 5 triệu (3 người), 7 triệu (6 người), 10 triệu (8 người), 15 triệu (5 người), 20 triệu (3 người). Tính thu nhập trung bình (đơn vị: triệu đồng)?
+* 10.48
+
+::Câu 24:: Một bảng thống kê số lượt truy cập website mỗi ngày trong tháng được chia thành các lớp với điểm giữa lớp là: 100, 300, 500, 700, 900 và tần số tương ứng là: 5, 8, 10, 6, 1. Tính phương sai của dữ liệu này?
+* 38400.00
+
+::Câu 25:: Thời gian hoàn thành bài kiểm tra (phút) của 40 học sinh được chia thành 4 lớp: [20;30), [30;40), [40;50), [50;60) với số học sinh tương ứng là: 6, 15, 12, 7. Tính độ lệch chuẩn của mẫu dữ liệu (làm tròn đến 0.01)?
+* 10.61
+
+::Câu 26:: Cho bảng phân bố điểm số của 60 học sinh với các lớp: [3;5), [5;7), [7;9) có số học sinh lần lượt là: 12, 28, 20. Tính tứ phân vị thứ ba Q₃ của dữ liệu này?
+* 7.80
+
+::Câu 27:: Một cửa hàng thống kê doanh thu hàng ngày (triệu đồng) trong 30 ngày qua với các khoảng: [5;10), [10;15), [15;20), [20;25) có tần số lần lượt là: 8, 12, 7, 3. Tính khoảng tứ phân vị IQR của dữ liệu này?
+* 6.25
+
+::Câu 28:: Cho dữ liệu về số giờ làm việc mỗi tuần của 50 nhân viên được phân bố với điểm giữa lớp: 35, 40, 45, 50 và tần số: 10, 18, 15, 7. Nếu có đường hồi quy y = 0.8x + 5 mô tả mối quan hệ giữa số giờ làm việc và hiệu suất, tính hiệu suất dự đoán khi làm việc 42 giờ?
+* 38.60
+
+::Câu 29:: Một nhà nghiên cứu khảo sát cân nặng của 80 học sinh với các lớp cân nặng [40;45), [45;50), [50;55), [55;60) có tần suất tương đối lần lượt là: 0.2, 0.35, 0.3, 0.15. Tính cân nặng trung bình ước lượng của học sinh?
+* 49.88
+
+::Câu 30:: Cho bảng thống kê điểm thi THPT của 100 học sinh được chia thành 5 lớp điểm có độ dài lớp bằng 2, với điểm giữa các lớp là: 1, 3, 5, 7, 9 và tần số: 5, 15, 40, 30, 10. Nếu muốn ế tính tổng bình phương độ lệch so với trung bình, kết quả là bao nhiêu?
+* 372.00

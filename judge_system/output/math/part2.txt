@@ -1,0 +1,129 @@
+::Câu 1:: Cho hình chóp $S.ABC$ có đáy $ABC$ là tam giác vuông cân tại $A$ với $AB = AC = a$. Cạnh $SA$ vuông góc với mặt phẳng $(ABC)$ và $SA = a\sqrt{2}$. Thể tích khối chóp $S.ABC$ bằng
+... Ta có $S_{ABC} = \frac{1}{2}.AB.AC = \frac{a^2}{2}$. Thể tích khối chóp: $V = \frac{1}{3}.S_{ABC}.SA = \frac{1}{3}.\frac{a^2}{2}.a\sqrt{2} = \frac{a^3\sqrt{2}}{6}$.
+*a) $\frac{a^3\sqrt{2}}{6}$.
+b) $\frac{a^3\sqrt{2}}{3}$.
+c) $\frac{a^3}{3}$.
+d) $\frac{a^3}{6}$.
+
+::Câu 2:: Cho hình lăng trụ đứng $ABC.A'B'C'$ có đáy là tam giác vuông tại $B$ với $AB = 3$, $BC = 4$, chiều cao lăng trụ $h = 5$. Thể tích khối lăng trụ bằng
+... Diện tích đáy: $S_{ABC} = \frac{1}{2}.AB.BC = \frac{1}{2}.3.4 = 6$. Thể tích lăng trụ: $V = S_{ABC}.h = 6.5 = 30$.
+a) $60$.
+*b) $30$.
+c) $20$.
+d) $24$.
+
+::Câu 3:: Cho khối nón có bán kính đáy $R = 4$ và độ dài đường sinh $l = 5$. Thể tích khối nón bằng
+... Chiều cao nón: $h = \sqrt{l^2 - R^2} = \sqrt{25 - 16} = 3$. Thể tích nón: $V = \frac{1}{3}\pi R^2 h = \frac{1}{3}\pi.16.3 = 16\pi$.
+a) $20\pi$.
+*b) $16\pi$.
+c) $12\pi$.
+d) $15\pi$.
+
+::Câu 4:: Một cây cột đèn trang trí ở công viên Thống Nhất có dạng hình chóp tứ giác đều, đáy là hình vuông cạnh $2m$, các mặt bên là tam giác cân có độ dài cạnh bên $3m$. Chiều cao của cây cột đèn bằng
+... Gọi $O$ là tâm đáy, $M$ là trung điểm cạnh đáy. Ta có $OM = 1$, $SM = 3$. Chiều cao: $SO = \sqrt{SM^2 - OM^2} = \sqrt{9 - 1} = 2\sqrt{2}$.
+a) $2\sqrt{3}$.
+*b) $2\sqrt{2}$.
+c) $\sqrt{5}$.
+d) $3$.
+
+::Câu 5:: Cho hình chóp $S.ABCD$ có đáy là hình thang vuông tại $A$ và $D$, $AB = 2a$, $AD = DC = a$. Cạnh $SA$ vuông góc với đáy và tạo với mặt phẳng $(SBC)$ một góc $30°$. Độ dài cạnh $SA$ bằng
+... Diện tích đáy: $S_{ABCD} = \frac{1}{2}(AB + DC).AD = \frac{3a^2}{2}$. Gọi $H$ là hình chiếu vuông góc của $A$ lên $BC$. Ta có $\sin(30°) = \frac{SA}{SH}$, với $AH = \frac{2a\sqrt{5}}{5}$, suy ra $SA = \frac{2a\sqrt{15}}{15}$.
+a) $\frac{a\sqrt{15}}{3}$.
+*b) $\frac{2a\sqrt{15}}{15}$.
+c) $\frac{a\sqrt{15}}{5}$.
+d) $\frac{a\sqrt{3}}{3}$.
+
+::Câu 6:: Ở Vịnh Hạ Long, một tảng đá nhỏ có dạng hình chóp tam giác đều cạnh đáy $6m$, cạnh bên $5m$. Để làm mô hình thu nhỏ, người ta cần tính thể tích của tảng đá. Thể tích đó bằng
+... Chiều cao tam giác đều cạnh $6$: $h_{đáy} = 3\sqrt{3}$. Bán kính đường tròn ngoại tiếp: $R = 2\sqrt{3}$. Chiều cao chóp: $h = \sqrt{25 - 12} = \sqrt{13}$. Diện tích đáy: $S = 9\sqrt{3}$. Thể tích: $V = \frac{1}{3}.9\sqrt{3}.\sqrt{13} = 3\sqrt{39}$.
+*a) $3\sqrt{39}$.
+b) $9\sqrt{13}$.
+c) $6\sqrt{39}$.
+d) $18\sqrt{3}$.
+
+::Câu 7:: Cho hình chóp đều $S.ABCDEF$ có đáy là lục giác đều cạnh $a$, cạnh bên tạo với đáy góc $60°$. Thể tích khối chóp bằng
+... Diện tích lục giác đều: $S = \frac{3\sqrt{3}a^2}{2}$. Bán kính đường tròn ngoại tiếp: $R = a$. Chiều cao: $h = R\tan(60°) = a\sqrt{3}$. Thể tích: $V = \frac{1}{3}.\frac{3\sqrt{3}a^2}{2}.a\sqrt{3} = \frac{3a^3}{2}$.
+*a) $\frac{3a^3}{2}$.
+b) $\frac{a^3\sqrt{3}}{2}$.
+c) $a^3\sqrt{3}$.
+d) $\frac{9a^3}{2}$.
+
+::Câu 8:: Cho khối cầu có bán kính $R$. Khối nón nội tiếp cầu có thể tích lớn nhất khi chiều cao nón bằng
+... Gọi chiều cao nón là $h$, bán kính đáy $r$. Ta có $r^2 + (h-R)^2 = R^2$, suy ra $r^2 = 2Rh - h^2$. Thể tích $V = \frac{\pi h}{3}(2Rh - h^2)$. Đạo hàm và cho bằng $0$: $h = \frac{4R}{3}$.
+a) $R$.
+b) $2R$.
+*c) $\frac{4R}{3}$.
+d) $\frac{2R}{3}$.
+
+::Câu 9:: Một bình chứa nước có dạng hình trụ với bán kính đáy $10cm$ và chiều cao $20cm$. Người ta thả vào bình một viên bi hình cầu bán kính $3cm$. Mực nước trong bình dâng lên bao nhiêu?
+... Thể tích viên bi: $V_{bi} = \frac{4}{3}\pi.3^3 = 36\pi$. Diện tích đáy bình: $S = \pi.10^2 = 100\pi$. Độ dâng: $\Delta h = \frac{V_{bi}}{S} = \frac{36\pi}{100\pi} = 0.36$.
+a) $0.3cm$.
+*b) $0.36cm$.
+c) $0.4cm$.
+d) $0.45cm$.
+
+::Câu 10:: Cho hình chóp $S.ABC$ có $SA$, $SB$, $SC$ đôi một vuông góc và $SA = a$, $SB = 2a$, $SC = 3a$. Bán kính mặt cầu ngoại tiếp hình chóp bằng
+... Do $SA$, $SB$, $SC$ đôi một vuông góc nên $S$ là đỉnh của hình hộp chữ nhật có ba kích thước $a$, $2a$, $3a$. Bán kính mặt cầu ngoại tiếp: $R = \frac{1}{2}\sqrt{a^2 + 4a^2 + 9a^2} = \frac{a\sqrt{14}}{2}$.
+*a) $\frac{a\sqrt{14}}{2}$.
+b) $\frac{a\sqrt{6}}{2}$.
+c) $a\sqrt{14}$.
+d) $a\sqrt{6}$.
+
+::Câu 11:: Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh $a$, $SA \perp (ABCD)$ và $SA = a\sqrt{3}$. Gọi $M$ là trung điểm cạnh $BC$. Các mệnh đề sau đúng hay sai?
+
+    a) Góc giữa đường thẳng $SM$ và mặt phẳng $(ABCD)$ bằng $60°$.
+
+    b) Khoảng cách từ $A$ đến mặt phẳng $(SBD)$ bằng $\frac{a\sqrt{6}}{3}$.
+... Gọi $H$ là hình chiếu của $M$ lên $AB$, ta có $AH = \frac{a}{2}$, $AM = \frac{a\sqrt{5}}{2}$. Ta có $\tan(\angle SMA) = \frac{SA}{AM} = \frac{a\sqrt{3}}{\frac{a\sqrt{5}}{2}} = \frac{2\sqrt{15}}{5} \neq \tan(60°) = \sqrt{3}$. Vậy mệnh đề a) sai. Mặt phẳng $(SBD)$ có phương trình là mặt phẳng đi qua $S$, $B$, $D$. Khoảng cách từ $A$ đến $(SBD)$ được tính bằng công thức và bằng $\frac{a\sqrt{6}}{3}$. Vậy mệnh đề b) đúng.
+* SĐ
+
+::Câu 12:: Cho lăng trụ đứng $ABC.A'B'C'$ có đáy là tam giác đều cạnh $2a$, cạnh bên $AA' = a\sqrt{6}$. Gọi $M$ là trung điểm của $A'B'$.
+
+    a) Thể tích khối lăng trụ bằng $a^3\sqrt{18}$.
+
+    b) Khoảng cách giữa đường thẳng $CM$ và mặt phẳng $(ABB'A')$ bằng $\frac{3a}{2}$.
+... Diện tích đáy: $S = \frac{\sqrt{3}}{4}.(2a)^2 = a^2\sqrt{3}$. Thể tích: $V = a^2\sqrt{3}.a\sqrt{6} = a^3\sqrt{18}$. Mệnh đề a) đúng. Trong hệ tọa độ với $A$ là gốc, $AB$ theo $Ox$, đường cao từ $A$ theo $Oy$, $AA'$ theo $Oz$, ta có $C(a, a\sqrt{3}, 0)$, $M(a, \frac{a\sqrt{3}}{2}, a\sqrt{6})$. Khoảng cách từ $C$ đến mặt phẳng $(ABB'A')$ (mặt phẳng $y = 0$) là $a\sqrt{3} \neq \frac{3a}{2}$. Mệnh đề b) sai.
+* ĐS
+
+::Câu 13:: Cho hình chóp $S.ABCD$ có đáy là hình bình hành với $AB = 2a$, $AD = a$, $\angle BAD = 60°$. Cạnh $SA$ vuông góc với đáy và $SA = a\sqrt{3}$.
+
+    a) Diện tích đáy hình chóp bằng $a^2\sqrt{3}$.
+
+    b) Góc giữa mặt phẳng $(SBC)$ và mặt phẳng $(ABCD)$ bằng $45°$.
+... Diện tích hình bình hành: $S = AB.AD.\sin(60°) = 2a.a.\frac{\sqrt{3}}{2} = a^2\sqrt{3}$. Mệnh đề a) đúng. Để tìm góc giữa $(SBC)$ và $(ABCD)$, ta cần tìm giao tuyến và các đường vuông góc. Giao tuyến là $BC$. Kẻ $AH \perp BC$ trong $(ABCD)$, kẻ $AK \perp BC$ trong $(SBC)$ với $K \in SH$. Góc cần tìm là $\angle AKH$. Tính toán cho thấy góc này không bằng $45°$. Mệnh đề b) sai.
+* ĐS
+
+::Câu 14:: Cho hình chóp tam giác đều $S.ABC$ có cạnh đáy $a$ và cạnh bên $SA = SB = SC = \frac{a\sqrt{6}}{2}$.
+
+    a) Chiều cao hình chóp bằng $\frac{a\sqrt{3}}{3}$.
+
+    b) Bán kính mặt cầu ngoại tiếp hình chóp bằng $\frac{a\sqrt{2}}{2}$.
+... Bán kính đường tròn ngoại tiếp đáy: $R = \frac{a\sqrt{3}}{3}$. Chiều cao: $h = \sqrt{SA^2 - R^2} = \sqrt{\frac{6a^2}{4} - \frac{a^2}{3}} = \sqrt{\frac{18a^2 - 4a^2}{12}} = \frac{a\sqrt{14}}{6} \neq \frac{a\sqrt{3}}{3}$. Mệnh đề a) sai. Bán kính mặt cầu ngoại tiếp: $R_{ngoại} = \frac{SA^2}{2h} = \frac{\frac{6a^2}{4}}{2.\frac{a\sqrt{14}}{6}} = \frac{9a}{2\sqrt{14}} = \frac{9a\sqrt{14}}{28} \neq \frac{a\sqrt{2}}{2}$. Mệnh đề b) sai.
+* SS
+
+::Câu 15:: Cho hình lăng trụ tam giác đều $ABC.A'B'C'$ có cạnh đáy $2a$ và thể tích $V = 6a^3\sqrt{3}$.
+
+    a) Chiều cao lăng trụ bằng $6a$.
+
+    b) Diện tích toàn phần lăng trụ bằng $15a^2\sqrt{3}$.
+... Diện tích đáy: $S_đáy = \frac{\sqrt{3}}{4}.(2a)^2 = a^2\sqrt{3}$. Chiều cao: $h = \frac{V}{S_đáy} = \frac{6a^3\sqrt{3}}{a^2\sqrt{3}} = 6a$. Mệnh đề a) đúng. Diện tích toàn phần: $S_{tp} = 2S_đáy + 3S_{bên} = 2a^2\sqrt{3} + 3.(2a.6a) = 2a^2\sqrt{3} + 36a^2 \neq 15a^2\sqrt{3}$. Mệnh đề b) sai.
+* ĐS
+
+::Câu 1:: Một tòa tháp chuông ở chùa Một Cột Hà Nội có phần đỉnh dạng hình chóp tam giác đều với cạnh đáy $4m$ và chiều cao $6m$. Để trang trí, người ta muốn sơn toàn bộ các mặt bên của phần chóp này. Tính diện tích cần sơn (đơn vị $m^2$, làm tròn đến hàng phần trăm).
+... Cạnh đáy $a = 4m$, chiều cao $h = 6m$. Bán kính đường tròn ngoại tiếp đáy: $R = \frac{a\sqrt{3}}{3} = \frac{4\sqrt{3}}{3}$. Trung đường từ đỉnh đến cạnh đáy: $d = \sqrt{h^2 + (\frac{a\sqrt{3}}{6})^2} = \sqrt{36 + \frac{16.3}{36}} = \sqrt{36 + \frac{4}{3}} = \sqrt{\frac{112}{3}} = \frac{4\sqrt{21}}{3}$. Diện tích một mặt bên: $S_1 = \frac{1}{2}.4.\frac{4\sqrt{21}}{3} = \frac{8\sqrt{21}}{3}$. Diện tích ba mặt bên: $S = 3.\frac{8\sqrt{21}}{3} = 8\sqrt{21} ≈ 36,66$.
+* 36.66
+
+::Câu 2:: Một chiếc lều có dạng hình chóp tứ giác đều với cạnh đáy $3m$ và cạnh bên $2,5m$. Tính thể tích không gian bên trong lều (đơn vị $m^3$, làm tròn đến hàng phần trăm).
+... Cạnh đáy $a = 3m$, cạnh bên $l = 2,5m$. Khoảng cách từ tâm đến cạnh đáy: $d = \frac{a}{2} = 1,5m$. Chiều cao: $h = \sqrt{l^2 - d^2} = \sqrt{6,25 - 2,25} = 2m$. Diện tích đáy: $S = a^2 = 9m^2$. Thể tích: $V = \frac{1}{3}.S.h = \frac{1}{3}.9.2 = 6m^3$.
+* 6.00
+
+::Câu 3:: Ở Thành phố Hồ Chí Minh, tòa nhà Landmark 81 có phần đỉnh dạng hình chóp có đáy là tam giác đều cạnh $20m$. Biết rằng các mặt bên tạo với đáy một góc $75°$. Tính chiều cao của phần chóp này (đơn vị mét, làm tròn đến hàng phần trăm).
+... Cạnh đáy $a = 20m$. Khoảng cách từ tâm tam giác đều đến cạnh: $r = \frac{a\sqrt{3}}{6} = \frac{20\sqrt{3}}{6} = \frac{10\sqrt{3}}{3}$. Chiều cao: $h = r.\tan(75°) = \frac{10\sqrt{3}}{3}.\tan(75°) = \frac{10\sqrt{3}}{3}.(2 + \sqrt{3}) = \frac{10\sqrt{3}(2 + \sqrt{3})}{3} = \frac{10(2\sqrt{3} + 3)}{3} = \frac{20\sqrt{3} + 30}{3} ≈ 21,55$.
+* 21.55
+
+::Câu 4:: Một hồ bơi hình chữ nhật có chiều dài $25m$, chiều rộng $10m$, độ sâu trung bình $2m$. Người ta đổ thêm nước vào hồ với tốc độ $0,5m^3$/phút. Hỏi sau bao nhiêu phút thì mực nước dâng thêm $0,08m$? (làm tròn đến hàng phần trăm).
+... Thể tích nước cần đổ thêm: $\Delta V = 25.10.0,08 = 20m^3$. Thời gian cần: $t = \frac{\Delta V}{v} = \frac{20}{0,5} = 40$ phút.
+* 40.00
+
+::Câu 5:: Một bán cầu có bán kính $R = 15cm$ được úp ngược lại và đổ đầy nước. Sau đó thả vào một khối nón có bán kính đáy $9cm$ và chiều cao $12cm$. Tính thể tích nước tràn ra ngoài (đơn vị $cm^3$, làm tròn đến hàng đơn vị).
+... Thể tích bán cầu: $V_{bc} = \frac{2}{3}\pi R^3 = \frac{2}{3}\pi.15^3 = 2250\pi cm^3$. Thể tích khối nón: $V_{nón} = \frac{1}{3}\pi r^2 h = \frac{1}{3}\pi.81.12 = 324\pi cm^3$. Thể tích nước tràn: $V_{tràn} = V_{nón} = 324\pi ≈ 1018 cm^3$.
+* 1018

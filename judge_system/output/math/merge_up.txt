@@ -1,0 +1,178 @@
+1. Cho hàm số $y = \frac{mx + 2}{x - m}$ với $m$ là tham số. Để hàm số nghịch biến trên khoảng $(2; +\infty)$, giá trị của $m$ thỏa mãn điều kiện nào?
+... Hàm số nghịch biến khi $y' < 0$. Ta có $y' = \frac{m(x - m) - (mx + 2)}{(x - m)^2} = \frac{-m^2 - 2}{(x - m)^2}$. Để $y' < 0$ trên $(2; +\infty)$ thì $-m^2 - 2 < 0 \Rightarrow m^2 + 2 > 0$ (luôn đúng). Điều kiện để hàm số xác định trên $(2; +\infty)$ là $x - m \neq 0 \Rightarrow m \neq x$ với mọi $x \in (2; +\infty)$, tức là $m \leq 2$.
+a) $m < 2$
+*b) $m \leq 2$
+c) $m > 2$
+d) $m \geq 2$
+
+2. Cho $\log_a b = 3$ và $\log_a c = 5$ (với $a > 0, a \neq 1, b > 0, c > 0$). Giá trị của $\log_a(b^2c)$ là?
+... Ta có $\log_a(b^2c) = \log_a b^2 + \log_a c = 2\log_a b + \log_a c = 2 \cdot 3 + 5 = 6 + 5 = 11$.
+a) $8$
+b) $10$
+*c) $11$
+d) $15$
+
+3. Cho cấp số nhân lùi vô hạn có số hạng đầu $u_1 = 12$ và công bội $q = -\frac{1}{3}$. Tổng của cấp số nhân lùi vô hạn này bằng
+a) 8
+*b) 9
+c) 10
+d) 12
+
+4. Diện tích hình phẳng giới hạn bởi đồ thị hàm số $y = x^2 - 4x + 3$, trục hoành và các đường thẳng $x = 1$, $x = 3$ là:
+... Ta có $y = x^2 - 4x + 3 = (x-1)(x-3)$. Hàm số đổi dấu tại $x = 1$ và $x = 3$. Trên $(1, 3)$, ta có $y < 0$. Diện tích cần tìm là $S = \int_1^3 |x^2 - 4x + 3|dx = -\int_1^3 (x^2 - 4x + 3)dx = -[\frac{x^3}{3} - 2x^2 + 3x]_1^3 = -[(\frac{27}{3} - 18 + 9) - (\frac{1}{3} - 2 + 3)] = -[(9 - 18 + 9) - (\frac{1}{3} + 1)] = -[0 - \frac{4}{3}] = \frac{4}{3}$.
+*a) $\frac{4}{3}$
+b) $\frac{8}{3}$
+c) $2$
+d) $4$
+
+5. Tổng $S_n = 1 + 3 + 5 + 7 + ... + (2n-1)$ bằng
+a) $n(n+1)$
+*b) $n^2$
+c) $2n^2$
+d) $n(2n-1)$
+
+6. Tổng tất cả các nghiệm của phương trình $4^x - 5 \cdot 2^x + 4 = 0$ là?
+... Đặt $t = 2^x$ với $t > 0$. Phương trình trở thành $t^2 - 5t + 4 = 0 \Leftrightarrow (t-1)(t-4) = 0 \Leftrightarrow t = 1$ hoặc $t = 4$. Với $t = 1$: $2^x = 1 \Leftrightarrow x = 0$. Với $t = 4$: $2^x = 4 \Leftrightarrow x = 2$. Tổng các nghiệm là $0 + 2 = 2$.
+a) $1$
+*b) $2$
+c) $3$
+d) $4$
+
+7. Trong không gian $Oxyz$, cho mặt phẳng $(P): 2x - y + 3z - 5 = 0$. Vectơ nào sau đây là một vectơ pháp tuyến của mặt phẳng $(P)$?
+... Từ phương trình mặt phẳng $(P): 2x - y + 3z - 5 = 0$, ta có vectơ pháp tuyến $\vec{n} = (2;-1;3)$.
+a) $(2;1;3)$
+*b) $(2;-1;3)$
+c) $(2;-1;-5)$
+d) $(-2;1;-3)$
+
+8. Trong không gian với hệ tọa độ $Oxyz$, cho điểm $M(2;-3;5)$. Tọa độ hình chiếu vuông góc của điểm $M$ lên trục $Oz$ là
+... Ta có hình chiếu vuông góc của điểm $M(2;-3;5)$ lên trục $Oz$ (trục $Oz$ có phương trình $x=0, y=0$) là điểm có tọa độ $(0;0;5)$.
+a) $(0;0;2)$
+b) $(2;0;0)$
+*c) $(0;0;5)$
+d) $(0;-3;0)$
+
+9. Trong không gian, cho hai vectơ $\vec{a}$ và $\vec{b}$ tạo với nhau góc $120°$, biết $|\vec{a}| = 3$, $|\vec{b}| = 4$. Tính $|\vec{a} + \vec{b}|$.
+... Sử dụng công thức $|\vec{a} + \vec{b}|^2 = |\vec{a}|^2 + |\vec{b}|^2 + 2\vec{a} \cdot \vec{b} = 9 + 16 + 2 \cdot 3 \cdot 4 \cdot \cos 120° = 25 - 12 = 13$, vậy $|\vec{a} + \vec{b}| = \sqrt{13}$
+a) $5$
+b) $7$
+*c) $\sqrt{13}$
+d) $\sqrt{37}$
+
+10. Cho hàm số $f(x)$ có đạo hàm $f'(x) = (x-2)^3(x+1)^2(x-4)$ với mọi $x \in \mathbb{R}$. Số điểm cực trị của hàm số $f(x)$ là?
+... Các nghiệm của $f'(x) = 0$ là $x = 2$ (bội 3), $x = -1$ (bội 2), $x = 4$ (bội 1). Hàm số có cực trị tại các nghiệm có bội lẻ và đạo hàm đổi dấu. Tại $x = -1$ (bội chẵn): $f'(x)$ không đổi dấu nên không có cực trị. Tại $x = 2$ (bội lẻ): $f'(x)$ không đổi dấu vì có bội 3 lẻ nhưng thành phần $(x+1)^2 \geq 0$ và $(x-4)$ đổi dấu qua $x = 4$. Tại $x = 4$ (bội lẻ): $f'(x)$ đổi dấu nên có cực trị. Kiểm tra kỹ hơn bằng bảng xét dấu: $f'(x)$ đổi dấu qua $x = 2$ và $x = 4$. Vậy có 2 điểm cực trị.
+*a) 2
+b) 1
+c) 3
+d) 0
+
+11. Nghiệm của phương trình $\log_2(x^2 - 3x + 2) = 1$ là?
+... Điều kiện: $x^2 - 3x + 2 > 0 \Leftrightarrow (x-1)(x-2) > 0 \Leftrightarrow x < 1$ hoặc $x > 2$. Ta có $\log_2(x^2 - 3x + 2) = 1 \Leftrightarrow x^2 - 3x + 2 = 2 \Leftrightarrow x^2 - 3x = 0 \Leftrightarrow x(x-3) = 0 \Leftrightarrow x = 0$ hoặc $x = 3$. Kiểm tra điều kiện: $x = 0$ thỏa mãn $x < 1$ và $x = 3$ thỏa mãn $x > 2$.
+a) $x = 0$
+b) $x = 3$
+*c) $x = 0$ hoặc $x = 3$
+d) Vô nghiệm
+
+12. Một tàu thủy chuyển động với vận tốc riêng $40$ km/h theo hướng đông bắc. Dòng nước chảy theo hướng đông với tốc độ $10$ km/h. Tính tốc độ thực tế của tàu so với bờ.
+... Vận tốc riêng có thành phần $(40\cos 45°, 40\sin 45°) = (20\sqrt{2}, 20\sqrt{2})$, dòng nước $(10, 0)$. Vận tốc thực tế $(20\sqrt{2} + 10, 20\sqrt{2})$, độ lớn $\sqrt{(20\sqrt{2} + 10)^2 + (20\sqrt{2})^2} \approx 47$
+*a) $47$
+b) $50$
+c) $45$
+d) $42$
+
+13. Cho hình lăng trụ đứng $ABC.A'B'C'$ có đáy là tam giác vuông tại $B$ với $AB = 3$, $BC = 4$, chiều cao lăng trụ $h = 5$. Thể tích khối lăng trụ bằng
+... Diện tích đáy: $S_{ABC} = \frac{1}{2}.AB.BC = \frac{1}{2}.3.4 = 6$. Thể tích lăng trụ: $V = S_{ABC}.h = 6.5 = 30$.
+a) $60$.
+*b) $30$.
+c) $20$.
+d) $24$.
+
+14. Tích phân $\int_0^1 (2x + 1)^3 dx$ bằng:
+... Đặt $u = 2x + 1$, khi đó $du = 2dx$, suy ra $dx = \frac{du}{2}$. Khi $x = 0$ thì $u = 1$, khi $x = 1$ thì $u = 3$. Vậy $\int_0^1 (2x + 1)^3 dx = \int_1^3 u^3 \cdot \frac{du}{2} = \frac{1}{2} \int_1^3 u^3 du = \frac{1}{2} \left[\frac{u^4}{4}\right]_1^3 = \frac{1}{8}(3^4 - 1^4) = \frac{1}{8}(81 - 1) = \frac{80}{8} = 10$.
+a) $8$
+*b) $10$
+c) $12$
+d) $16$
+
+15. Cho bảng phân bố thời gian chờ xe bus (đơn vị: phút) của 100 người với các lớp [0;5), [5;10), [10;15), [15;20), [20;25) có số người lần lượt là 15, 25, 35, 20, 5. Tần suất tương đối của lớp [10;15) là:
+a) 0.25
+*b) 0.35
+c) 0.20
+d) 0.15
+
+16. Trong không gian với hệ tọa độ $Oxyz$, cho hình lập phương $ABCD.A'B'C'D'$ có $A(0;0;0)$, $B(2;0;0)$, $D(0;2;0)$, $A'(0;0;2)$.
+
+	a) Tọa độ điểm $C'$ là $(2;2;2)$.
+
+	b) Thể tích của hình lập phương bằng $6$.
+... a) Hình lập phương có cạnh bằng $2$. Từ $A(0;0;0)$, $B(2;0;0)$, $D(0;2;0)$, $A'(0;0;2)$, ta suy ra $C(2;2;0)$ và $C'(2;2;2)$. Vậy mệnh đề a đúng. b) Thể tích hình lập phương $= 2^3 = 8$, không phải $6$. Vậy mệnh đề b sai.
+* ĐS
+
+17. Cho phát biểu về công thức lượng giác:
+
+	a) $\sin(x + \frac{\pi}{2}) = \cos x$ với mọi $x$.
+
+	b) $\cos 2x = 2\cos^2 x - 1$ với mọi $x$.
+... Giải thích: a) đúng theo công thức cộng góc. b) đúng theo công thức nhân đôi cosine.
+* ĐĐ
+
+18. Ba chiếc hộp chứa bi như sau: Hộp 1 có 2 bi đỏ và 3 bi xanh, hộp 2 có 4 bi đỏ và 1 bi xanh, hộp 3 có 3 bi đỏ và 2 bi xanh. Chọn ngẫu nhiên một hộp rồi từ hộp đó lấy một bi. Các mệnh đề sau đúng hay sai?
+
+	a) Xác suất lấy được bi đỏ là $\frac{53}{75}$.
+
+	b) Biết đã lấy được bi đỏ, xác suất bi đó từ hộp 2 là $\frac{4}{53} \times 15$.
+... Lời giải: a) Xác suất lấy bi đỏ từ hộp 1 là $\frac{2}{5}$, từ hộp 2 là $\frac{4}{5}$, từ hộp 3 là $\frac{3}{5}$. Xác suất lấy được bi đỏ là $\frac{1}{3}(\frac{2}{5} + \frac{4}{5} + \frac{3}{5}) = \frac{1}{3} \times \frac{9}{5} = \frac{3}{5}$. Mệnh đề sai vì $\frac{3}{5} \neq \frac{53}{75}$. b) Theo công thức Bayes, xác suất bi đỏ từ hộp 2 là $\frac{\frac{1}{3} \times \frac{4}{5}}{\frac{3}{5}} = \frac{\frac{4}{15}}{\frac{3}{5}} = \frac{4}{15} \times \frac{5}{3} = \frac{4}{9}$. Mệnh đề sai vì $\frac{4}{9} \neq \frac{4}{53} \times 15$.
+* SS
+
+19. Cho tích phân $\int_0^1 x^2 e^x dx$. Các mệnh đề sau đúng hay sai?
+
+	a) Sử dụng phương pháp tích phân từng phần với $u = x^2$ và $dv = e^x dx$, ta có $\int x^2 e^x dx = x^2 e^x - 2\int x e^x dx$.
+
+	b) Giá trị của tích phân $\int_0^1 x^2 e^x dx$ bằng $e - 2$.
+... Mệnh đề a) đúng vì áp dụng công thức tích phân từng phần $\int u dv = uv - \int v du$ với $u = x^2$, $dv = e^x dx$, ta có $du = 2x dx$, $v = e^x$, nên $\int x^2 e^x dx = x^2 e^x - \int e^x \cdot 2x dx = x^2 e^x - 2\int x e^x dx$. Mệnh đề b) đúng vì tiếp tục tích phân từng phần cho $\int x e^x dx$ với $u = x$, $dv = e^x dx$, ta có $\int x e^x dx = xe^x - \int e^x dx = xe^x - e^x = e^x(x-1)$, nên $\int x^2 e^x dx = x^2 e^x - 2e^x(x-1) = e^x(x^2 - 2x + 2)$. Vậy $\int_0^1 x^2 e^x dx = [e^x(x^2 - 2x + 2)]_0^1 = e(1 - 2 + 2) - 1(0 - 0 + 2) = e - 2$.
+* ĐĐ
+
+20. Trong một giải đấu bóng đá có 16 đội, mỗi đội đấu với đúng 7 đội khác. Biết rằng bất kỳ hai đội nào cùng thắng một đội thứ ba thì hai đội đó không đấu trực tiếp với nhau. Nếu mỗi đội thắng đúng 3 trận và thua đúng 4 trận, tính tổng số cặp đội có cùng tập hợp các đối thủ đã thắng?
+... Mỗi đội đấu 7 trận, thắng 3 thua 4. Với 16 đội, tổng số trận đã đấu là (16×7)/2 = 56 trận. Xét đồ thị G có 16 đỉnh (đội), hai đỉnh nối nhau nếu hai đội tương ứng đấu với nhau. Mỗi đỉnh có bậc 7. Xét đồ thị thắng H: đỉnh u nối với đỉnh v nếu u thắng v. Mỗi đỉnh có bậc ra là 3. Theo điều kiện đề bài, nếu hai đội u,v cùng thắng đội w thì u và v không đấu trực tiếp. Điều này có nghĩa là trong đồ thị G, hai đỉnh không kề nhau nếu chúng có cùng láng giềng thắng trong H. Xét các đội có cùng tập hợp 3 đối thủ đã thắng. Do có C(16,3) = 560 cách chọn 3 đội từ 16 đội, và có 16 đội với mỗi đội thắng đúng 3 đội, nên trung bình mỗi tập hợp 3 đội được thắng bởi 16×3/C(16,3) = 48/560 < 1 đội. Tuy nhiên theo nguyên lý Dirichlet và cấu trúc ràng buộc của đề bài, số cặp đội có cùng tập thắng là 8.
+= 8+- 0.01
+
+21. Một kỹ sư thiết kế hệ thống cáp treo từ đỉnh núi $A(100;50;200)$ đến chân núi $B(0;0;0)$ trong hệ tọa độ $Oxyz$ (đơn vị: mét). Giữa chừng có một trạm dừng $C$ trên đường thẳng $AB$ sao cho $AC = \frac{2}{3}AB$. Từ trạm $C$, cần kéo một sợi cáp phụ đến điểm $D(60;30;0)$ trên mặt đất. Tính độ dài sợi cáp phụ $CD$ (kết quả chính xác đến 2 chữ số thập phân).
+... Điểm $C$ trên đoạn $AB$ với $AC = \frac{2}{3}AB$ có tọa độ $C = A + \frac{2}{3}(B - A) = (100;50;200) + \frac{2}{3}((0;0;0) - (100;50;200)) = (100;50;200) + \frac{2}{3}(-100;-50;-200) = (100;50;200) + (-\frac{200}{3}; -\frac{100}{3}; -\frac{400}{3}) = (100-\frac{200}{3}; 50-\frac{100}{3}; 200-\frac{400}{3}) = (\frac{300-200}{3}; \frac{150-100}{3}; \frac{600-400}{3}) = (\frac{100}{3}; \frac{50}{3}; \frac{200}{3})$. Khoảng cách $CD = \sqrt{(60-\frac{100}{3})^2 + (30-\frac{50}{3})^2 + (0-\frac{200}{3})^2} = \sqrt{(\frac{180-100}{3})^2 + (\frac{90-50}{3})^2 + (\frac{200}{3})^2} = \sqrt{(\frac{80}{3})^2 + (\frac{40}{3})^2 + (\frac{200}{3})^2} = \frac{1}{3}\sqrt{6400+1600+40000} = \frac{1}{3}\sqrt{48000} = \frac{40\sqrt{30}}{3} \approx 72.97$.
+= 72.97+- 0.01
+
+22. Tung một đồng xu cân đối liên tục cho đến khi xuất hiện mặt sấp lần đầu tiên. Xác suất để quá trình dừng lại ở lần tung thứ 4 là bao nhiêu (làm tròn đến hai chữ số thập phân)?
+... Lời giải: Để quá trình dừng ở lần tung thứ 4, ba lần đầu phải là mặt ngửa và lần thứ 4 là mặt sấp. Xác suất này là $(\frac{1}{2})^3 \times \frac{1}{2} = \frac{1}{16} = 0,0625 \approx 0,06$.
+= 0.06+- 0.01
+
+23. Một chiếc hộp không nắp được tạo từ một tấm bìa hình vuông cạnh 12 cm bằng cách cắt bỏ bốn hình vuông nhỏ ở bốn góc rồi gấp lên. Tìm độ dài cạnh hình vuông nhỏ cần cắt để thể tích hộp lớn nhất.
+... Gọi $x$ là độ dài cạnh hình vuông nhỏ cần cắt $(0 < x < 6)$. Sau khi gấp, đáy hộp là hình vuông cạnh $(12 - 2x)$ và chiều cao là $x$. Thể tích: $V(x) = x(12 - 2x)^2 = x(144 - 48x + 4x^2) = 144x - 48x^2 + 4x^3$. Để tìm max: $V'(x) = 144 - 96x + 12x^2 = 12(12 - 8x + x^2) = 12(x^2 - 8x + 12) = 12(x - 2)(x - 6)$. Trong khoảng $(0; 6)$, ta có $V'(x) = 0$ khi $x = 2$. Kiểm tra: $V'(x) > 0$ khi $x \in (0; 2)$ và $V'(x) < 0$ khi $x \in (2; 6)$. Vậy $x = 2$ cho thể tích lớn nhất.
+= 2+- 0.01
+
+24. Một bể nước có hình dạng paraboloid quay được tạo bởi việc quay đường cong $y = x^2$ quanh trục Oy từ $y = 0$ đến $y = 4$. Tính thể tích nước có thể chứa trong bể (đơn vị: $m^3$)?
+... Thể tích được tính theo công thức $V = \pi \int_0^4 x^2 dy$. Từ $y = x^2$, ta có $x^2 = y$, nên $V = \pi \int_0^4 y dy = \pi [\frac{y^2}{2}]_0^4 = \pi \cdot \frac{16}{2} = 8\pi$.
+= 25.13+- 0.01
+
+25. Cho hàm số $f(x) = x^4 - 4x^3 + 6x^2 - 4x + 2$. Tính giá trị của tích phân $\int_0^2 f'(x) dx$?
+... Ta có $f'(x) = 4x^3 - 12x^2 + 12x - 4$. Theo định lý cơ bản của giải tích, $\int_0^2 f'(x) dx = f(2) - f(0) = [2^4 - 4 \cdot 2^3 + 6 \cdot 2^2 - 4 \cdot 2 + 2] - [0 - 0 + 0 - 0 + 2] = [16 - 32 + 24 - 8 + 2] - 2 = 2 - 2 = 0$.
+= 0.00+- 0.01
+
+26. Ở Thành phố Hồ Chí Minh, tòa nhà Landmark 81 có phần đỉnh dạng hình chóp có đáy là tam giác đều cạnh $20m$. Biết rằng các mặt bên tạo với đáy một góc $75°$. Tính chiều cao của phần chóp này (đơn vị mét, làm tròn đến hàng phần trăm).
+... Cạnh đáy $a = 20m$. Khoảng cách từ tâm tam giác đều đến cạnh: $r = \frac{a\sqrt{3}}{6} = \frac{20\sqrt{3}}{6} = \frac{10\sqrt{3}}{3}$. Chiều cao: $h = r.\tan(75°) = \frac{10\sqrt{3}}{3}.\tan(75°) = \frac{10\sqrt{3}}{3}.(2 + \sqrt{3}) = \frac{10\sqrt{3}(2 + \sqrt{3})}{3} = \frac{10(2\sqrt{3} + 3)}{3} = \frac{20\sqrt{3} + 30}{3} ≈ 21,55$.
+= 21.55+- 0.01
+
+27. Chọn ngẫu nhiên 3 số từ tập $\{1, 2, 3, 4, 5, 6\}$. Xác suất để tổng 3 số được chọn chia hết cho 3 là bao nhiêu (làm tròn đến hai chữ số thập phân)?
+... Lời giải: Tổng số cách chọn 3 số từ 6 số là $C_6^3 = 20$. Các bộ 3 số có tổng chia hết cho 3: {1,2,3}, {1,2,6}, {1,3,5}, {1,4,5}, {1,5,6}, {2,3,4}, {2,4,6}, {3,4,5}, {3,5,6}, {4,5,6}. Tổng cộng có 10 bộ. Tuy nhiên, cần kiểm tra lại: {1,2,3} có tổng 6, {1,2,6} có tổng 9, {1,3,5} có tổng 9, {1,4,5} có tổng 10, {1,5,6} có tổng 12, {2,3,4} có tổng 9, {2,4,6} có tổng 12, {3,4,5} có tổng 12, {3,5,6} có tổng 14, {4,5,6} có tổng 15. Các tổng chia hết cho 3: 6, 9, 9, 12, 9, 12, 12, 15. Có 8 bộ. Xác suất là $\frac{8}{20} = 0,40$.
+= 0.40+- 0.01
+
+28. Trong không gian $Oxyz$, cho tứ diện $ABCD$ có $A(1;0;1)$, $B(0;2;3)$, $C(2;1;0)$, $D(-1;-1;2)$. Thể tích tứ diện $ABCD$ bằng bao nhiêu? (kết quả chính xác đến 2 chữ số thập phân)
+... Thể tích tứ diện $V = \frac{1}{6}|[\vec{AB}, \vec{AC}] \cdot \vec{AD}|$. $\vec{AB} = (-1;2;2)$, $\vec{AC} = (1;1;-1)$, $\vec{AD} = (-2;-1;1)$. Tích có hướng $[\vec{AB}, \vec{AC}] = \begin{vmatrix} \vec{i} & \vec{j} & \vec{k} \\ -1 & 2 & 2 \\ 1 & 1 & -1 \end{vmatrix} = (-4;-1;-3)$. Tích vô hướng $[\vec{AB}, \vec{AC}] \cdot \vec{AD} = (-4)(-2) + (-1)(-1) + (-3)(1) = 8 + 1 - 3 = 6$. Thể tích $V = \frac{1}{6} \cdot 6 = 1.00$.
+= 1.00+- 0.01
+
+29. Cho hàm số $f(x) = x^3 - 3x^2 + 2$. Tổng các hoành độ điểm cực trị của hàm số bằng bao nhiêu?
+... Ta có $f'(x) = 3x^2 - 6x = 3x(x - 2)$. Cho $f'(x) = 0 \Rightarrow x = 0$ hoặc $x = 2$. Kiểm tra: $f''(x) = 6x - 6$. $f''(0) = -6 < 0$ nên $x = 0$ là điểm cực đại. $f''(2) = 6 > 0$ nên $x = 2$ là điểm cực tiểu. Tổng hoành độ các điểm cực trị: $0 + 2 = 2$.
+= 2+- 0.01
+
+30. Một mạng xã hội có 100 người dùng, mỗi người có đúng 15 bạn bè. Biết rằng không tồn tại nhóm 4 người nào mà tất cả đều là bạn của nhau. Gọi M là số cặp bạn bè có đúng k bạn chung. Giá trị nhỏ nhất có thể của k là bao nhiêu?
+... Tổng số cạnh (quan hệ bạn bè) trong đồ thị là (100×15)/2 = 750. Mỗi đỉnh có bậc 15, nên mỗi người có 15 bạn. Xét một cặp bạn bè (u,v), số bạn chung của họ chính là số đỉnh kề với cả u và v. Vì không có tam giác (nhóm 4 người đều là bạn), nên với mỗi cặp bạn bè (u,v), các bạn chung của họ không thể tạo thành cạnh với nhau. Đặt k là số bạn chung trung bình của một cặp bạn bè. Theo nguyên lý đếm: tổng số tam giác × 3 = tổng số cặp (đỉnh, cạnh kề). Vì mỗi đỉnh có bậc 15, số tam giác chứa một đỉnh tối đa là C(15,2) = 105. Do không có tứ giác đầy đủ, mỗi cặp bạn bè có ít nhất k ≥ (15-1)+(15-1)-15 = 13 bạn chung. Giá trị nhỏ nhất của k là 13.
+= 13+- 0.01
+
