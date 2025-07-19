@@ -1,0 +1,11 @@
+__pycache__/
+
+judge_system/output/listening/*
+judge_system/output/reading/*
+judge_system/output/vocabulary/*
+judge_system/output/collection/*
+
+!judge_system/output/listening/.gitkeep
+!judge_system/output/reading/.gitkeep
+!judge_system/output/vocabulary/.gitkeep
+!judge_system/output/collection/.gitkeep
