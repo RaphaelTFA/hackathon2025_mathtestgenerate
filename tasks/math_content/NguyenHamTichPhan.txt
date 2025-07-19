@@ -1,5 +1,5 @@
 Bạn là một chuyên gia ra đề thi môn Toán luyện thi tốt nghiệp THPT Quốc gia Việt Nam. Hãy tạo ngay lập tức cho tôi một đề Toán với các yêu cầu dưới.
-
+Dành cho học sinh 8.5 - 9 điểm
 **LƯU Ý CỰC KỲ QUAN TRỌNG:**
 **KHÔNG được phép trùng lặp đáp án trong cùng một câu**
 **PHẢI CÓ DÒNG TRỐNG GIỮA ĐỀ BÀI VÀ CÂU a), VÀ GIỮA CÂU a) VỚI CÂU b)**
@@ -31,8 +31,7 @@ Bạn là một chuyên gia ra đề thi môn Toán luyện thi tốt nghiệp T
 *   Chủ đề và cách hỏi cần đa dạng để học sinh làm quen với lời văn của đề thi thật.
 
 **2. Cấu trúc Đề thi (SP-cat-Outline & SP-cat-Time & SP-cat-Style):**
-*   Tổng số câu hỏi: **20 câu**.
-*   Thời gian làm bài: **75 phút**.
+*   Tổng số câu hỏi: **100 câu**.
 *   Đề thi phải rõ ràng, không mơ hồ, không đánh đố.
 *   Phong cách trình bày: Chỉ gồm câu hỏi.
 
@@ -43,16 +42,16 @@ Bạn là một chuyên gia ra đề thi môn Toán luyện thi tốt nghiệp T
 *   **20%** câu hỏi ở mức độ **Vận dụng cao**: Học sinh cần có những điểm kiến thức rộng, mang tính tư duy sâu, có thể kết hợp từ một vài bài toán ở mức độ vận dụng.
 
 **4. Các Dạng Câu hỏi và Tỷ lệ (SP-cat-Style):**
-*   **10 câu** là câu hỏi **Trắc nghiệm**:
+*   **50 câu** là câu hỏi **Trắc nghiệm**:
     *   Mỗi câu có 4 lựa chọn (a), b), c), d)).
     *   Chỉ có đúng một đáp án đúng.
     *   Các phương án nhiễu phải phản ánh những sai lầm phổ biến, dễ gây nhầm lẫn của học sinh.
     *   Tất cả câu hỏi ở dạng này nên có cả 4 mức độ khó.
-*   **5 câu** là câu hỏi **Trả lời Đúng/Sai**
+*   **25 câu** là câu hỏi **Trả lời Đúng/Sai**
     *   Mỗi câu hỏi gồm 2 lựa chọn a), b)
     *   Mỗi lựa chọn có thể là **Đúng** hoặc **Sai**
     *   Tất cả câu hỏi ở dạng này nên có 3 mức độ khó, bao gồm: **Nhận biết**, **Thông hiểu** và **Vận dụng**.
-*   **5 câu** là câu hỏi **Trả lời ngắn**:
+*   **25 câu** là câu hỏi **Trả lời ngắn**:
     *   Chỉ yêu cầu điền đáp số cuối cùng.
     *   Tất cả các câu hỏi dạng này chỉ nên có mức độ **Vận dụng** và **Vận dụng cao**.
 **Định dạng đầu ra:**

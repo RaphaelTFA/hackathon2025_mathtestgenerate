@@ -24,11 +24,11 @@ Câu hỏi không được trùng lặp đáp án
     *   **TIẾP TUYẾN CỦA ĐỒ THỊ HÀM SỐ.**
     Các câu hỏi sẽ có mức độ từ dễ đến khá khó, phù hợp với mục tiêu phân hóa trung bình cao.
 4.  **Độ khó & Cấu trúc:**
-    *   Đề phải có độ khó hơn trung bình tổng thể, nhưng có sự phân phối rõ ràng và hợp lý.
-    *   **Tổng số câu hỏi:** 20 câu.
-        *   **10 câu hỏi trắc nghiệm
-        *   **5 câu đúng/sai: Bao gồm cả các câu hỏi Đúng/Sai
-        *   **5 câu hỏi Trả lời ngắn:** Chỉ yêu cầu đáp án dạng số hoặc biểu thức ngắn gọn.
+    *   Đề phải có độ khó hơn trung bình tổng thể, nhưng có sự phân phối rõ ràng và hợp lý (8.5 - 9 điểm).
+    *   **Tổng số câu hỏi:** 100 câu.
+        *   **50 câu hỏi trắc nghiệm
+        *   **25 câu đúng/sai: Bao gồm cả các câu hỏi Đúng/Sai
+        *   **25 câu hỏi Trả lời ngắn:** Chỉ yêu cầu đáp án dạng số hoặc biểu thức ngắn gọn.
     *   Phân bổ độ khó này sẽ được áp dụng linh hoạt cho cả ba loại câu hỏi (MCQ 4 lựa chọn, Đúng/Sai, và Trả lời ngắn).
 5.  **Thời gian làm bài ước tính cho học sinh:** Cần cân nhắc tổng thời gian làm bài 90 phút cho một đề thi hoàn chỉnh. Các câu dễ phải có thể giải quyết nhanh chóng (dưới 30 giây), các câu trung bình khó khoảng 1-2 phút, và các câu khó có thể mất đến 3 phút hoặc hơn.
 6.  **Công cụ hỗ trợ:** Học sinh được phép sử dụng máy tính cầm tay.

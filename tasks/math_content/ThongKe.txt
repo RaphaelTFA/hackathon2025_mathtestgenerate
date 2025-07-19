@@ -12,7 +12,7 @@
 ***FORMAT ĐỀ***: Đề phải được soạn dưới dạng *Markdown, có thể chuyển trực tiếp sang bộ câu hỏi trên nền tảng Canvas LMS**. Chi tiết về định dạng sẽ được đề cập ở đây [https://github.com/gpoore/text2qti], bạn (AI) hãy truy cập vào link và tham khảo
 
 ***MỤC ĐÍCH***: Mục đích của bộ đề thi này là để đánh giá và phân hóa rõ ràng năng lực của các học sinh giỏi, những em cần thử thách tư duy cao độ để đạt điểm tối đa trong kỳ thi tốt nghiệp THPT tại Việt Nam. Đồng thời, giúp học sinh ôn tập và củng cố kiến thức, làm quen với các dạng bài thường gặp cũng như nhận biết cách xử lý với một số câu lạ, mang tính vận dụng cao.
-
+(8.5 - 9 điểm)
 ***PHẠM VI KIẾN THỨC***: Toàn bộ chương trình THPT lớp 10, 11 và 12 (ưu tiên lớp 11 và 12), được thiết kế dựa trên kiến thức chuẩn trong sách giáo khoa của Bộ Giáo dục và Đào tạo. Các câu hỏi cần bám sát cấu trúc và xu hướng ra đề của Bộ Giáo dục và Đào tạo trong năm 2025.
 
 ***NỘI DUNG***: 
@@ -54,13 +54,13 @@ Phương sai ($s^2$ hoặc $\sigma^2$): Tính toán và ý nghĩa (mức độ p
 Thời gian làm bài cho học sinh: 90 phút.
 Học sinh được phép sử dụng máy tính cầm tay thông thường, thước kẻ, bút (không yêu cầu phần mềm đồ họa).
 Thời gian ước tính để học sinh giải quyết mỗi câu: 30 giây cho câu dễ, lên đến 5 phút cho câu khó và vận dụng cao.
-CẤU TRÚC ĐỀ THI (Tổng 30 câu):
+CẤU TRÚC ĐỀ THI (Tổng 100 câu):
 
 ***Phân bổ theo dạng câu hỏi và chủ đề BẮT BUỘC PHẢI ĐỦ***:
 
- - ** 16 câu Trắc nghiệm khách quan: **
- - ** 6 câu Đúng Sai: **
- - ** 8 câu Trả lời ngắn: **
+ - ** 50 câu Trắc nghiệm khách quan: **
+ - ** 25 câu Đúng Sai: **
+ - ** 25 câu Trả lời ngắn: **
 
 Mỗi phần cần có cả câu hỏi lý thuyết và bài tập tính toán.
 Phân bổ mức độ khó (theo khung của Bộ GD&ĐT):

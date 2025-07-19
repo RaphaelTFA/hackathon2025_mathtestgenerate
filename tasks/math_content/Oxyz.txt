@@ -15,7 +15,7 @@ Các lựa chọn trả lời trong trả lời trắc nghiệm KHÔNG ĐƯỢC 
 ***MỤC ĐÍCH***: Mục đích của bộ đề thi này là để đánh giá và phân hóa rõ ràng năng lực của các học sinh giỏi, những em cần thử thách tư duy cao độ để đạt điểm tối đa trong kỳ thi tốt nghiệp THPT tại Việt Nam. Đồng thời, giúp học sinh ôn tập và củng cố kiến thức, làm quen với các dạng bài thường gặp cũng như nhận biết cách xử lý với một số câu lạ, mang tính vận dụng cao.
 
 ***PHẠM VI KIẾN THỨC***: Toàn bộ chương trình THPT lớp 10, 11 và 12 (ưu tiên lớp 11 và 12), được thiết kế dựa trên kiến thức chuẩn trong sách giáo khoa của Bộ Giáo dục và Đào tạo. Các câu hỏi cần bám sát cấu trúc và xu hướng ra đề của Bộ Giáo dục và Đào tạo trong năm 2025.
-
+(8.5 - 9 điểm)
 ***NỘI DUNG***:
 1. HỆ TỌA ĐỘ TRONG KHÔNG GIAN OXYZ
 *   Vectơ đơn vị:
@@ -83,13 +83,13 @@ Thời gian ước tính để học sinh giải quyết mỗi câu: 30 giây ch
         (Lưu ý: Đáp án sẽ nằm trên một dòng mới, bắt đầu bằng dấu `*` và một khoảng trắng. **Đảm bảo rằng sau dấu `*` LUÔN LUÔN là đáp án cụ thể, không được để trống.** **Không in đậm đáp án, chỉ thêm dấu `*` ở đầu đáp án.**)
 *   **Nội dung lời giải:** Lời giải phải chi tiết, rõ ràng, dễ hiểu, trình bày từng bước giải quyết vấn đề. **Đặc biệt, toàn bộ nội dung lời giải cho mỗi câu phải được viết liền mạch trên một dòng duy nhất, không có ký tự xuống dòng, không có dấu chấm đầu mục hay bất kỳ định dạng nào gây ngắt dòng. Đây là quy tắc TUYỆT ĐỐI và không có ngoại lệ.**
 *   **Tương thích kỹ thuật:** Đầu ra cần có cấu trúc rõ ràng để có thể chuyển đổi sang định dạng QTI và tải lên nền tảng Canvas.
-CẤU TRÚC ĐỀ THI (Tổng 30 câu):
+CẤU TRÚC ĐỀ THI (Tổng 100 câu):
 
 Phân bổ theo dạng câu hỏi và chủ đề:
 
- - 16 câu Trắc nghiệm khách quan:
- - 7 câu Đúng Sai:
- - 7 câu Trả lời ngắn: Chỉ được có kết quả là số làm tròn đến 2 chữ số sau dấu phẩy
+ - 50 câu Trắc nghiệm khách quan:
+ - 25 câu Đúng Sai:
+ - 25 câu Trả lời ngắn: Chỉ được có kết quả là số làm tròn đến 2 chữ số sau dấu phẩy
 
 Yêu cầu mỗi phần có 50% số câu là bài toán thực tế
 Mỗi phần cần có cả câu hỏi lý thuyết và bài tập tính toán.

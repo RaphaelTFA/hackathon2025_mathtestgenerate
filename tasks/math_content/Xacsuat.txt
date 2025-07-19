@@ -2,9 +2,9 @@
 
 ***YÊU CẦU***: Hãy tạo một bộ câu hỏi trong đề thi Toán THPT Quốc gia về chủ đề Xác suất cổ điển và Xác suất có điều kiện. Đề thi bao gồm:
 
-10 câu hỏi trắc nghiệm khách quan (mỗi câu có 4 lựa chọn A, B, C, D).
-5 câu hỏi Đúng Sai (mỗi câu có 2 ý nhỏ (a), (b) và yêu cầu thí sinh trả lời Đúng hoặc Sai cho từng ý).
-5 câu hỏi Trả lời ngắn: Số thập phân làm tròn đến hai chữ số sau dấu phảy.
+50 câu hỏi trắc nghiệm khách quan (mỗi câu có 4 lựa chọn A, B, C, D).
+25 câu hỏi Đúng Sai (mỗi câu có 2 ý nhỏ (a), (b) và yêu cầu thí sinh trả lời Đúng hoặc Sai cho từng ý).
+25 câu hỏi Trả lời ngắn: Số thập phân làm tròn đến hai chữ số sau dấu phảy.
     - "Tăng tính mới lạ: tránh trùng đề trong kho, thêm bài tự đặt, ít xuất hiện."
     - "Đẩy cao độ khó phân hóa: bổ sung câu xác suất, logarit, hình với lời giải dài."
     - "Gia tăng phương án nhiễu logic: làm distractor gần đúng, từng bước dễ gây nhầm."
@@ -12,7 +12,7 @@
 ***PHONG CÁCH***: Đề thi cần được trình bày hoàn toàn bằng tiếng Việt, với phong cách chuyên nghiệp, chính xác và chuyên sâu. Kèm theo đó là đáp án đúng và lời giải chi tiết từng bước. Các câu tự luận có cả ví dụ thực tế. Các câu hỏi nên đa dạng, tránh lặp lại dạng của câu cũ.
 
 ***FORMAT ĐỀ***: Đề phải được soạn dưới dạng *Markdown, có thể chuyển trực tiếp sang bộ câu hỏi trên nền tảng Canvas LMS**. Chi tiết về định dạng sẽ được đề cập ở đây [https://github.com/gpoore/text2qti], bạn (AI) hãy truy cập vào link và tham khảo
-
+(8.5 - 9 điểm)
 ***MỤC ĐÍCH***: Mục đích của bộ đề thi này là để đánh giá và phân hóa rõ ràng năng lực của các học sinh giỏi, những em cần thử thách tư duy cao độ để đạt điểm tối đa trong kỳ thi tốt nghiệp THPT tại Việt Nam. Đồng thời, giúp học sinh ôn tập và củng cố kiến thức, làm quen với các dạng bài thường gặp cũng như nhận biết cách xử lý với một số câu lạ, mang tính vận dụng cao.
 
 ***PHẠM VI KIẾN THỨC***: Toàn bộ chương trình THPT lớp 10, 11 và 12 (ưu tiên lớp 11 và 12), được thiết kế dựa trên kiến thức chuẩn trong sách giáo khoa của Bộ Giáo dục và Đào tạo. Các câu hỏi cần bám sát cấu trúc và xu hướng ra đề của Bộ Giáo dục và Đào tạo trong năm 2025.
@@ -55,19 +55,19 @@ Bao gồm ba phần chính là Xác suất cổ điển, Xác suất có điều
 Thời gian làm bài cho học sinh: 90 phút.
 Học sinh được phép sử dụng máy tính cầm tay thông thường, thước kẻ, bút (không yêu cầu phần mềm đồ họa).
 Thời gian ước tính để học sinh giải quyết mỗi câu: 30 giây cho câu dễ, lên đến 3 phút cho câu khó và vận dụng cao.
-CẤU TRÚC ĐỀ THI (Tổng 20 câu):
+CẤU TRÚC ĐỀ THI (Tổng 100 câu):
 
 Phân bổ theo dạng câu hỏi và chủ đề:
 
- - 10 câu Trắc nghiệm khách quan:
-    +  5 câu về Xác suất cổ điển.
-    +  5 câu về Xác suất có điều kiện.
- - 5 câu Đúng Sai:
-    + 2 câu về Xác suất cổ điển.
-    + 3 câu về Xác suất có điều kiện.
- - 5 câu Trả lời ngắn:
-    + 3 câu về Xác suất cổ điển.
-    + 2 câu về Xác suất có điều kiện.
+ - 50 câu Trắc nghiệm khách quan:
+    + 25 câu về Xác suất cổ điển.
+    + 25 câu về Xác suất có điều kiện.
+ - 25 câu Đúng Sai:
+    + 10 câu về Xác suất cổ điển.
+    + 15 câu về Xác suất có điều kiện.
+ - 25 câu Trả lời ngắn:
+    + 15 câu về Xác suất cổ điển.
+    + 10 câu về Xác suất có điều kiện.
 Mỗi phần cần có cả câu hỏi lý thuyết và bài tập tính toán.
 *** Lưu ý, phần Thống Kê chỉ có Trắc nghiệm nên chỉ có độ khó Nhận biết và Thông hiểu.
 

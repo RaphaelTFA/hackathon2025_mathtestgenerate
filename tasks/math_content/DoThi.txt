@@ -5,7 +5,7 @@
     - "Đẩy cao độ khó phân hóa: bổ sung câu xác suất, logarit, hình với lời giải dài."
     - "Gia tăng phương án nhiễu logic: làm distractor gần đúng, từng bước dễ gây nhầm."
 *   **Chủ đề:** Tập trung vào Lý thuyết đồ thị, đặc biệt là các khái niệm và tính chất liên quan đến đỉnh, cạnh, bậc, đường đi, chu trình hoặc cây, phù hợp với chương trình sách giáo khoa Toán lớp 11 và 12 của Việt Nam.
-*   **Độ khó (Aim):** Phải là một trong những câu hỏi phân loại cao nhất trong đề thi, nhằm kiểm tra khả năng tư duy bậc cao của học sinh giỏi.
+*   **Độ khó (Aim):** Phải là một trong những câu hỏi phân loại cao nhất trong đề thi, nhằm kiểm tra khả năng tư duy bậc cao của học sinh giỏi. (9 - 10 điểm)
 *   **Thời gian giải (Time):** Một học sinh giỏi có thể hoàn thành bài toán này trong khoảng 3 đến 5 phút. Điều này có nghĩa là bài toán không được quá phức tạp về mặt tính toán số học hay yêu cầu vẽ đồ thị lớn, mà phải tập trung vào sự "tinh tế" trong lập luận.
 *   **Định dạng (Style):**
 **Định dạng đầu ra:**
@@ -57,6 +57,6 @@ Câu trả lời không được phép giống nhau, nếu là số thập phân
 **Lưu ý quan trọng:** Tránh các bài toán có lời giải quá dài dòng hoặc yêu cầu học sinh phải trình bày nhiều bước phức tạp. Mục tiêu là một bài toán "đánh đố" về mặt tư duy trong một khoảng thời gian ngắn.
 
 **Định dạng đầu ra mong muốn:**
-Cung cấp một **danh sách Markdown** gồm 5 câu hỏi bài toán, mỗi câu hỏi được định dạng theo chuẩn đã nêu, kèm theo đáp án và giải thích.
+Cung cấp một **danh sách Markdown** gồm 50 câu hỏi bài toán, mỗi câu hỏi được định dạng theo chuẩn đã nêu, kèm theo đáp án và giải thích.
 
 

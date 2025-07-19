@@ -13,6 +13,7 @@
 - Rèn luyện kỹ năng phân tích không gian, tư duy logic, hình học vector.
 
 ### Nội dung kiến thức cần kiểm tra
+- Từ 8.5 - 9 điểm
 - Vector chỉ phương, vector pháp tuyến  
 - Tổng – hiệu vector, độ dài vector  
 - Tích vô hướng, tích có hướng  
@@ -21,26 +22,25 @@
 
 ## 2. Cấu trúc đề (gồm 12–14 câu từ phần vector trong không gian)
 ### 2.1. Trắc nghiệm 4 lựa chọn
-- **Số lượng**: 10 –12 câu  
+- **Số lượng**: 50 câu  
 - **Mức độ**:  
-  - 3 câu nhận biết  
-  - 2 câu thông hiểu  
-  - 2 câu vận dụng  
-  - 1–2 câu vận dụng cao  
+  - 30% câu nhận biết  
+  - 40% câu thông hiểu  
+  - 20% câu vận dụng  
+  - 10% câu vận dụng cao  
 - Có ít nhất 6 câu gắn với tình huống thực tế hoặc ứng dụng kỹ thuật
 - Tránh lặp ý tưởng hoặc dạng bài quá 2 lần
 
-### 2.2. Đúng/sai (1 câu)
-- Gồm 2 phát biểu (nhận biết → vận dụng cao), ít nhất 1 ý thực tế
+### 2.2. Đúng/sai (25 câu)
 
 ### 2.3. Câu trả lời ngắn 
 
-- **Số lượng**: 4 câu
+- **Số lượng**: 25 câu
 - **Mức độ**:
-  - 1 câu nhận biết
-  - 1 câu thông hiểu
-  - 1 câu vận dụng
-  - 1 câu vận dụng cao
+  - 25% câu nhận biết
+  - 25% câu thông hiểu
+  - 25% câu vận dụng
+  - 25% câu vận dụng cao
 - Có ít nhất 2 câu có yếu tố thực tế
 - Tránh lặp ý tưởng hoặc dạng bài
 - Mỗi câu chỉ có một câu trả lời đúng duy nhất

@@ -1,9 +1,9 @@
 **ROLE**: bạn là một giáo viên trung học phổ thông, nằm trong ban ra đề thi tốt nghiệp môn toán
 
 **YÊU CẦU**: hãy sinh cho tôi bộ câu hỏi toán cho kỳ thi Trung học phổ thông Quốc gia
-10 câu hỏi trắc nghiệm khách quan (mỗi câu có 4 lựa chọn A, B, C, D).
-5 câu hỏi Đúng Sai (mỗi câu có 2 ý nhỏ (a), (b) và yêu cầu thí sinh trả lời Đúng(Đ) hoặc Sai(S) cho từng ý).
-5 câu hỏi Trả lời ngắn: BẮT BUỘC đáp án là số thập phân, làm tròn đến 2 chữ số sau phần thập phân.
+50 câu hỏi trắc nghiệm khách quan (mỗi câu có 4 lựa chọn A, B, C, D).
+25 câu hỏi Đúng Sai (mỗi câu có 2 ý nhỏ (a), (b) và yêu cầu thí sinh trả lời Đúng(Đ) hoặc Sai(S) cho từng ý).
+25 câu hỏi Trả lời ngắn: BẮT BUỘC đáp án là số thập phân, làm tròn đến 2 chữ số sau phần thập phân.
     - "Tăng tính mới lạ: tránh trùng đề trong kho, thêm bài tự đặt, ít xuất hiện."
     - "Đẩy cao độ khó phân hóa: bổ sung câu xác suất, logarit, hình với lời giải dài."
     - "Gia tăng phương án nhiễu logic: làm distractor gần đúng, từng bước dễ gây nhầm."
@@ -16,7 +16,7 @@
 
 **ĐỐI TƯỢNG THÍ SINH**: học sinh khá giỏi thường là người cố gắng ôn để được điểm cao
 
-**ĐỘ KHÓ**: tăng dần từ nhận biết -> thông hiểu -> vận dụng.
+**ĐỘ KHÓ**: tăng dần từ nhận biết -> thông hiểu -> vận dụng. (8.5 - 9 điểm)
 
 **THỜI GIAN GIẢI DỰ TÍNH**: 30 giây - 2 phút mỗi câu dựa theo độ khó
 

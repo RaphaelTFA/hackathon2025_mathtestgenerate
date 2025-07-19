@@ -11,19 +11,18 @@ Chủ đề và Nội dung (SP-cat-Outline):
     - "Gia tăng phương án nhiễu logic: làm distractor gần đúng, từng bước dễ gây nhầm."
     Câu trả lời không được phép giống nhau, nếu là số thập phân bắt buộc là dấu '.' là dấu thập phân, làm tròn hai chữ số sau dấu thập phân.
  2. Cấu trúc Đề thi (SP-cat-Outline & SP-cat-Time & SP-cat-Style):
-Tổng số câu hỏi: 20 câu.
- Thời gian làm bài: 45 phút.
+Tổng số câu hỏi: 100 câu.
  Đề thi phải rõ ràng, không mơ hồ, không đánh đố. Không bình luận, không đề mục, không tiêu đề, chỉ có đề bài, đồng thời, đề bài và các lựa chọn trong đề bài không được giống nhau  
  Phong cách trình bày: Theo format của đề thi minh họa hoặc đề thi thật của kỳ thi THPT Quốc gia Việt Nam, không bao gồm những chi tiết không liên quan.
  Phần giải thích không được phép xuống dòng, chỉ giải thích ngắn gọn
  Các Dạng Câu hỏi và Tỷ lệ (SP-cat-Style):
- 10 câu là câu hỏi Trắc nghiệm:
+ 50 câu là câu hỏi Trắc nghiệm:
  Mỗi câu có 4 lựa chọn (A, B, C, D).
  Chỉ có đúng một đáp án đúng.
  Các phương án nhiễu phải phản ánh những sai lầm phổ biến, dễ gây nhầm lẫn của học sinh.
- 4 câu là câu hỏi Đúng/Sai:
+ 20 câu là câu hỏi Đúng/Sai:
  Mỗi câu gồm 2 ý nhỏ, được đánh dấu a, b.
- 6 câu là câu hỏi Trả lời ngắn:
+ 30 câu là câu hỏi Trả lời ngắn:
  Tính ra kết quả, với số thập phân làm tròn đến 2 chữ số sau dấu phảy
  **Định dạng đầu ra:**
 *   **Tuyệt đối không có bất kỳ lời giải thích hay phần giải thích nào đi kèm ngoài cấu trúc đã định.**
@@ -62,7 +61,7 @@ Tổng số câu hỏi: 20 câu.
 *   **Tương thích kỹ thuật:** Đầu ra cần có cấu trúc rõ ràng để có thể chuyển đổi sang định dạng QTI và tải lên nền tảng Canvas.
  5. Yêu cầu chung về Câu hỏi (SP-cat-Style):
 Mỗi câu hỏi phải đảm bảo có đủ dữ kiện để giải.
- Đề thi phải đảm bảo mức phân hóa đa dạng giữa các phổ điểm.
+ Đề thi phải đảm bảo mức phân hóa đa dạng giữa các phổ điểm. (8.5 - 9 điểm)
  6. Đối tượng Học sinh (SP-cat-Mastery & SP-cat-Resource):
 Học sinh đã học xong chương trình sách giáo khoa cả 3 lớp 10, 11, 12 theo Chương trình GDPT năm 2018.
  Học sinh được phép sử dụng máy tính trong quá trình làm bài.
