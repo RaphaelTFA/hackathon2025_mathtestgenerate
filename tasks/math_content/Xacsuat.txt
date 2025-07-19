@@ -1,0 +1,169 @@
+***ROLE***: Bạn là một chuyên gia hàng đầu trong việc thiết kế đề thi THPT Quốc gia môn Toán, đặc biệt có kinh nghiệm sâu sắc trong việc tạo ra các câu hỏi phân loại học sinh giỏi, đạt mức điểm 9-10.
+
+***YÊU CẦU***: Hãy tạo một bộ câu hỏi trong đề thi Toán THPT Quốc gia về chủ đề Xác suất cổ điển và Xác suất có điều kiện. Đề thi bao gồm:
+
+10 câu hỏi trắc nghiệm khách quan (mỗi câu có 4 lựa chọn A, B, C, D).
+5 câu hỏi Đúng Sai (mỗi câu có 2 ý nhỏ (a), (b) và yêu cầu thí sinh trả lời Đúng hoặc Sai cho từng ý).
+5 câu hỏi Trả lời ngắn: Số thập phân làm tròn đến hai chữ số sau dấu phảy.
+    - "Tăng tính mới lạ: tránh trùng đề trong kho, thêm bài tự đặt, ít xuất hiện."
+    - "Đẩy cao độ khó phân hóa: bổ sung câu xác suất, logarit, hình với lời giải dài."
+    - "Gia tăng phương án nhiễu logic: làm distractor gần đúng, từng bước dễ gây nhầm."
+    Câu trả lời không được phép giống nhau, nếu là số thập phân bắt buộc là dấu '.' là dấu thập phân, làm tròn hai chữ số sau dấu thập phân.
+***PHONG CÁCH***: Đề thi cần được trình bày hoàn toàn bằng tiếng Việt, với phong cách chuyên nghiệp, chính xác và chuyên sâu. Kèm theo đó là đáp án đúng và lời giải chi tiết từng bước. Các câu tự luận có cả ví dụ thực tế. Các câu hỏi nên đa dạng, tránh lặp lại dạng của câu cũ.
+
+***FORMAT ĐỀ***: Đề phải được soạn dưới dạng *Markdown, có thể chuyển trực tiếp sang bộ câu hỏi trên nền tảng Canvas LMS**. Chi tiết về định dạng sẽ được đề cập ở đây [https://github.com/gpoore/text2qti], bạn (AI) hãy truy cập vào link và tham khảo
+
+***MỤC ĐÍCH***: Mục đích của bộ đề thi này là để đánh giá và phân hóa rõ ràng năng lực của các học sinh giỏi, những em cần thử thách tư duy cao độ để đạt điểm tối đa trong kỳ thi tốt nghiệp THPT tại Việt Nam. Đồng thời, giúp học sinh ôn tập và củng cố kiến thức, làm quen với các dạng bài thường gặp cũng như nhận biết cách xử lý với một số câu lạ, mang tính vận dụng cao.
+
+***PHẠM VI KIẾN THỨC***: Toàn bộ chương trình THPT lớp 10, 11 và 12 (ưu tiên lớp 11 và 12), được thiết kế dựa trên kiến thức chuẩn trong sách giáo khoa của Bộ Giáo dục và Đào tạo. Các câu hỏi cần bám sát cấu trúc và xu hướng ra đề của Bộ Giáo dục và Đào tạo trong năm 2025.
+
+***NỘI DUNG***: 
+
+** Xác suất cổ điển:
+	Gồm các phần:
+     * Không gian mẫu và biến cố:
+     * Xác định không gian mẫu $\Omega$ và số phần tử của nó ($n(\Omega)$) trong các tình huống đa dạng (gieo xúc xắc, rút bi, chọn người, sắp xếp vật thể...).
+     * Xác định các biến cố A, B, C... và số phần tử của chúng ($n(A)$).
+     * Quy tắc đếm: Đây là nền tảng! Phải có các bài tập vận dụng thành thạo:
+     * Hoán vị, chỉnh hợp, tổ hợp.
+     * Quy tắc cộng, quy tắc nhân.
+     * Bài toán đếm phức tạp, kết hợp nhiều quy tắc.
+     * Tính xác suất cơ bản: $P(A) = \frac{n(A)}{n(\Omega)}$.
+     * Các phép toán biến cố:
+     * Biến cố đối ($\overline{A}$).
+     * Biến cố hợp ($A \cup B$) và giao ($A \cap B$).
+     * Công thức cộng xác suất (cho biến cố xung khắc và không xung khắc).
+     * Công thức nhân xác suất (cho biến cố độc lập).
+     * Bài toán tổng hợp: Kết hợp nhiều kiến thức trên để giải quyết các vấn đề phức tạp hơn.
+
+**Xác suất có điều kiện:
+	Gồm các phần:
+     * Định nghĩa xác suất có điều kiện: $P(A|B) = \frac{P(A \cap B)}{P(B)}$. Các bài tập phải giúp học sinh hiểu rõ "điều kiện" ảnh hưởng thế nào đến không gian mẫu.
+     * Biến cố độc lập và phụ thuộc:
+     * Phân biệt rõ ràng khi nào hai biến cố độc lập ($P(A|B) = P(A)$) và khi nào phụ thuộc.
+     * Vận dụng công thức nhân xác suất cho biến cố phụ thuộc: $P(A \cap B) = P(A) \cdot P(B|A)$.
+     * Công thức xác suất đầy đủ (Total Probability Theorem): Các bài toán có nhiều "nguyên nhân" dẫn đến một "kết quả". Ví dụ: sản phẩm từ nhiều nhà máy, bệnh từ nhiều nhóm người...
+     * Công thức Bayes: Đây là phần "khó nhằn" và phân loại cao nhất của xác suất có điều kiện. Yêu cầu tính xác suất của "nguyên nhân" khi đã biết "kết quả". Các bài toán thường liên quan đến chẩn đoán, kiểm tra, dự báo...
+     * Dãy các biến cố: Các bài toán có nhiều bước liên tiếp, mỗi bước ảnh hưởng đến xác suất của bước sau (ví dụ: rút bi không hoàn lại nhiều lần).
+Bao gồm ba phần chính là Xác suất cổ điển, Xác suất có điều kiện và Thống kê với mẫu số liệu ghép nhóm. Nội dung bài toán trong phần Xác suất nên sử dụng các tình huống, ngữ cảnh gần gũi với đời sống, văn hóa của học sinh Việt Nam (ví dụ: gieo xúc xắc, rút bi, bốc thăm trúng thưởng, các trò chơi dân gian đơn giản). Còn nội dung của bài toán Thống kê nên cho những số liệu thực tế, chính xác (ví dụ: nhiệt độ trung bình ngoài trời, chiều cao học sinh theo khảo sát trong lớp).
+
+***NGÔN NGỮ & KÝ HIỆU***: Sử dụng thuật ngữ và ký hiệu toán học chuẩn theo chương trình phổ thông và sách giáo khoa của Bộ Giáo dục và Đào tạo Việt Nam. Các ký tự toán học (ví dụ: công thức, biểu thức) phải được trình bày đúng định dạng chuẩn (ví dụ: sử dụng LaTeX) và đặt đúng vị trí trong dòng hoặc khối để đảm bảo tính rõ ràng và chính xác.
+
+
+***RÀNG BUỘC & ĐIỀU KIỆN***:
+
+Thời gian làm bài cho học sinh: 90 phút.
+Học sinh được phép sử dụng máy tính cầm tay thông thường, thước kẻ, bút (không yêu cầu phần mềm đồ họa).
+Thời gian ước tính để học sinh giải quyết mỗi câu: 30 giây cho câu dễ, lên đến 3 phút cho câu khó và vận dụng cao.
+CẤU TRÚC ĐỀ THI (Tổng 20 câu):
+
+Phân bổ theo dạng câu hỏi và chủ đề:
+
+ - 10 câu Trắc nghiệm khách quan:
+    +  5 câu về Xác suất cổ điển.
+    +  5 câu về Xác suất có điều kiện.
+ - 5 câu Đúng Sai:
+    + 2 câu về Xác suất cổ điển.
+    + 3 câu về Xác suất có điều kiện.
+ - 5 câu Trả lời ngắn:
+    + 3 câu về Xác suất cổ điển.
+    + 2 câu về Xác suất có điều kiện.
+Mỗi phần cần có cả câu hỏi lý thuyết và bài tập tính toán.
+*** Lưu ý, phần Thống Kê chỉ có Trắc nghiệm nên chỉ có độ khó Nhận biết và Thông hiểu.
+
+***YÊU CẦU VỀ ĐỊNH DẠNG ĐẦU RA:
+**Định dạng đầu ra:**
+*   **Tuyệt đối không có bất kỳ lời giải thích hay phần giải thích nào đi kèm ngoài cấu trúc đã định.**
+*   **Đầu ra phải là một luồng câu hỏi, đáp án và lời giải liên tục, không có bất kỳ tiêu đề phần nào (ví dụ: "Phần 1", "Phần 2") hay các dấu phân cách khác.** Các câu hỏi sẽ được đánh số liên tiếp từ 1 đến hết.
+*   **Mỗi câu hỏi sẽ được định dạng như sau:**
+    *   **Đối với câu hỏi trắc nghiệm khách quan (MCQ 4 lựa chọn):**
+         
+        ::Câu [Số thứ tự câu]:: [Nội dung câu hỏi được viết trên một dòng duy nhất, không xuống dòng. Nếu có hình ảnh, mô tả nội dung hình ảnh trong dấu ngoặc đơn ngay sau phần đề bài liên quan, ví dụ: "(như hình vẽ, đồ thị hàm bậc ba đi qua $(-1,0)$, $(1,-4)$, $(0,-2)$, $(2,0)$)" mà không chèn link ảnh hay xuống dòng.]?
+        ... [một khoảng trắng] [Nội dung lời giải chi tiết cho câu này, được viết liền mạch trên một dòng duy nhất, không xuống dòng và không có bất kỳ sai sót nào]
+        a) [Lựa chọn A]
+        b) [Lựa chọn B]
+        *c) [Lựa chọn C]
+        d) [Lựa chọn D]
+         
+        (Lưu ý: Dấu `*` sẽ đứng trước lựa chọn đúng. Chỉ có một lựa chọn đúng cho mỗi câu. **Không in đậm lựa chọn đúng, chỉ thêm dấu `*` ở đầu lựa chọn.**)
+    *   **Đối với câu hỏi Đúng/Sai (nhiều mệnh đề):**
+         
+        ::Câu [Số thứ tự câu]:: [Nội dung câu hỏi chính, kết thúc bằng "Các mệnh đề sau đúng hay sai:?" được viết trên một dòng duy nhất, không xuống dòng. Nếu có hình ảnh, mô tả nội dung hình ảnh trong dấu ngoặc đơn ngay sau phần đề bài liên quan, ví dụ: "(như hình vẽ, đồ thị hàm bậc ba đi qua $(-1,0)$, $(1,-4)$, $(0,-2)$, $(2,0)$)" mà không chèn link ảnh hay xuống dòng.]?
+        
+        	a) [Mệnh đề a được viết trên một dòng duy nhất, không xuống dòng.]
+        
+        	b) [Mệnh đề b được viết trên một dòng duy nhất, không xuống dòng.]
+        ... [Cần thiết! Nội dung lời giải chi tiết cho từng mệnh đề, được viết liền mạch trên một dòng duy nhất, không xuống dòng và không có bất kỳ sai sót nào]
+        * [Đáp án dạng chuỗi ngắn gọn, ví dụ: "ĐĐ", "ĐS", "SĐ", "SS" tùy thuộc vào sự đúng sai của các mệnh đề. Đảm bảo có khoảng trắng sau dấu `*`]
+         
+        (Lưu ý: Các mệnh đề `a)`, `b)` phải được thụt lề bằng **một tab** hoặc **4 dấu cách**. Giữa nội dung câu hỏi chính và mệnh đề `a)`, cũng như giữa các mệnh đề (`a)` và `b)`), sẽ có **một dòng trống**. **Không có dòng trống giữa mệnh đề cuối cùng và dòng `...`**. **Không in đậm đáp án, chỉ thêm dấu `*` ở đầu đáp án và một khoảng trắng.**)
+    *   **Đối với câu hỏi Trả lời ngắn: Chỉ được có kết quả là số làm tròn đến 2 chữ số sau dấu phẩy**
+         
+        ::Câu [Số thứ tự câu]:: [Nội dung câu hỏi được viết trên một dòng duy nhất, không xuống dòng. Nếu có hình ảnh, mô tả nội dung hình ảnh trong dấu ngoặc đơn ngay sau phần đề bài liên quan, ví dụ: "(như hình vẽ, đồ thị hàm bậc ba đi qua $(-1,0)$, $(1,-4)$, $(0,-2)$, $(2,0)$)" mà không chèn link ảnh hay xuống dòng.]?
+        ... [Cần thiết! Nội dung lời giải chi tiết cho câu này, được viết liền mạch trên một dòng duy nhất, không xuống dòng và không có bất kỳ sai sót nào]
+        * [Đáp án dạng số hoặc biểu thức ngắn gọn. Đối với các đáp án là số vô tỷ hoặc có nhiều cách biểu diễn tương đương (ví dụ: $\ln(A/B)$), hãy chuyển sang dạng số thập phân và làm tròn đến hai chữ số sau dấu phẩy.]
+         
+        (Lưu ý: Đáp án sẽ nằm trên một dòng mới, bắt đầu bằng dấu `*` và một khoảng trắng. **Đảm bảo rằng sau dấu `*` LUÔN LUÔN là đáp án cụ thể, không được để trống.** **Không in đậm đáp án, chỉ thêm dấu `*` ở đầu đáp án.**)
+*   **Nội dung lời giải:** Lời giải phải chi tiết, rõ ràng, dễ hiểu, trình bày từng bước giải quyết vấn đề. **Đặc biệt, toàn bộ nội dung lời giải cho mỗi câu phải được viết liền mạch trên một dòng duy nhất, không có ký tự xuống dòng, không có dấu chấm đầu mục hay bất kỳ định dạng nào gây ngắt dòng. Đây là quy tắc TUYỆT ĐỐI và không có ngoại lệ.**
+*   **Tương thích kỹ thuật:** Đầu ra cần có cấu trúc rõ ràng để có thể chuyển đổi sang định dạng QTI và tải lên nền tảng Canvas.
+***VÍ DỤ VỀ DẠNG CÂU HỎI MONG MUỐN (để AI hiểu rõ hơn "gu" ra đề của tôi):
+
+***Ví dụ Trắc nghiệm:
+
+::Câu 1::
+Một lớp học có 30 học sinh, trong đó có 12 học sinh nam và 18 học sinh nữ. Chọn ngẫu nhiên một học sinh. Xác suất để chọn được một học sinh nam là:
+*a) 2/5
+b) 3/5
+c) 1/2
+d) 12/18
+
+::Câu 2 ::
+Gieo một con xúc xắc cân đối và đồng chất hai lần. Xác suất để tổng số chấm xuất hiện trong hai lần gieo là 7 là:
+a) 1/6
+*b) 7/36
+c) 1/12
+d) 5/36
+
+::Câu 3 ::
+Trong một cuộc thi bắn súng, xạ thủ A bắn trúng bia với xác suất 0,8; xạ thủ B bắn trúng bia với xác suất 0,7. Hai xạ thủ bắn độc lập. Xác suất để có ít nhất một xạ thủ bắn trúng bia là:
+a) 0,56
+*b) 0,94
+c) 0,14
+d) 0,86
+
+*** Ví dụ Đúng/sai:
+::Câu 1:: Gieo một đồng xu cân đối 3 lần.
+
+    a) Số phần tử không gian mẫu là 8.
+
+    b) Xác suất để cả 3 mặt giống nhau là 50%
+... Lời giải: a) Do trường hợp của một đồng xu là 2, nên số phần tử của không gian mẫu là $2^3 = 8$. b) Trong 8 phần tử không gian mẫu, chỉ có 2 trường hợp là các mặt gieo như nhau, vậy tỉ lệ là 25%
+*  ĐS
+
+*** Ví dụ Trả lời ngắn:
+
+Nhận biết:
+::Câu 1:: Gieo một đồng xu cân đối 3 lần. Số phần tử của không gian mẫu là bao nhiêu?
+... Lời giải: Do trường hợp của một đồng xu là 2, nên số phần tử của không gian mẫu là $2^3 = 8$
+*  8
+Thông hiểu:
+::Câu 1:: Một nhóm có 5 học sinh nam và 7 học sinh nữ. Chọn ngẫu nhiên 3 học sinh. Xác suất để chọn được 3 học sinh nữ là bao nhiêu (viết dưới dạng phân số tối giản)?
+... Lời giải: abcxyz
+*  0.16
+Vận dụng:
+::Câu 1:: Một hộp có 10 sản phẩm, trong đó có 3 sản phẩm lỗi. Lấy ngẫu nhiên không hoàn lại từng sản phẩm cho đến khi lấy được sản phẩm không lỗi đầu tiên thì dừng lại. Xác suất để quá trình dừng lại ở lần lấy thứ 2 là bao nhiêu (làm tròn đến 3 chữ số thập phân)?
+... Lời giải: abcxyz
+*  0.23
+Vận dụng cao:
+::Câu 1:: Trong một trò chơi, người chơi rút ngẫu nhiên 2 lá bài từ một bộ bài tú lơ khơ 52 lá. Nếu rút được ít nhất một lá Át thì thắng. Nếu không thì rút tiếp 2 lá nữa từ những lá còn lại. Xác suất để người chơi thắng là bao nhiêu (làm tròn đến hàng phần trăm)?
+... Lời giải: abcxyz
+*  0.22
+
+***FORMAT ĐỀ***: Đề phải được soạn dưới dạng *Markdown, có thể chuyển trực tiếp sang bộ câu hỏi trên nền tảng Canvas LMS**. Chi tiết về định dạng sẽ được đề cập ở đây [https://github.com/gpoore/text2qti], bạn (AI) hãy truy cập vào link và tham khảo
+
+*** YÊU CẦU VỀ ĐỀ BÀI (Quan trọng) ***
++ Chỉ cần in ra format như ví dụ trên (được lấy format dưới dạng [https://github.com/gpoore/text2qti/blob/master/README.md], dạng Markdown*). Đơn giản là chỉ bao gồm * là đáp án đúng cho mỗi câu hỏi, và tuyệt đối không cần giải thích chi tiết các đáp án và lời giải chi tiết cho các câu trả lời ngắn, đừng viết thêm mức độ nhận biết và điểm cho mỗi câu hỏi, miễn là chỉ cần chỉ số câu “ :: Câu X :: “, đề bài và trả lời đúng ghi dấu “ * “, bắt buộc không bao gồm đáp án chi tiết, chỉ cần đáp án không, được đánh bởi dấu “ * “ thì có nghĩa là đáp án đúng.
++ Phải đầy đủ yêu cầu ở trên (Nội dung thuộc phần kiến thức đã được nêu ở phần Thống kê, ràng buộc bắt buộc phải đúng: 90 phút, Trắc nghiệm (20 câu), Trả lời đúng sai (10 câu, mỗi câu 4 ý), Trả lời ngắn (10 câu, không chia ý) (bắt buộc phải theo đúng ràng buộc, có thể tham khảo các ví dụ trên coi như là đề mẫu), phân bổ được theo mức độ khó đúng (30% Nhận biết, 40% Thông hiểu, 20% Vận dụng, 10% Vận dụng cao))
++ Các công thức toán học được viết dưới dạng Latex
++ Chỉ tạo các câu hỏi, KHÔNG THÊM BẤT KÌ KÍ TỰ HAY CÂU THỪA NÀO, NHƯ “TRẮC NGHIỆM” HAY “GIỚI THIỆU” HAY “PHẦN …”. CHỈ TẠO BỘ CÂU HỎI
++ Đề bài có thể được viết trên raw text, có thể được viết trên một file .txt.

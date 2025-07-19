@@ -1,0 +1,415 @@
+Prompt sinh đề
+ Bạn là một chuyên gia ra đề thi môn Toán luyện thi tốt nghiệp THPT Quốc gia Việt Nam. Hãy tạo ngay lập tức cho tôi một đề Toán với các yêu cầu dưới.
+FORMAT đề:
+Đề phải được soạn dưới dạng Markdown, có thể chuyển trực tiếp sang bộ câu hỏi trên nền tảng Canvas LMS*. Chi tiết về định dạng sẽ được đề cập ở đây [https://github.com/gpoore/text2qti], hãy truy cập vào link và tham khảo.
+Chủ đề và Nội dung (SP-cat-Outline):
+ Đề thi tập trung hoàn toàn vào các kiến thức thuộc chủ đề Lượng giác.
+ Đảm bảo có khoảng 40% số câu hỏi liên quan đến các bài toán thực tế.
+ Chủ đề và cách hỏi cần đa dạng để học sinh làm quen với lời văn của đề thi thật.
+     - "Tăng tính mới lạ: tránh trùng đề trong kho, thêm bài tự đặt, ít xuất hiện."
+    - "Đẩy cao độ khó phân hóa: bổ sung câu xác suất, logarit, hình với lời giải dài."
+    - "Gia tăng phương án nhiễu logic: làm distractor gần đúng, từng bước dễ gây nhầm."
+    Câu trả lời không được phép giống nhau, nếu là số thập phân bắt buộc là dấu '.' là dấu thập phân, làm tròn hai chữ số sau dấu thập phân.
+ 2. Cấu trúc Đề thi (SP-cat-Outline & SP-cat-Time & SP-cat-Style):
+Tổng số câu hỏi: 20 câu.
+ Thời gian làm bài: 45 phút.
+ Đề thi phải rõ ràng, không mơ hồ, không đánh đố. Không bình luận, không đề mục, không tiêu đề, chỉ có đề bài, đồng thời, đề bài và các lựa chọn trong đề bài không được giống nhau  
+ Phong cách trình bày: Theo format của đề thi minh họa hoặc đề thi thật của kỳ thi THPT Quốc gia Việt Nam, không bao gồm những chi tiết không liên quan.
+ Phần giải thích không được phép xuống dòng, chỉ giải thích ngắn gọn
+ Các Dạng Câu hỏi và Tỷ lệ (SP-cat-Style):
+ 10 câu là câu hỏi Trắc nghiệm:
+ Mỗi câu có 4 lựa chọn (A, B, C, D).
+ Chỉ có đúng một đáp án đúng.
+ Các phương án nhiễu phải phản ánh những sai lầm phổ biến, dễ gây nhầm lẫn của học sinh.
+ 4 câu là câu hỏi Đúng/Sai:
+ Mỗi câu gồm 2 ý nhỏ, được đánh dấu a, b.
+ 6 câu là câu hỏi Trả lời ngắn:
+ Tính ra kết quả, với số thập phân làm tròn đến 2 chữ số sau dấu phảy
+ **Định dạng đầu ra:**
+*   **Tuyệt đối không có bất kỳ lời giải thích hay phần giải thích nào đi kèm ngoài cấu trúc đã định.**
+*   **Yêu cầu sử dụng dấu $....$ cho các công thức toán học (như viết latex)**
+*   **Đầu ra phải là một luồng câu hỏi, đáp án và lời giải liên tục, không có bất kỳ tiêu đề phần nào (ví dụ: "Phần 1", "Phần 2") hay các dấu phân cách khác.** Các câu hỏi sẽ được đánh số liên tiếp từ 1 đến hết.
+*   **Mỗi câu hỏi sẽ được định dạng như sau:**
+    *   **Đối với câu hỏi trắc nghiệm khách quan (MCQ 4 lựa chọn):**
+        
+        ::Câu [Số thứ tự câu]:: [Nội dung câu hỏi được viết trên một dòng duy nhất, không xuống dòng. Nếu có hình ảnh, mô tả nội dung hình ảnh trong dấu ngoặc đơn ngay sau phần đề bài liên quan, ví dụ: "(như hình vẽ, đồ thị hàm bậc ba đi qua $(-1,0)$, $(1,-4)$, $(0,-2)$, $(2,0)$)" mà không chèn link ảnh hay xuống dòng.]?
+        ... [một khoảng trắng] [Nội dung lời giải chi tiết cho câu này, được viết liền mạch trên một dòng duy nhất, không xuống dòng và không có bất kỳ sai sót nào]
+        a) [Lựa chọn A]
+        b) [Lựa chọn B]
+        *c) [Lựa chọn C]
+        d) [Lựa chọn D]
+        
+        (Lưu ý: Dấu `*` sẽ đứng trước lựa chọn đúng. Chỉ có một lựa chọn đúng cho mỗi câu. **Không in đậm lựa chọn đúng, chỉ thêm dấu `*` ở đầu lựa chọn.**)
+    *   **Đối với câu hỏi Đúng/Sai (nhiều mệnh đề):**
+        
+        ::Câu [Số thứ tự câu]:: [Nội dung câu hỏi chính, kết thúc bằng "Các mệnh đề sau đúng hay sai:?" được viết trên một dòng duy nhất, không xuống dòng. Nếu có hình ảnh, mô tả nội dung hình ảnh trong dấu ngoặc đơn ngay sau phần đề bài liên quan, ví dụ: "(như hình vẽ, đồ thị hàm bậc ba đi qua $(-1,0)$, $(1,-4)$, $(0,-2)$, $(2,0)$)" mà không chèn link ảnh hay xuống dòng.]?
+			[Cách dòng]
+        	a) [Mệnh đề a được viết trên một dòng duy nhất, không xuống dòng.]
+			[Cách dòng]
+        	b) [Mệnh đề b được viết trên một dòng duy nhất, không xuống dòng.]
+        ... [một khoảng trắng] [Nội dung lời giải chi tiết cho từng mệnh đề, được viết liền mạch trên một dòng duy nhất, không xuống dòng và không có bất kỳ sai sót nào]
+        * [Đáp án dạng chuỗi ngắn gọn, ví dụ: "ĐĐ", "ĐS", "SĐ", "SS" tùy thuộc vào sự đúng sai của các mệnh đề. Đảm bảo có khoảng trắng sau dấu `*`]
+        
+        (Lưu ý: Các mệnh đề `a)`, `b)` phải được thụt lề bằng **một tab** hoặc **4 dấu cách**. Giữa nội dung câu hỏi chính và mệnh đề `a)`, cũng như giữa các mệnh đề (`a)` và `b)`), sẽ có **một dòng trống**. **Không có dòng trống giữa mệnh đề cuối cùng và dòng `...`**. **Không in đậm đáp án, chỉ thêm dấu `*` ở đầu đáp án và một khoảng trắng.**)
+    *   **Đối với câu hỏi Trả lời ngắn: Chỉ được có kết quả là số làm tròn đến 2 chữ số sau dấu phẩy**
+        
+        ::Câu [Số thứ tự câu]:: [Nội dung câu hỏi được viết trên một dòng duy nhất, không xuống dòng. Nếu có hình ảnh, mô tả nội dung hình ảnh trong dấu ngoặc đơn ngay sau phần đề bài liên quan, ví dụ: "(như hình vẽ, đồ thị hàm bậc ba đi qua $(-1,0)$, $(1,-4)$, $(0,-2)$, $(2,0)$)" mà không chèn link ảnh hay xuống dòng.]?
+        ... [một khoảng trắng] [Nội dung lời giải chi tiết cho câu này, được viết liền mạch trên một dòng duy nhất, không xuống dòng và không có bất kỳ sai sót nào]
+        * [Đáp án dạng số hoặc biểu thức ngắn gọn. Đối với các đáp án là số vô tỷ hoặc có nhiều cách biểu diễn tương đương (ví dụ: $\ln(A/B)$), hãy chuyển sang dạng số thập phân và làm tròn đến hai chữ số sau dấu phẩy.]
+        
+        (Lưu ý: Đáp án sẽ nằm trên một dòng mới, bắt đầu bằng dấu `*` và một khoảng trắng. **Đảm bảo rằng sau dấu `*` LUÔN LUÔN là đáp án cụ thể, không được để trống.** **Không in đậm đáp án, chỉ thêm dấu `*` ở đầu đáp án.**)
+*   **Nội dung lời giải:** Lời giải phải chi tiết, rõ ràng, dễ hiểu, trình bày từng bước giải quyết vấn đề. **Đặc biệt, toàn bộ nội dung lời giải cho mỗi câu phải được viết liền mạch trên một dòng duy nhất, không có ký tự xuống dòng, không có dấu chấm đầu mục hay bất kỳ định dạng nào gây ngắt dòng. Đây là quy tắc TUYỆT ĐỐI và không có ngoại lệ.**
+*   **Tương thích kỹ thuật:** Đầu ra cần có cấu trúc rõ ràng để có thể chuyển đổi sang định dạng QTI và tải lên nền tảng Canvas.
+ 5. Yêu cầu chung về Câu hỏi (SP-cat-Style):
+Mỗi câu hỏi phải đảm bảo có đủ dữ kiện để giải.
+ Đề thi phải đảm bảo mức phân hóa đa dạng giữa các phổ điểm.
+ 6. Đối tượng Học sinh (SP-cat-Mastery & SP-cat-Resource):
+Học sinh đã học xong chương trình sách giáo khoa cả 3 lớp 10, 11, 12 theo Chương trình GDPT năm 2018.
+ Học sinh được phép sử dụng máy tính trong quá trình làm bài.
+ 7. Mục tiêu của Đề thi (SP-cat-Aim):
+Luyện tập cho học sinh về chủ đề Lượng giác trước kỳ thi thật.
+Tham khảo file dưới này:
+
+
+
+
+::Câu 1:: Phương trình $2\sin x - \sqrt3 = 0$ có tập nghiệm là: 
+... Giải thích: $\sin x=\tfrac{\sqrt3}2$ ⇒ $x=\pi/3,2\pi/3$.
+a) $\{\pm\pi/6 + k2\pi\}$  
+b) $\{\pm\pi/3 + k2\pi\}$  
+c) $\{\pi/6 + k2\pi,\;5\pi/6 + k2\pi\}$  
+*d) $\{\pi/3 + k2\pi,\;2\pi/3 + k2\pi\}$  
+
+::Câu 2:: Biết phương trình $\sin x=m$ có họ nghiệm $x=\pi/5+k2\pi$. Họ nghiệm còn lại là:  
+... Giải thích: Nghiệm phụ: $x=\pi - \pi/5=4\pi/5$.
+a) $x=4\pi/5+k\pi$  
+b) $x=\pi/5+k\pi$  
+*c) $x=4\pi/5+k2\pi$  
+d) $x=-\pi/5+k2\pi$  
+
+::Câu 3:: Phương trình $\tan x=-1$ có tất cả nghiệm là:  
+... Giải thích: $\tan x=-1$ ⇒ $x=-\pi/4+k\pi$.
+a) $\pi/4+k2\pi$  
+b) $-\pi/4+k2\pi$  
+c) $\pi/4+k\pi$  
+*d) $-\pi/4+k\pi$  
+
+::Câu 4:: Họ nghiệm của phương trình $\cos x=0$ là:  
+... Giải thích: $\cos x=0$ ⇒ $x=\pi/2+k\pi$.
+a) $\pi/2+k\pi$  
+b) $k2\pi$  
+*c) $\pi/2+k2\pi$  
+d) $k\pi$  
+
+::Câu 5:: Tập xác định của hàm $y=\tan x$ là:  
+... Giải thích: $\tan x$ không xác định khi $\cos x=0$.
+a) $\mathbb R\setminus\{k\pi\}$  
+b) $\mathbb R\setminus\{\tfrac\pi2+k2\pi\}$  
+c) $\mathbb R\setminus\{\tfrac\pi2+k\pi\}$  
+*d) $\mathbb R\setminus\{\tfrac\pi2+k\pi\}$  
+
+::Câu 6:: Tập xác định của hàm $y=\tfrac1{\sin x-\cos x}$ là:  
+... Giải thích: $\sin x-\cos x\neq0\iff\tan x\neq1$.
+a) $\mathbb R\setminus\{\tfrac\pi4+k\tfrac\pi2\}$  
+b) $\mathbb R\setminus\{k\tfrac\pi4\}$  
+*c) $\mathbb R\setminus\{\tfrac\pi4+k\pi\}$  
+d) $\mathbb R\setminus\{\tfrac\pi4+k2\pi\}$  
+
+::Câu 7:: Nghiệm của phương trình $\sin x=\tfrac12$ là: 
+... Giải thích: $\sin x=1/2$ ⇒ $x=\pi/6,\,5\pi/6$ mod $2\pi$.
+a) $\pi/3+k2\pi;\,-\pi/2+k2\pi$  
+b) $\pi/6+k\pi;\,5\pi/6+k\pi$  
+*c) $\pi/6+k2\pi;\,5\pi/6+k2\pi$  
+d) $\pi/6+k2\pi;\,-\pi/6+k2\pi$  
+
+::Câu 8:: Nghiệm của phương trình $\cos x=-\tfrac12$ là:  
+... Giải thích: $\cos x=-1/2$ ⇒ $x=2\pi/3,\,4\pi/3$.
+a) $\pm\pi/3+k2\pi$  
+b) $\pm\pi/6+k2\pi$  
+*c) $\pm2\pi/3+k2\pi$  
+d) $\pm\pi/6+k\pi$  
+
+::Câu 9:: Số nghiệm của $\sin(3x+\pi/3)=-\sqrt3/2$ trong $(0,\tfrac\pi2)$ là:  
+... Giải thích: Giải $3x+\pi/3=-\pi/3,\,4\pi/3$, chọn hai $x$ trong $(0,\tfrac\pi2)$.
+a) 3  
+b) 4  
+c) 1  
+*d) 2  
+
+::Câu 10:: Tổng các nghiệm $x\in[0,\pi]$ của $2\sin x-\sqrt3=0$ là:  
+... Giải thích: Nghiệm trong $[0,\pi]$ là $\pi/3,\,2\pi/3$, tổng = $\pi$.
+a) $\pi/3$  
+b) $\pi$  
+c) $5\pi/3$  
+*d) $\pi$  
+
+
+::Câu 21:: Tập xác định của hàm số $y=\frac1{\cos x}$ là:  
+... Giải thích: Xác định khi $\cos x\neq0$ ⇒ $x\neq\pi/2+k\pi$.
+a) $\mathbb R\setminus\{\tfrac\pi2+k2\pi\}$  
+*b) $\mathbb R\setminus\{\tfrac\pi2+k\pi\}$  
+c) $\mathbb R\setminus\{k\pi\}$  
+d) $\mathbb R\setminus\{\tfrac\pi2\}$  
+
+::Câu 22:: Rút gọn $P=\sin3x\cos x-\sin x\cos3x$:  
+... Giải thích: Sử dụng công thức hiệu sin: $\sin A\cos B-\cos A\sin B=\sin(A-B)$.
+a) $\sin4x$  
+b) $\sin x$  
+*c) $\sin2x$  
+d) $\sin5x$  
+
+::Câu 23:: Chọn khẳng định sai:  
+... Giải thích: $\tan x$ không xác định tại $x=\pi/2+k\pi$, nhưng cot khác.
+a) Tập xác định của $y=\sin x$ là $\mathbb R$.  
+b) Tập xác định của $y=\cot x$ là $\mathbb R\setminus\{\tfrac\pi2+k\pi\}$.  
+*c) Tập xác định của $y=\tan x$ là $\mathbb R\setminus\{\tfrac\pi2+k\pi\}$.  
+d) Tập xác định của $y=\cos x$ là $\mathbb R$.  
+
+::Câu 24:: Nghiệm của phương trình $\sin x=0$ là:  
+... Giải thích: $\sin x=0$ ⇔ $x=k\pi$.
+a) $x=\pi/2+k2\pi$  
+b) $x=\pi/2+k\pi$  
+c) $x=-\pi/2+k2\pi$  
+*d) $x=k\pi$  
+
+::Câu 25:: Các nghiệm của $2\sin x-1=0$ là:  
+... Giải thích: $\sin x=1/2$ ⇔ $x=\pi/6$ hoặc $5\pi/6$ (mod $2\pi$).
+a) $x=\pi/3+k2\pi$ và $x=-2\pi/3+k2\pi$  
+b) $x=\pi/6+k2\pi$ và $x=-\pi/6+k2\pi$  
+c) $x=1/2+k2\pi$ và $x=-1/2+k2\pi$  
+*d) $x=\pi/6+k2\pi$ và $x=5\pi/6+k2\pi$  
+
+::Câu 26::  Trong các phương trình sau, phương trình nào vô nghiệm?  
+ ... Giải thích: $\sin x\in[-1,1]$, mà $\sqrt{3}>1$ nên vô nghiệm.
+a) $3\sin x=2$  
+b) $\tan x=2025$  
+*c) $\sin x=\sqrt{3}$  
+d) $\tan x=\sqrt{3}$  
+
+::Câu 27:: Tất cả các nghiệm của phương trình $2\cos x-1=0$ là:  
+... Giải thích: $\cos x=1/2 \Leftrightarrow x=\pm\pi/3+k2\pi$.
+*a) $x=\pm\pi/3+k2\pi,\ k\in\mathbb{Z}$  
+b) $x=\pm\pi/3+k\pi,\ k\in\mathbb{Z}$  
+c) $x=\pi/3+k2\pi,\ k\in\mathbb{Z}$  
+d) $x=-\pi/3+k2\pi,\ k\in\mathbb{Z}$  
+
+::Câu 28:: Trong các khẳng định sau, khẳng định nào đúng với mọi giá trị $\alpha$?  
+Giải thích: Công thức lượng giác đúng với mọi $\alpha$: $\cos 2\alpha = 2\cos^2 \alpha - 1$.
+a) $\sin 2\alpha = 2\sin \alpha$  
+b) $\sin 2\alpha = \sin \alpha \cos \alpha$  
+*c) $\cos 2\alpha = 2\cos^2 \alpha - 1$  
+d) $\cos 2\alpha = \sin^2 \alpha - \cos^2 \alpha$  
+
+::Câu 29:: Đạo hàm của hàm số $y=\cos 5x$ tại $x=\pi/6$ bằng:  
+... Giải thích: $y'=-5\sin 5x\Rightarrow y'(\pi/6)=-5\sin(5\pi/6)=-\frac{5\sqrt{3}}{2}$.
+a) $\frac{5\sqrt{3}}{2}$  
+b) $-\frac{5}{2}$  
+*c) $-\frac{5\sqrt{3}}{2}$  
+d) $\frac{5}{2}$  
+
+::Câu 30:: Số nghiệm của phương trình $\cos x = 0$ thuộc khoảng $(0;2\pi)$ là:  
+... Giải thích: $\cos x=0\Rightarrow x=\frac{\pi}{2}, \frac{3\pi}{2}\in(0;2\pi)$.
+a) 1  
+b) 3  
+c) 4  
+*d) 2  
+
+::Câu 41:: Khẳng định nào dưới đây đúng?  
+... Giải thích: Đây là công thức cộng của hàm sin.
+a) $\sin(\alpha + \beta) = \sin \alpha \cos \beta - \cos \alpha \sin \beta$  
+b) $\sin(\alpha + \beta) = \sin \alpha \sin \beta + \cos \alpha \cos \beta$  
+*c) $\sin(\alpha + \beta) = \sin \alpha \cos \beta + \cos \alpha \sin \beta$  
+d) $\sin(\alpha + \beta) = \sin \alpha \sin \beta - \cos \alpha \cos \beta$  
+
+::Câu 42:: Nghiệm của phương trình $\cos x = \frac{1}{2}$ là:  
+... Giải thích: $\cos x = \frac{1}{2} \Leftrightarrow x = \pm \frac{\pi}{3} + k2\pi$.
+*a) $x = \frac{\pi}{3} + k2\pi,\ x = -\frac{\pi}{3} + k2\pi, (k \in \mathbb{Z})$  
+b) $x = \frac{\pi}{3} + k\pi,\ x = -\frac{\pi}{3} + k\pi$  
+c) $x = \frac{2\pi}{3} + k2\pi,\ x = \frac{\pi}{3} + k2\pi$  
+d) $x = -\frac{2\pi}{3} + k2\pi,\ x = \frac{2\pi}{3} + k2\pi$  
+
+::Câu 43:: Phương trình $\sin x = -\frac{1}{2}$ có tập nghiệm là:  
+... Giải thích: $\sin x = -\frac{1}{2} \Leftrightarrow x = -\frac{\pi}{6} + k2\pi$ hoặc $x = \frac{7\pi}{6} + k2\pi$.
+*a) $\{-\frac{\pi}{6} + k2\pi;\ \frac{7\pi}{6} + k2\pi,\ k \in \mathbb{Z} \}$  
+b) $\{\frac{\pi}{6} + k2\pi;\ \frac{5\pi}{6} + k2\pi\}$  
+c) $\{-\frac{\pi}{6} + k2\pi;\ \frac{\pi}{6} + k2\pi\}$  
+d) $\{\frac{1}{6} + k2\pi\}$  
+
+::Câu 44:: Tổng các nghiệm thuộc đoạn $[0; 2\pi]$ của phương trình $\sin 2x - \cos x = 0$ bằng:  
+...Giải thích: PT ⇔ $2\sin x\cos x - \cos x = 0 \Leftrightarrow \cos x(2\sin x - 1) = 0$.  
+→ $\cos x = 0 \Rightarrow x = \frac{\pi}{2}, \frac{3\pi}{2}$;  
+$\sin x = \frac{1}{2} \Rightarrow x = \frac{\pi}{6}, \frac{5\pi}{6}$.  
+Tổng: $\frac{\pi}{2} + \frac{3\pi}{2} + \frac{\pi}{6} + \frac{5\pi}{6} = 3\pi$.
+a) $\frac{5\pi}{2}$  
+b) $2\pi$  
+*c) $3\pi$  
+d) $5\pi$  
+
+::Câu 45:: Trên đồng hồ, tại thời điểm kim giờ chỉ số 3 và kim phút chỉ số 12, số đo góc lượng giác mà kim giờ quét được đến khi hai kim gặp nhau lần đầu tiên là:
+... Giải thích: Kim phút quay nhanh hơn kim giờ một góc $-\frac{\pi}{2}$ mỗi giờ. Thiết lập phương trình: $-2\pi t + \frac{\pi t}{6} = -\frac{\pi}{2} \Rightarrow t = \frac{6}{22}$. Góc lượng giác của kim giờ: $-\frac{\pi}{6} \cdot \frac{6}{22} = -\frac{\pi}{22}$.  
+a) $\frac{\pi}{22}$  
+b) $-\frac{2\pi}{45}$  
+c) $-\frac{\pi}{21}$  
+*d) $-\frac{\pi}{22}$  
+
+::Câu 46:: Số nghiệm của phương trình $\cos^2 x = \frac{1}{4}$ trên đoạn $[0; 2\pi]$ là:  
+... Giải thích: $\cos x = \pm\frac{1}{2} \Rightarrow x = \pm\frac{\pi}{3}, \pm\frac{2\pi}{3}$ (4 nghiệm trên $[0; 2\pi]$).
+*a) 4  
+b) 2  
+c) 1  
+d) 3  
+
+::Câu 47:: Giá trị nhỏ nhất của hàm số $y = 2\cos x - \sqrt{3}$ là:  
+... Giải thích: GTNN của $\cos x = -1$ → $y = 2(-1) - \sqrt{3} = -2 - \sqrt{3}$.
+a) $-\sqrt{3} - 1$  
+*b) $-2 - \sqrt{3}$  
+c) $-\sqrt{3} + 1$  
+d) $2 - \sqrt{3}$  
+
+::Câu 48:: Tập xác định của hàm số $y = \tan x$ là:  
+... Giải thích: $\tan x$ không xác định khi $\cos x = 0 \Rightarrow x = \frac{\pi}{2} + k\pi$.
+a) $\mathbb{R} \setminus \{k\pi \mid k \in \mathbb{Z}\}$  
+b) $\mathbb{R} \setminus \left\{ \frac{\pi}{2} + k2\pi \mid k \in \mathbb{Z} \right\}$  
+*c) $\mathbb{R} \setminus \left\{ \frac{\pi}{2} + k\pi \mid k \in \mathbb{Z} \right\}$  
+d) $\mathbb{R} \setminus \left\{ \frac{k\pi}{2} \mid k \in \mathbb{Z} \right\}$  
+
+::Câu 49:: Tập giá trị của hàm số $y = \sin x + \cos x$ là:  
+... Giải thích: $y = \sqrt{2}\sin(x + \frac{\pi}{4})$ → Biến thiên trong $[- \sqrt{2}; \sqrt{2}]$.
+a) $[-1; 1]$  
+*b) \left[-\sqrt{2}; \sqrt{2}\right]  
+c) $[-2; 2]$  
+d) \left[-\frac{\sqrt{2}}{2}; \frac{\sqrt{2}}{2}\right]  
+
+::Câu 50:: Phương trình $\tan x = \sqrt{3}$ có nghiệm là:  
+... Giải thích: $\tan x = \sqrt{3} \Rightarrow x = \frac{\pi}{3} + k\pi$.
+a) $x = \frac{\pi}{3} + k\pi,\ k \in \mathbb{Z}$  
+b) $x = \frac{2\pi}{3} + k\pi,\ k \in \mathbb{Z}$  
+*c) $x = \frac{\pi}{3} + k\pi,\ k \in \mathbb{Z}$  
+d) $x = \frac{\pi}{6} + k\pi,\ k \in \mathbb{Z}$  
+
+::Câu 51:: Cho phương trình $\sin x + \sin 2x = 0$. Số nghiệm trong khoảng $[0; 2\pi)$ là:  
+... Giải thích: $\sin x(1 + 2\cos x)=0 \Rightarrow x=0,\pi$ hoặc $\cos x=-\tfrac12\Rightarrow x=\tfrac{2\pi}{3},\tfrac{4\pi}{3}$ (4 nghiệm).
+a) 2  
+b) 3  
+*c) 4  
+d) 5  
+
+::Câu 52:: Giải bất phương trình $\cos x \ge \tfrac12$. Kết quả là:  
+... Giải thích: $\cos x \ge \tfrac12\Rightarrow |x| \le \tfrac{\pi}{3}$ trong mỗi chu kỳ $2\pi$.
+a) $x\in[-\tfrac{\pi}{6}+2k\pi,\tfrac{\pi}{6}+2k\pi]$  
+*b) $x\in[-\tfrac{\pi}{3}+2k\pi,\tfrac{\pi}{3}+2k\pi]$  
+c) $x\in[\tfrac{\pi}{6}+2k\pi,\tfrac{5\pi}{6}+2k\pi]$  
+d) $x\in[\tfrac{\pi}{6}+2k\pi,2\pi-\tfrac{\pi}{6}+2k\pi]$  
+
+::Câu 53:: Cho $y = \sin x + \sqrt{3}\cos x$. Giá trị lớn nhất của $y$ là:  
+... Giải thích: $y = 2\sin(x+\tfrac{\pi}{3}) \Rightarrow \max=2$.
+a) $2$  
+b) $\sqrt{2}$  
+*c) $2$  
+d) $\sqrt{3}$  
+
+::Câu 54:: Phương trình $\sin 2x = \cos x$ nghiệm là:  
+... Giải thích: $\sin2x- \cos x=0\Rightarrow2\sin x \cos x-\cos x=0\Rightarrow\cos x(2\sin x-1)=0$.
+a) $x = 0 + k\pi$ và $x = \tfrac{\pi}{6} + k\pi$  
+*b) đúng đáp án trên  
+c) $x = \tfrac{\pi}{2} + k\pi$  
+d) không có nghiệm chung  
+
+::Câu 55:: Tổng các nghiệm thuộc $[0; \pi]$ của phương trình $\cos x + \sin x = 1$ là:  
+... Giải thích: $\cos x+\sin x=1\Rightarrow x=\tfrac{\pi}{4},\tfrac{3\pi}{4}$. Tổng = $\pi$.
+a) $\tfrac{\pi}{4}$  
+b) $\tfrac{3\pi}{4}$  
+*c) $\pi$  
+d) $\tfrac{5\pi}{4}$  
+
+::Câu 56:: Tập nghiệm của bất phương trình $\sin^2 x < \tfrac34$ là:  
+... Giải thích: $\sin^2 x < 0.75\Rightarrow|\sin x|<\tfrac{\sqrt3}{2}\Rightarrow |x - k\pi|<\tfrac{\pi}{3}$.
+a) $x\in(\tfrac{\pi}{6}+k\pi, \tfrac{5\pi}{6}+k\pi)$  
+b) $x\in(-\tfrac{\pi}{6}+k\pi,\tfrac{\pi}{6}+k\pi)$  
+*c) $x\in(-\tfrac{\pi}{3}+k\pi, \tfrac{\pi}{3}+k\pi)$  
+d) $x\in(\tfrac{\pi}{3}+k\pi, \tfrac{2\pi}{3}+k\pi)$  
+
+::Câu 57:: Giá trị nhỏ nhất của hàm số $y = 3\sin x - 4\cos x$ là:  
+... Giải thích: $\sqrt{3^2+4^2}=5$; min = $-5$.
+a) $-5$  
+b) $-\sqrt{5}$  
+*c) $-5$  
+d) $-3$  
+
+::Câu 58:: Phương trình $\tan^2 x - 3 = 0$ có nghiệm là:  
+... Giải thích: $\tan^2 x = 3 \Rightarrow \tan x = \pm\sqrt3\Rightarrow x = \pm\tfrac{\pi}{3}+k\pi$.
+a) $x = \pm \tfrac{\pi}{3} + k\pi$  
+b) $x = \pm \tfrac{\pi}{6} + k\pi$  
+*c) $x = \pm \tfrac{\pi}{3} + k\pi$  
+d) $x = \pm \tfrac{\pi}{4} + k\pi$  
+
+::Câu 59:: Tổng các nghiệm dương nhỏ nhất của $\sin x = \tfrac12$ và $\tan x = 1$ là:  
+... Giải thích: nghiệm nhỏ nhất của $\sin x=1/2$ là $\tfrac{\pi}{6}$; $\tan x=1$ là $\tfrac{\pi}{4}$; tổng = $\tfrac{5\pi}{12}$.
+a) $\tfrac{\pi}{3}$  
+b) $\tfrac{5\pi}{6}$  
+*c) $\tfrac{2\pi}{3}$  
+d) $\pi$  
+
+::Câu 60:: Trong khoảng $[0;2\pi)$, giá trị của biểu thức $\sin x - \cos x$ bằng 0 tại: 
+... Giải thích: $\sin x = \cos x \Rightarrow x = \tfrac{\pi}{4}, \tfrac{5\pi}{4} $ trên $[0,2\pi)$. 
+a) $x = \tfrac{\pi}{4}; \tfrac{5\pi}{4}$  
+b) $x = \tfrac{3\pi}{4}; \tfrac{7\pi}{4}$  
+*c) $x = \tfrac{\pi}{4}; \tfrac{5\pi}{4}$  
+d) không có nghiệm  
+
+::Câu 1:: Cho phát biểu:  
+
+	a) $\sin(A+B) = \sin A + \sin B$.  
+
+	b) Trên khoảng $[0,90^\circ]$, giá trị $\sin\theta$ tăng khi $\theta$ tăng. 
+... Giải thích: a) sai vì công thức đúng là tổng góc phức tạp. b) đúng vì sin tăng từ 0 đến 1 khi góc tăng tới 90°. 
+* SS  
+
+::Câu 2:: Cho phát biểu:  
+
+	a) $\cos(A+B) = \cos A + \cos B$.  
+
+	b) Trên đoạn $[0,90^\circ]$, $\cos\theta$ giảm khi $\theta$ tăng.  
+... Giải thích: a) sai do công thức tổng góc khác. b) đúng vì cos giảm từ 1 về 0 khi góc tăng.
+* SS  
+
+::Câu 3:: Cho phát biểu:  
+
+	a) Nếu $\tan\theta = 5/7$ thì $\sin\theta = 5$ và $\cos\theta = 7$.  
+
+	b) $\cot^{-1}x = 1/\cot x$. 
+...Giải thích: a) sai vì $\sin,\cos$ phải ≤1. b) sai vì $\cot^{-1}$ nghĩa là arccot, không phải nghịch đảo. 
+* SS  
+
+::Câu 4:: Cho phát biểu:  
+
+	a) $\sin^2\theta + \cos^2\theta = 1$ luôn đúng.  
+
+	b) $\tan(\theta + 180^\circ) = \tan\theta$.  
+... Giải thích: a) đúng do định lý Pythagore. b) đúng vì tan tuần hoàn chu kì 180°.
+* ĐĐ  
+
+::Câu 5:: Cho phát biểu:  
+
+	a) Trong tam giác có góc 30°, cạnh đối là nửa cạnh huyền.  
+
+	b) Trong góc ở phần tư III, $\tan$ luôn âm. 
+... Giải thích: a) đúng do tam giác 30-60-90. b) sai vì tan QIII dương. 
+* ĐS  
+
+::Câu 6:: Cho phát biểu:  
+
+	a) $\tan\theta = \sin\theta / \cos\theta$.  
+
+	b) $\sin(-\theta) = \sin\theta$.  
+... Giải thích: a) đúng theo định nghĩa. b) sai vì sin lẻ: $\sin(-\theta) = -\sin\theta$.
+* ĐS  
+
+::Câu 7:: Cho phát biểu:  
+
+	a) $\cos(-\theta) = \cos\theta$.  
+
+	b) $\sec^2\theta - \tan^2\theta = 1$.  
+... Giải thích: a) đúng vì cos chẵn. b) đúng từ định nghĩa và pythagorean.
+* ĐĐ  
+

@@ -1,0 +1,427 @@
+# YÊU CẦU XÂY DỰNG ĐỀ KIỂM TRA NĂNG LỰC MÔN TOÁN THPT
+
+## 1. Thông tin chung
+- **Môn**: Toán THPT  
+- **Chủ đề**: Vector trong không gian  
+- **Đối tượng**: Học sinh THPT ôn thi tốt nghiệp THPT quốc gia tại Việt Nam  
+- **Thời gian làm bài**: 90 phút  
+- **Định dạng đầu ra**: Markdown chuẩn [text2qti](https://github.com/gpoore/text2qti)
+
+### Mục ttiêu
+- Đánh giá năng lực tư duy và vận dụng kiến thức về vector trong không gian.  
+- Phân hóa rõ trình độ: Nhận biết – Thông hiểu – Vận dụng – Vận dụng cao.  
+- Rèn luyện kỹ năng phân tích không gian, tư duy logic, hình học vector.
+
+### Nội dung kiến thức cần kiểm tra
+- Vector chỉ phương, vector pháp tuyến  
+- Tổng – hiệu vector, độ dài vector  
+- Tích vô hướng, tích có hướng  
+- Góc giữa hai vector  
+- Ứng dụng vector vào giải bài toán hình học không gian
+
+## 2. Cấu trúc đề (gồm 12–14 câu từ phần vector trong không gian)
+### 2.1. Trắc nghiệm 4 lựa chọn
+- **Số lượng**: 10 –12 câu  
+- **Mức độ**:  
+  - 3 câu nhận biết  
+  - 2 câu thông hiểu  
+  - 2 câu vận dụng  
+  - 1–2 câu vận dụng cao  
+- Có ít nhất 6 câu gắn với tình huống thực tế hoặc ứng dụng kỹ thuật
+- Tránh lặp ý tưởng hoặc dạng bài quá 2 lần
+
+### 2.2. Đúng/sai (1 câu)
+- Gồm 2 phát biểu (nhận biết → vận dụng cao), ít nhất 1 ý thực tế
+
+### 2.3. Câu trả lời ngắn 
+
+- **Số lượng**: 4 câu
+- **Mức độ**:
+  - 1 câu nhận biết
+  - 1 câu thông hiểu
+  - 1 câu vận dụng
+  - 1 câu vận dụng cao
+- Có ít nhất 2 câu có yếu tố thực tế
+- Tránh lặp ý tưởng hoặc dạng bài
+- Mỗi câu chỉ có một câu trả lời đúng duy nhất
+
+## 3. Yêu cầu lời giải
+    - "Tăng tính mới lạ: tránh trùng đề trong kho, thêm bài tự đặt, ít xuất hiện."
+    - "Đẩy cao độ khó phân hóa: bổ sung câu xác suất, logarit, hình với lời giải dài."
+    - "Gia tăng phương án nhiễu logic: làm distractor gần đúng, từng bước dễ gây nhầm."
+    Câu trả lời không được phép giống nhau, nếu là số thập phân bắt buộc là dấu '.' là dấu thập phân, làm tròn hai chữ số sau dấu thập phân.
+- Lời giải **chuẩn, chi tiết, rõ ràng**, có:
+  - Phân tích – công thức – suy luận – kết luận  
+  - Ngôn ngữ dễ hiểu, phù hợp học sinh trung bình – khá  
+  - Nhất quán giữa đề – dữ kiện – đáp án – lời giải
+
+**Định dạng đầu ra:**
+*   **Tuyệt đối không có bất kỳ lời giải thích hay phần giải thích nào đi kèm ngoài cấu trúc đã định.**
+*   **Đầu ra phải là một luồng câu hỏi, đáp án và lời giải liên tục, không có bất kỳ tiêu đề phần nào (ví dụ: "Phần 1", "Phần 2") hay các dấu phân cách khác.** Các câu hỏi sẽ được đánh số liên tiếp từ 1 đến hết.
+*   **Sử dụng dấu $.....$ cho công thức toán học (viết như latex)**
+*   **Mỗi câu hỏi sẽ được định dạng như sau:**
+    *   **Đối với câu hỏi trắc nghiệm khách quan (MCQ 4 lựa chọn):**
+        
+        ::Câu [Số thứ tự câu]:: [Nội dung câu hỏi được viết trên một dòng duy nhất, không xuống dòng. Nếu có hình ảnh, mô tả nội dung hình ảnh trong dấu ngoặc đơn ngay sau phần đề bài liên quan, ví dụ: "(như hình vẽ, đồ thị hàm bậc ba đi qua $(-1,0)$, $(1,-4)$, $(0,-2)$, $(2,0)$)" mà không chèn link ảnh hay xuống dòng.]?
+        ... [một khoảng trắng] [Nội dung lời giải chi tiết cho câu này, được viết liền mạch trên một dòng duy nhất, không xuống dòng và không có bất kỳ sai sót nào]
+        a) [Lựa chọn A]
+        b) [Lựa chọn B]
+        *c) [Lựa chọn C]
+        d) [Lựa chọn D]
+        
+        (Lưu ý: Dấu `*` sẽ đứng trước lựa chọn đúng. Chỉ có một lựa chọn đúng cho mỗi câu. **Không in đậm lựa chọn đúng, chỉ thêm dấu `*` ở đầu lựa chọn.**)
+    *   **Đối với câu hỏi Đúng/Sai (nhiều mệnh đề):**
+        
+        ::Câu [Số thứ tự câu]:: [Nội dung câu hỏi chính, kết thúc bằng "Các mệnh đề sau đúng hay sai:?" được viết trên một dòng duy nhất, không xuống dòng. Nếu có hình ảnh, mô tả nội dung hình ảnh trong dấu ngoặc đơn ngay sau phần đề bài liên quan, ví dụ: "(như hình vẽ, đồ thị hàm bậc ba đi qua $(-1,0)$, $(1,-4)$, $(0,-2)$, $(2,0)$)" mà không chèn link ảnh hay xuống dòng.]?
+        
+        
+        a) [Mệnh đề a được viết trên một dòng duy nhất, không xuống dòng.]
+        
+        
+        b) [Mệnh đề b được viết trên một dòng duy nhất, không xuống dòng.]
+        ... [Nội dung lời giải chi tiết cho từng mệnh đề, được viết liền mạch trên một dòng duy nhất, không xuống dòng và không có bất kỳ sai sót nào]
+        * [Đáp án dạng chuỗi ngắn gọn, ví dụ: "ĐĐ", "ĐS", "SĐ", "SS" tùy thuộc vào sự đúng sai của các mệnh đề. Đảm bảo có khoảng trắng sau dấu `*`]
+        
+        (Lưu ý: Các mệnh đề `a)`, `b)` phải được thụt lề bằng **một tab** hoặc **4 dấu cách**. Giữa nội dung câu hỏi chính và mệnh đề `a)`, cũng như giữa các mệnh đề (`a)` và `b)`), sẽ có **một dòng trống**. **Không có dòng trống giữa mệnh đề cuối cùng và dòng `...`**. **Không in đậm đáp án, chỉ thêm dấu `*` ở đầu đáp án và một khoảng trắng.**)
+    *   **Đối với câu hỏi Trả lời ngắn: Chỉ được có kết quả là số làm tròn đến 2 chữ số sau dấu phẩy**
+        
+        ::Câu [Số thứ tự câu]:: [Nội dung câu hỏi được viết trên một dòng duy nhất, không xuống dòng. Nếu có hình ảnh, mô tả nội dung hình ảnh trong dấu ngoặc đơn ngay sau phần đề bài liên quan, ví dụ: "(như hình vẽ, đồ thị hàm bậc ba đi qua $(-1,0)$, $(1,-4)$, $(0,-2)$, $(2,0)$)" mà không chèn link ảnh hay xuống dòng.]?
+        ... [một khoảng trắng] [Nội dung lời giải chi tiết cho câu này, được viết liền mạch trên một dòng duy nhất, không xuống dòng và không có bất kỳ sai sót nào]
+        * [Đáp án dạng số hoặc biểu thức ngắn gọn. Đối với các đáp án là số vô tỷ hoặc có nhiều cách biểu diễn tương đương (ví dụ: $\ln(A/B)$), hãy chuyển sang dạng số thập phân và làm tròn đến hai chữ số sau dấu phẩy.]
+        
+        (Lưu ý: Đáp án sẽ nằm trên một dòng mới, bắt đầu bằng dấu `*` và một khoảng trắng. **Đảm bảo rằng sau dấu `*` LUÔN LUÔN là đáp án cụ thể, không được để trống.** **Không in đậm đáp án, chỉ thêm dấu `*` ở đầu đáp án.**)
+*   **Nội dung lời giải:** Lời giải phải chi tiết, rõ ràng, dễ hiểu, trình bày từng bước giải quyết vấn đề. **Đặc biệt, toàn bộ nội dung lời giải cho mỗi câu phải được viết liền mạch trên một dòng duy nhất, không có ký tự xuống dòng, không có dấu chấm đầu mục hay bất kỳ định dạng nào gây ngắt dòng. Đây là quy tắc TUYỆT ĐỐI và không có ngoại lệ.**
+*   **Tương thích kỹ thuật:** Đầu ra cần có cấu trúc rõ ràng để có thể chuyển đổi sang định dạng QTI và tải lên nền tảng Canvas.
+Ví dụ: 
+*** TRẮC NGHIỆM KHÁCH QUAN ***
+::Câu 1:: Cho hình hộp $ABCD.A'B'C'D'$. Phát biểu nào sau đây là đúng?
+... Đáp án và lời giải: Cộng các vectơ theo đường gấp khúc $BA \to AC \to CC' \to D'$ sẽ ra $BD'$
+a) $\vec{BA} + \vec{BC} + \vec{BB'} = \vec{BD'}$
+b) $\vec{BA} + \vec{BD} + \vec{BB'} = \vec{BD'}$
+c) $\vec{BA} + \vec{BC} + \vec{BB'} = \vec{BD'}$
+*d) $\vec{AB} + \vec{CB} + \vec{BB'} = \vec{BD'}$
+
+::Câu 2:: Cho tứ diện $ABCD$. Gọi $M, N$ lần lượt là trung điểm của $AB, CD$ và $G$ là trung điểm của $MN$. Trong các khẳng định sau, khẳng định nào sai?
+... Đáp án và lời giải: Vế trái có tổng 3 vectơ, vế phải chỉ 1 vectơ nên không thể bằng nhau
+a) $\vec{GA} + \vec{GB} + \vec{GC} + \vec{GD} = \vec{0}$
+b) $\vec{GM} + \vec{GN} = \vec{0}$
+c) $\vec{MA} + \vec{MB} + \vec{MC} + \vec{MD} = 4\vec{MG}$
+*d) $\vec{GA} + \vec{GB} + \vec{GC} = \vec{GD}$
+
+::Câu 3:: Cho tứ diện $ABCD$. Mệnh đề nào dưới đây là mệnh đề đúng?
+... Đáp án và lời giải: Hai vế cùng bằng $\vec{DC} - \vec{BC}$
+a) $\vec{AB} - \vec{AC} = \vec{DB} - \vec{DC}$
+b) $\vec{BC} + \vec{AB} = \vec{DA} - \vec{DC}$
+*c) $\vec{AC} - \vec{AD} = \vec{BD} - \vec{BC}$
+d) $\vec{AB} - \vec{AD} = \vec{CD} + \vec{BC}$
+
+::Câu 4:: Cho hình hộp $ABCD.A'B'C'D'$. Khẳng định nào sau đây đúng?
+... Đáp án và lời giải: Tổng 3 vectơ lần lượt theo 3 cạnh xuất phát từ $A$ tạo thành đường chéo không gian $AC'$
+a) $\vec{AB} + \vec{AC} + \vec{AA'} = \vec{AC'}$
+b) $\vec{AB} + \vec{AB'} + \vec{AA'} = \vec{AC'}$
+c) $\vec{AB} + \vec{AD} + \vec{A'A} = \vec{AC'}$
+*d) $\vec{AB} + \vec{AD} + \vec{AA'} = \vec{AC'}$
+
+::Câu 5:: Cho hình lập phương $ABCD.A'B'C'D'$. Gọi $O$ là tâm của hình lập phương. Khẳng định nào sau đây là đúng?
+... Đáp án và lời giải: Tâm hình lập phương là trung điểm đường chéo không gian, nên vectơ $AO$ bằng nửa tổng 3 cạnh
+a) $\vec{AO} = \frac{1}{3}(\vec{AB} + \vec{AD} + \vec{AA'})$
+*b) $\vec{AO} = \frac{1}{2}(\vec{AB} + \vec{AD} + \vec{AA'})$
+c) $\vec{AO} = \frac{1}{4}(\vec{AB} + \vec{AD} + \vec{AA'})$
+d) $\vec{AO} = \frac{2}{3}(\vec{AB} + \vec{AD} + \vec{AA'})$
+
+::Câu 6:: Trong không gian, cho tứ diện đều $ABCD$ có các cạnh bằng $a$. Tích vô hướng $\vec{AB} \cdot \vec{CD}$ bằng:
+... Đáp án và lời giải: Hai cạnh này vuông góc nên tích vô hướng bằng 0
+*a) $0$
+b) $4a^2$
+c) $2a^2$
+d) $a^2$
+
+::Câu 7:: Trong không gian, cho hình hộp $ABCD.A'B'C'D'$. Mệnh đề nào dưới đây sai?
+... Đáp án và lời giải: Không thể từ $C$ đến $A'$ bằng các vectơ như vế trái
+*a) $\vec{CA'} = \vec{CB} + \vec{CD} + \vec{CC'}$
+b) $\vec{AC} = \vec{AB} + \vec{AD} + \vec{AA'}$
+c) $\vec{BD} = \vec{BA} + \vec{BC} + \vec{BB'}$
+d) $\vec{C'A'} = \vec{C'B'} + \vec{C'D'}$
+
+::Câu 8:: Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình bình hành tâm $O$. Khẳng định nào sau đây đúng?
+... Đáp án và lời giải: Vì $O$ là tâm hình bình hành nên $\vec{SA} + \vec{SB} + \vec{SC} + \vec{SD} = 4\vec{SO}$
+a) $\vec{SA} + \vec{SB} + \vec{SC} + \vec{SD} = \frac{1}{4}\vec{SO}$
+*b) $\vec{SA} + \vec{SB} + \vec{SC} + \vec{SD} = 4\vec{SO}$
+c) $\vec{SA} + \vec{SB} + \vec{SC} + \vec{SD} = 2\vec{SO}$
+d) $\vec{SA} + \vec{SB} + \vec{SC} + \vec{SD} = \frac{1}{2}\vec{SO}$
+
+::Câu 9:: Cho hình hộp $ABCD.A'B'C'D'$. Phát biểu nào sau đây là đúng?
+... Đáp án và lời giải: Trong mặt đáy hình hộp, $\vec{AB} + \vec{AD} = \vec{AC}$ theo quy tắc hình bình hành
+a) $\vec{AB} + \vec{AD} = \vec{AC'}$
+b) $\vec{AA'} + \vec{AC} = \vec{A'C'}$
+c) $\vec{AA'} + \vec{AB} + \vec{AD} = \vec{AC'}$
+*d) $\vec{AB} + \vec{AD} = \vec{AC}$
+
+::Câu 10:: Cho hình lập phương $ABCD.A'B'C'D'$ có cạnh bằng $a$. Gọi $O$ là tâm hình vuông $ABCD$. Đặt $\vec{u} = \vec{OA} + \vec{OB} + \vec{OC} + \vec{OD} + \vec{OA'} + \vec{OB'} + \vec{OC'} + \vec{OD'}$. Khẳng định nào sau đây đúng?
+... Đáp án và lời giải: Các vectơ đối xứng triệt tiêu, còn lại 2 vectơ trùng trục cao
+a) $|\vec{u}| = a$
+b) $|\vec{u}| = 4a$
+c) $|\vec{u}| = 6a$
+*d) $|\vec{u}| = 2a$
+
+::Câu 16:: Cho hình chóp $S.ABCD$ có đáy là hình bình hành. Đẳng thức nào sau đây là đúng?
+... Đáp án và lời giải: Do đối xứng trong hình bình hành, tổng các vectơ từ đỉnh $S$ bằng $\vec{0}$
+*a) $\vec{SA} + \vec{SB} + \vec{SC} + \vec{SD} = \vec{0}$
+b) $\vec{SA} + \vec{SC} = \vec{SB} + \vec{SD}$
+c) $\vec{SA} + \vec{SB} = \vec{SC} + \vec{SD}$
+d) $\vec{SB} + \vec{SC} = \vec{SA} + \vec{SD}$
+
+::Câu 17:: Cho tứ diện $ABCD$. Gọi $G$ là trọng tâm tam giác $ABC$. Phát biểu nào sau đây sai?
+... Đáp án và lời giải: Tổng ba vectơ từ $G$ đến $A,B,C$ là $\vec{0}$, thêm $GD$ thì không còn đúng
+a) $\vec{DA} + \vec{DB} + \vec{DC} = 3\vec{DG}$
+b) $\vec{GD} - \vec{GA} = \vec{AD}$
+c) $\vec{GA} + \vec{GB} + \vec{GC} = \vec{0}$
+*d) $\vec{GA} + \vec{GB} + \vec{GC} + \vec{GD} = \vec{0}$
+
+::Câu 18:: Cho tứ diện $ABCD$. Gọi $G$ là trọng tâm tam giác $BCD$. Mệnh đề nào sau đây đúng?
+... Đáp án và lời giải: Theo định nghĩa trọng tâm, $\vec{AG} = \frac{1}{3}(\vec{AB} + \vec{AC} + \vec{AD})$
+*a) $\vec{AB} + \vec{AC} + \vec{AD} = 3\vec{AG}$
+b) $\vec{AB} + \vec{AC} + \vec{AD} = -3\vec{AG}$
+c) $\vec{BC} + \vec{AD} + \vec{AC} = \vec{AC}$
+d) $\vec{AB} + \vec{CD} + \vec{AD} = \vec{AD}$
+
+::Câu 19:: Cho tứ diện $ABCD$. Đặt $\vec{AB}=\vec{a}, \vec{AC}=\vec{b}, \vec{AD}=\vec{c}$, gọi $M$ là trung điểm của $BC$. Trong các khẳng định sau, khẳng định nào đúng?
+... Đáp án và lời giải: Áp dụng $\vec{DM} = \vec{DA} + \vec{AM}$, với $\vec{AM} = \tfrac12(\vec{AB} + \vec{AC})$
+*a) $\vec{DM} = \tfrac{1}{2}(\vec{a} + \vec{b} - 2\vec{c})$
+b) $\vec{DM} = \tfrac{1}{2}(\vec{a} + 2\vec{b} - \vec{c})$
+c) $\vec{DM} = \tfrac{1}{2}(-2\vec{a} + \vec{b} + \vec{c})$
+d) $\vec{DM} = \tfrac{1}{2}(\vec{a} - 2\vec{b} + \vec{c})$
+
+::Câu 20:: Cho hình lập phương $ABCD.A'B'C'D'$ có cạnh $a$. Khẳng định nào sau đây đúng?
+... Đáp án và lời giải: Hai vectơ vuông góc nhau nên tích vô hướng bằng 0
+a) $\vec{A'C} \cdot \vec{AC} = a^2\sqrt{2}$
+b) $\vec{A'C} \cdot \vec{AC} = a^2$
+*c) $\vec{A'C} \cdot \vec{AC} = 0$
+d) $\vec{A'C} \cdot \vec{AC} = 2a^2$
+
+::Câu 21:: Cho hình lăng trụ tam giác $ABC.A'B'C'$, gọi $M$ là trung điểm cạnh $BB'$. Đặt $\vec{CA}=\vec{a},;\vec{CB}=\vec{b},;\vec{CC'}=\vec{c}$. Khẳng định nào sau đây đúng?
+... Đáp án và lời giải: $\vec{AM}=\vec{AC}+\vec{CB}+\tfrac12\vec{BB'}$
+*a) $\vec{AM}=-\vec{a}+\vec{b}+\tfrac12\vec{c}$
+b) $\vec{AM}=-\tfrac12\vec{a}+\vec{b}+\vec{c}$
+c) $\vec{AM}=\vec{a}+\tfrac12\vec{b}-\vec{c}$
+d) $\vec{AM}=\vec{a}-\tfrac12\vec{b}+\vec{c}$
+
+::Câu 22:: Cho hình hộp chữ nhật $ABCD.A'B'C'D'$. Vectơ nào sau đây bằng $\vec{AB}$?
+... Đáp án và lời giải: Hai cạnh đối diện song song cùng chiều nên bằng nhau
+a) $\vec{B'A'}$
+*b) $\vec{CD}$
+c) $\vec{BA}$
+d) $\vec{D'C'}$
+
+::Câu 23:: Cho hình chóp $S.ABC$. Gọi $G$ là trọng tâm tam giác $ABC$. Khẳng định nào sau đây sai?
+... Đáp án và lời giải: Tổng $\vec{GA}+\vec{GB}+\vec{GC}=\vec0$, nhưng không thể thêm $\vec{GS}$ rồi vẫn bằng $\vec0$
+a) $\vec{GA}+\vec{GB}+\vec{GC}=\vec{0}$
+b) $\vec{SA}+\vec{SB}+\vec{SC}=3\vec{SG}$
+c) $\vec{AB}+\vec{BC}+\vec{CA}=\vec{0}$
+*d) $\vec{GS}+\vec{GA}+\vec{GB}+\vec{GC}=\vec{0}$
+
+::Câu 24:: Cho hình chóp $S.ABC$. Gọi $G$ là trọng tâm tam giác $ABC$. Khẳng định nào sau đây sai?
+... Đáp án và lời giải: Ba vectơ từ $G$ đến $A,B,C$ tổng = $\vec0$, nhưng thêm $\vec{GS}$ thì không còn = $\vec0$
+a) $\vec{GA}+\vec{GB}+\vec{GC}=\vec{0}$
+b) $\vec{SA}+\vec{SB}+\vec{SC}=3\vec{SG}$
+c) $\vec{AB}+\vec{BC}+\vec{CA}=\vec{0}$
+*d) $\vec{GS}+\vec{GA}+\vec{GB}+\vec{GC}=\vec{0}$
+
+::Câu 25:: Cho hình lập phương $ABCD.A'B'C'D'$. Gọi $O$ là tâm hình lập phương. Khẳng định nào sau đây đúng?
+... Đáp án và lời giải: $O$ là tâm nên $\vec{AO}$ là trung bình cộng ba vectơ vuông góc xuất phát từ $A$
+*a) $\vec{AO}=\tfrac14(\vec{AB}+\vec{AD}+\vec{AA'})$
+b) $\vec{AO}=\tfrac23(\vec{AB}+\vec{AD}+\vec{AA'})$
+c) $\vec{AO}=\tfrac13(\vec{AB}+\vec{AD}+\vec{AA'})$
+d) $\vec{AO}=\tfrac12(\vec{AB}+\vec{AD}+\vec{AA'})$
+
+::Câu 36:: Cho hình lập phương $ABCD.A'B'C'D'$. Gọi $O$ là tâm lập phương. Khẳng định nào sau đây đúng?
+... Đáp án và lời giải: $O$ là trung điểm ba vectơ vuông góc xuất phát từ $A$
+*a) $\vec{AO}=\tfrac14(\vec{AB}+\vec{AD}+\vec{AA'})$
+b) $\vec{AO}=\tfrac23(\vec{AB}+\vec{AD}+\vec{AA'})$
+c) $\vec{AO}=\tfrac13(\vec{AB}+\vec{AD}+\vec{AA'})$
+d) $\vec{AO}=\tfrac12(\vec{AB}+\vec{AD}+\vec{AA'})$
+
+::Câu 37:: Cho hình hộp $ABCD.A'B'C'D'$. Tìm $k$ sao cho $\vec{BD}-\vec{D'D}-\vec{B'D'}=k,\vec{A'A}$.
+... Đáp án và lời giải: Vế trái = $-\vec{A'A}$ ⇒ $k=-1$
+a) $k=-2$
+b) $k=1$
+*c) $k=-1$
+d) $k=2$
+
+::Câu 38:: Cho hình hộp $ABCD.A'B'C'D'$. Tổng $\vec{AB}+\vec{B'C'}+\vec{DD'}$ bằng:
+... Đáp án và lời giải: Ba vectơ nối từ $A$ đến $C'$ ⇒ $\vec{AC'}$
+a) $\vec{AC}$
+b) $\vec{A'C}$
+*c) $\vec{AC'}$
+d) $\vec{C'A}$
+
+::Câu 39:: Cho tứ diện $ABCD$, $G$ là trọng tâm tam giác $BCD$. Phát biểu nào sai?
+... Đáp án và lời giải: $\vec{GB}+\vec{GC}+\vec{GD}=\vec0$, thêm $\vec{GA}$ thì sai
+a) $\vec{GB}+\vec{GC}+\vec{GD}=\vec0$
+*b) $\vec{GA}+\vec{GB}+\vec{GC}+\vec{GD}=\vec0$
+c) $\vec{BC}+\vec{BD}=3\vec{BG}$
+d) $\vec{AB}+\vec{AC}+\vec{AD}=3\vec{AG}$
+
+::Câu 40:: Cho hình hộp $ABCD.A'B'C'D'$. Khẳng định nào sau đây đúng?
+... Đáp án và lời giải: $\vec{CB}$ trong đáy, $\vec{BB'}\perp$ đáy ⇒ chúng vuông góc
+a) $\vec{AD}=\vec{B'C'}$
+b) $\vec{AD}=\vec{CB}$
+*c) $\vec{CB}\perp\vec{BB'}$
+d) $\vec{A'D}=\vec{AC}$
+
+::Câu 41:: Cho hình lập phương $ABCD.A'B'C'D'$. Phát biểu nào sai?
+... Đáp án và lời giải: $\vec{AC}+\vec{AB}\neq\vec{AD}$ vì không cùng phẳng
+a) $\vec{DD'}=\vec{CC'}$
+*b) $\vec{AC}+\vec{AB}=\vec{AD}$
+c) $\vec{AA'}+\vec{AD}+\vec{AB}=\vec{AC'}$
+d) $\vec{AB}+\vec{C'D'}=\vec0$
+
+::Câu 42:: Cho hình chóp $S.ABC$, $G$ là trọng tâm tam giác $ABC$. Khẳng định nào sau đây đúng?
+... Đáp án và lời giải: $\vec{SG}=\vec{SA}+\vec{AG}$ với $\vec{AG}=\tfrac13(\vec{AB}+\vec{AC})$
+*a) $\vec{SG}=\tfrac12(\vec{SA}+\vec{SB}+\vec{SC})$
+b) $\vec{SG}=2(\vec{SA}+\vec{SB}+\vec{SC})$
+c) $\vec{SG}=\tfrac13(\vec{SA}+\vec{SB}+\vec{SC})$
+d) $\vec{SG}=3(\vec{SA}+\vec{SB}+\vec{SC})$
+
+::Câu 43:: Cho tứ diện $ABCD$, $\vec{DA}=\vec{a},\vec{DB}=\vec{b},\vec{DC}=\vec{c}$. Nếu $M,N$ là trung điểm $BD,AC$, thì:
+... Đáp án và lời giải: Dùng công thức trung điểm
+*a) $\vec{MN}=\tfrac12(-\vec{a}+\vec{b}+\vec{c})$
+b) $\vec{MN}=\tfrac12(\vec{a}-\vec{b}+\vec{c})$
+c) $\vec{MN}=\tfrac12(\vec{a}+\vec{b}+\vec{c})$
+d) $\vec{MN}=\tfrac12(\vec{a}+\vec{b}-\vec{c})$
+
+::Câu 44:: Cho tứ diện $ABCD$, $H$ trọng tâm tam giác $ABC$. Tìm $k$ sao cho $\vec{DA}+\vec{DB}+\vec{DC}=(2k-3)\vec{DH}$.
+... Đáp án và lời giải: Tổng = $3\vec{DH}$ ⇒ $2k-3=3$ ⇒ $k=3$
+a) $k=5$
+b) $k=0$
+c) $k=2$
+*d) $k=3$
+
+
+*** TRẢ LỜI ĐÚNG/SAI ***
+
+::Câu 1::Cho tứ diện $ABCD$ có $AB, AC, AD$ đôi một vuông góc, $AB = AC = a$. Gọi $M$ là trung điểm $BC$, $H$ là trung điểm $MD$.  
+
+        a) $(\vec{DM}) = \tfrac12(\vec{DB} + \vec{DC})$  
+
+        b) Góc giữa $\vec{AH}$ và $\vec{BC}$ bằng $60^\circ$  
+... Đáp án và lời giải: a) đúng vì trung điểm thì vectơ là trung bình cộng hai đầu mút. b) sai vì AH vuông góc BC nên góc = $90^\circ$.  
+* ĐS
+
+::Câu 2::Cho hình lập phương $ABCD.A'B'C'D'$ cạnh $a$. Gọi $I$ là tâm đáy $ABCD$, $G$ là trọng tâm tam giác $AB'C$.  
+
+        a) $\vec{AB} + \vec{AD} + \vec{AA'} = \vec{AC'}$  
+
+        b) $\vec{AB} \cdot \vec{DD'} = 0$  
+... Đáp án và lời giải: a) sai vì $\vec{AC'} = \vec{AB} + \vec{BB'} + \vec{B'C'}$. b) đúng vì $DD'$ vuông góc với mặt đáy nên tích vô hướng bằng 0.  
+* SĐ
+
+::Câu 3::Cho hình lập phương $ABCD.A'B'C'D'$ cạnh $a$, $O$ là tâm mặt $BCC'B'$.  
+
+        a) $\vec{AC'} = \vec{AB} + \vec{AD} + \vec{BB'}$  
+
+        b) $\vec{DO} = \vec{AB} - \tfrac12\vec{AD} + \tfrac12\vec{AA'}$  
+... Đáp án và lời giải: a) đúng vì cộng theo quy tắc hình hộp. b) sai do biểu thức không đúng theo tọa độ trung điểm.  
+* SĐ
+
+::Câu 4::Trong hình lập phương $ABCD.A'B'C'D'$ cạnh $a$:  
+
+        a) $|\vec{A'B'} - \vec{DC'}| = a$  
+
+        b) $\vec{AB} \cdot \vec{B'C'} = a^2$  
+... Đáp án và lời giải: a) đúng do $\vec{A'B'}$ và $\vec{DC'}$ bằng chiều dài cạnh chéo. b) sai vì $B'C'$ song song với $BC$ mà $BC \perp AB$ nên tích bằng 0.  
+* ĐS
+
+::Câu 5::Cho hình hộp chữ nhật $ABCD.A'B'C'D'$ đáy $ABCD$ vuông cạnh $a$, biết $A'C$ tạo với đáy góc $\alpha$ sao cho $\tan \alpha = \sqrt{2}$.  
+
+        a) Thể tích khối hộp là $2a^3$  
+
+        b) Khoảng cách giữa $BD$ và $CD'$ bằng $a/3$  
+... Đáp án và lời giải: a) đúng vì chiều cao bằng $2a$. b) sai vì tính toán khoảng cách ra kết quả khác $a/3$.  
+* ĐS
+
+::Câu 6::Trong hình bình hành $ABCD$:  
+
+        a) $\vec{AB} + \vec{BC} = \vec{AC}$  
+
+        b) $\vec{AB} + \vec{AD} = \vec{BD}$  
+... Đáp án và lời giải: a) đúng theo quy tắc hình bình hành. b) sai vì $\vec{AB} + \vec{AD}$ là đường chéo $\vec{AC}$ chứ không phải $\vec{BD}$.  
+* ĐS
+
+::Câu 7::Cho hình lập phương cạnh $a$:  
+
+        a) $\vec{AC} \cdot \vec{AB} = a^2$  
+
+        b) $\vec{AC}$ vuông góc với $\vec{AB}$  
+... Đáp án và lời giải: a) sai vì $\vec{AC} \perp \vec{AB}$ nên tích vô hướng bằng 0. b) đúng vì trong hình vuông các đường chéo vuông góc nhau.  
+* SĐ
+
+::Câu 8::Trong hình chữ nhật $ABCD$:  
+
+        a) $\vec{AB} \perp \vec{BC}$  
+
+        b) $\vec{AB} \parallel \vec{CD}$  
+... Đáp án và lời giải: cả hai đúng theo định nghĩa hình chữ nhật.  
+* ĐĐ
+
+::Câu 9::Cho tam giác $ABC$ với trọng tâm $G$:  
+
+        a) $\vec{GA} + \vec{GB} + \vec{GC} = \vec{0}$  
+
+        b) $\vec{AG} = \tfrac13(\vec{AB} + \vec{AC})$  
+... Đáp án và lời giải: đúng vì trọng tâm là trung bình cộng có trọng số nên thoả mãn hai đẳng thức.  
+* ĐĐ
+
+::Câu 10::Cho lăng trụ tam giác $ABC.A'B'C'$:  
+
+        a) $\vec{CC'} = \vec{AA'}$  
+
+        b) $\vec{BB'} \perp \vec{ABC}$  
+... Đáp án và lời giải: a) đúng do hai cạnh bên song song cùng chiều. b) sai vì ký hiệu $\vec{ABC}$ không hợp lệ, cần chỉ rõ một vectơ hoặc mặt phẳng.  
+* ĐS
+
+*** TRẢ LỜI NGẮN ***
+
+::Câu 1:: Cho tứ diện $SABC$ có $G$ là trọng tâm tam giác $ABC$ và $I$ là trọng tâm tam giác $GBC$. Biết $\vec{SI}=x\vec{SA}+y\vec{SB}+z\vec{SC}$. Tính $9(x - y + z)$.  
+... Đáp án và lời giải: Dùng công thức trọng tâm: $\vec{SI} = \frac{1}{3}(\vec{SG} + \vec{SB} + \vec{SC})$ với $\vec{SG} = \frac{1}{3}(\vec{SA} + \vec{SB} + \vec{SC})$ → thay vào tìm $x, y, z$ → $9(x - y + z) = 1$  
+* 1  
+
+::Câu 2:: Hai lực $25$ N và $12$ N hợp góc $100^\circ$, lực thứ ba vuông góc mặt phẳng có độ lớn $4$ N. Tính hợp lực (làm tròn).  
+... Đáp án và lời giải: Hợp lực trong mặt phẳng $\approx 25.8$, lực thứ ba vuông góc → tổng $\sqrt{25.8^2 + 4^2} \approx 26$  
+* 26  
+
+::Câu 3:: Hai lực $24$ N và $16$ N hợp góc $110^\circ$, lực thứ ba vuông góc mặt phẳng có độ lớn $4$ N. Tính hợp lực.  
+... Đáp án và lời giải: $R_{12} \approx 23.8$, hợp lực tổng $\sqrt{23.8^2 + 4^2} \approx 24$  
+* 24  
+
+::Câu 4:: Đèn $200$ N treo bởi $3$ dây nghiêng $30^\circ$ với trần. Tính lực căng mỗi dây.  
+... Đáp án và lời giải: Tổng lực đứng: $3T\sin30^\circ = 200$ → $T = 133$  
+* 133  
+
+::Câu 5:: Tổng trọng lượng $5000$ N treo bởi $4$ dây tạo góc $45^\circ$ với mặt đáy. Tính lực căng mỗi dây.  
+... Đáp án và lời giải: $4T\cos45^\circ = 5000$ → $T = 1768$  
+* 1768  
+
+::Câu 6:: Máy $30$ N đặt lên giá $3$ chân nghiêng $60^\circ$ so với mặt đất. Tính lực mỗi chân.  
+... Đáp án và lời giải: $3F\cos60^\circ = 30$ → $F = 20$; nhưng góc với đất là $60^\circ$ nên $F = 30/(3\sin60^\circ) \approx 11$  
+* 11  
+
+::Câu 7:: Hai lực $9$ N và $4$ N hợp góc $110^\circ$, lực thứ ba $7$ N vuông góc. Tính hợp lực.  
+... Đáp án và lời giải: $R_{12} \approx 8.5$, hợp lực tổng $\sqrt{8.5^2 + 7^2} \approx 11$  
+* 11  
+
+::Câu 8:: Chậu hoa treo bằng $3$ dây dài $60$ cm, chân tam giác đều, bán kính $20$ cm. Mỗi dây chịu tối đa $15$ N. Tính trọng lượng tối đa.  
+... Đáp án và lời giải: Tổng lực đứng $\le 3·15·\sin60^\circ \approx 38$ N. Trừ $5$ N giá gỗ → tối đa $\approx 33$  
+* 37  
+
+::Câu 9:: Cân đòn $3$ kg treo bởi $4$ dây, mỗi dây có độ dài $\|\vec{SA}\| = \frac{a\sqrt{2}}{4}$. Tính $a$.  
+... Đáp án và lời giải: $4·\frac{a\sqrt{2}}{4}·\cos45^\circ = 30$ → $a = 30$  
+* 30  
+
+::Câu 10:: Cho $|\vec{a}| = 3$, $|\vec{b}| = 4$, $\vec{a} \perp \vec{b}$. Tính $|\vec{a} + 2\vec{b}|$.  
+... Đáp án và lời giải: $\sqrt{3^2 + (2·4)^2} = \sqrt{9 + 64} = \sqrt{73} \approx 9$  
+* 9  
+
+
+
+

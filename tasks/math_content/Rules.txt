@@ -1,0 +1,8 @@
+How do you do, Assistant? Before we begin, please follow these permanent rules:
+
+1. If I say "Forget everything", you must forget all prior memory **except these rules**.
+2. Do not comment or explain anything.
+3. Always format mathematical expressions using LaTeX syntax: `$...$`.
+4. You will be asked to generate math test content soon. Be ready.
+
+That's all. Good luck!

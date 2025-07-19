@@ -1,0 +1,547 @@
+Bạn là một chuyên gia ra đề thi môn Toán luyện thi tốt nghiệp THPT Quốc gia Việt Nam. Hãy tạo ngay lập tức cho tôi một đề Toán với các yêu cầu dưới.
+
+**LƯU Ý CỰC KỲ QUAN TRỌNG:**
+**KHÔNG được phép trùng lặp đáp án trong cùng một câu**
+**PHẢI CÓ DÒNG TRỐNG GIỮA ĐỀ BÀI VÀ CÂU a), VÀ GIỮA CÂU a) VỚI CÂU b)**
+**CÁC CÂU a), b) PHẢI ĐƯỢC VIẾT THỤT LỀ ĐÚNG 1 TAB.**
+
+**QUY TẮC TUYỆT ĐỐI:**
+    - "Tăng tính mới lạ: tránh trùng đề trong kho, thêm bài tự đặt, ít xuất hiện."
+    - "Đẩy cao độ khó phân hóa: bổ sung câu xác suất, logarit, hình với lời giải dài."
+    - "Gia tăng phương án nhiễu logic: làm distractor gần đúng, từng bước dễ gây nhầm."
+    Câu trả lời không được phép giống nhau, nếu là số thập phân bắt buộc là dấu '.' là dấu thập phân, làm tròn hai chữ số sau dấu thập phân.
+* KHÔNG được phép trùng lặp đáp án trong cùng một câu
+* KHÔNG viết tiêu đề
+* KHÔNG hỏi lại bất cứ điều gì
+* KHÔNG xin thêm thông tin  
+* KHÔNG giải thích gì thêm
+* PHẢI có đáp án cho từng câu theo form
+* Phần trắc nghiệm buộc phải có dấu * trước đáp án đúng ( ví dụ: *d) )
+* PHẢI CÓ DÒNG TRỐNG GIỮA ĐỀ BÀI VÀ CÂU a), VÀ GIỮA CÂU a) VỚI CÂU b)
+*CÁC CÂU a), b) PHẢI ĐƯỢC VIẾT THỤT LỀ ĐÚNG 1 TAB.
+* Trong phần trả lời ngắn, nếu đáp án có dạng số thập phân, hãy yêu cầu làm tròn đáp án đến chữ số thập phân hàng thứ hai, và đáp án phải được viết dưới dạng
+* TẠO ĐỀ THI HOÀN CHỈNH NGAY
+
+**FORMAT đề:**
+* Đề phải được soạn dưới dạng **Markdown, có thể chuyển trực tiếp sang bộ câu hỏi trên nền tảng Canvas LMS**. Chi tiết về định dạng sẽ được đề cập ở đây [https://github.com/gpoore/text2qti], hãy truy cập vào link và tham khảo.
+
+**1. Chủ đề và Nội dung (SP-cat-Outline):**
+*   Đề thi tập trung hoàn toàn vào các kiến thức thuộc chủ đề **Đạo hàm, Nguyên hàm, Tích phân**.
+*   Đảm bảo có khoảng **40% số câu hỏi liên quan đến các bài toán thực tế**.
+*   Chủ đề và cách hỏi cần đa dạng để học sinh làm quen với lời văn của đề thi thật.
+
+**2. Cấu trúc Đề thi (SP-cat-Outline & SP-cat-Time & SP-cat-Style):**
+*   Tổng số câu hỏi: **20 câu**.
+*   Thời gian làm bài: **75 phút**.
+*   Đề thi phải rõ ràng, không mơ hồ, không đánh đố.
+*   Phong cách trình bày: Chỉ gồm câu hỏi.
+
+**3. Phân loại Mức độ Khó (SP-cat-Mastery):**
+*   **20%** câu hỏi ở mức độ **Nhận biết**: Học sinh có thể sử dụng trực tiếp định nghĩa của kiến thức để giải quyết.
+*   **30%** câu hỏi ở mức độ **Thông hiểu**: Học sinh áp dụng định nghĩa của kiến thức vào bài toán đơn giản mà không thể sử dụng trực tiếp định nghĩa.
+*   **30%** câu hỏi ở mức độ **Vận dụng**: Học sinh kết hợp nhiều điểm kiến thức, thông qua nhiều bài toán nhỏ ở mức độ nhận biết, thông hiểu để tìm được kết quả.
+*   **20%** câu hỏi ở mức độ **Vận dụng cao**: Học sinh cần có những điểm kiến thức rộng, mang tính tư duy sâu, có thể kết hợp từ một vài bài toán ở mức độ vận dụng.
+
+**4. Các Dạng Câu hỏi và Tỷ lệ (SP-cat-Style):**
+*   **10 câu** là câu hỏi **Trắc nghiệm**:
+    *   Mỗi câu có 4 lựa chọn (a), b), c), d)).
+    *   Chỉ có đúng một đáp án đúng.
+    *   Các phương án nhiễu phải phản ánh những sai lầm phổ biến, dễ gây nhầm lẫn của học sinh.
+    *   Tất cả câu hỏi ở dạng này nên có cả 4 mức độ khó.
+*   **5 câu** là câu hỏi **Trả lời Đúng/Sai**
+    *   Mỗi câu hỏi gồm 2 lựa chọn a), b)
+    *   Mỗi lựa chọn có thể là **Đúng** hoặc **Sai**
+    *   Tất cả câu hỏi ở dạng này nên có 3 mức độ khó, bao gồm: **Nhận biết**, **Thông hiểu** và **Vận dụng**.
+*   **5 câu** là câu hỏi **Trả lời ngắn**:
+    *   Chỉ yêu cầu điền đáp số cuối cùng.
+    *   Tất cả các câu hỏi dạng này chỉ nên có mức độ **Vận dụng** và **Vận dụng cao**.
+**Định dạng đầu ra:**
+*   **Tuyệt đối không có bất kỳ lời giải thích hay phần giải thích nào đi kèm ngoài cấu trúc đã định.**
+*   **Đầu ra phải là một luồng câu hỏi, đáp án và lời giải liên tục, không có bất kỳ tiêu đề phần nào (ví dụ: "Phần 1", "Phần 2") hay các dấu phân cách khác.** Các câu hỏi sẽ được đánh số liên tiếp từ 1 đến hết.
+*   **Mỗi câu hỏi sẽ được định dạng như sau:**
+    *   **Đối với câu hỏi trắc nghiệm khách quan (MCQ 4 lựa chọn):**
+        
+        ::Câu [Số thứ tự câu]:: [Nội dung câu hỏi được viết trên một dòng duy nhất, không xuống dòng. Nếu có hình ảnh, mô tả nội dung hình ảnh trong dấu ngoặc đơn ngay sau phần đề bài liên quan, ví dụ: "(như hình vẽ, đồ thị hàm bậc ba đi qua $(-1,0)$, $(1,-4)$, $(0,-2)$, $(2,0)$)" mà không chèn link ảnh hay xuống dòng.]?
+        ... [một khoảng trắng] [Nội dung lời giải chi tiết cho câu này, được viết liền mạch trên một dòng duy nhất, không xuống dòng và không có bất kỳ sai sót nào]
+        a) [Lựa chọn A]
+        b) [Lựa chọn B]
+        *c) [Lựa chọn C]
+        d) [Lựa chọn D]
+        
+        (Lưu ý: Dấu `*` sẽ đứng trước lựa chọn đúng. Chỉ có một lựa chọn đúng cho mỗi câu. **Không in đậm lựa chọn đúng, chỉ thêm dấu `*` ở đầu lựa chọn.**)
+    *   **Đối với câu hỏi Đúng/Sai (nhiều mệnh đề):**
+        
+        ::Câu [Số thứ tự câu]:: [Nội dung câu hỏi chính, kết thúc bằng "Các mệnh đề sau đúng hay sai:?" được viết trên một dòng duy nhất, không xuống dòng. Nếu có hình ảnh, mô tả nội dung hình ảnh trong dấu ngoặc đơn ngay sau phần đề bài liên quan, ví dụ: "(như hình vẽ, đồ thị hàm bậc ba đi qua $(-1,0)$, $(1,-4)$, $(0,-2)$, $(2,0)$)" mà không chèn link ảnh hay xuống dòng.]?
+        
+        	a) [Mệnh đề a được viết trên một dòng duy nhất, không xuống dòng.]
+        
+        	b) [Mệnh đề b được viết trên một dòng duy nhất, không xuống dòng.]
+        ... [một khoảng trắng] [Nội dung lời giải chi tiết cho từng mệnh đề, được viết liền mạch trên một dòng duy nhất, không xuống dòng và không có bất kỳ sai sót nào]
+        * [Đáp án dạng chuỗi ngắn gọn, ví dụ: "ĐĐ", "ĐS", "SĐ", "SS" tùy thuộc vào sự đúng sai của các mệnh đề. Đảm bảo có khoảng trắng sau dấu `*`]
+        
+        (Lưu ý: Các mệnh đề `a)`, `b)` phải được thụt lề bằng **một tab** hoặc **4 dấu cách**. Giữa nội dung câu hỏi chính và mệnh đề `a)`, cũng như giữa các mệnh đề (`a)` và `b)`), sẽ có **một dòng trống**. **Không có dòng trống giữa mệnh đề cuối cùng và dòng `...`**. **Không in đậm đáp án, chỉ thêm dấu `*` ở đầu đáp án và một khoảng trắng.**)
+    *   **Đối với câu hỏi Trả lời ngắn:**
+        
+        ::Câu [Số thứ tự câu]:: [Nội dung câu hỏi được viết trên một dòng duy nhất, không xuống dòng. Nếu có hình ảnh, mô tả nội dung hình ảnh trong dấu ngoặc đơn ngay sau phần đề bài liên quan, ví dụ: "(như hình vẽ, đồ thị hàm bậc ba đi qua $(-1,0)$, $(1,-4)$, $(0,-2)$, $(2,0)$)" mà không chèn link ảnh hay xuống dòng.]?
+        ... [một khoảng trắng] [Nội dung lời giải chi tiết cho câu này, được viết liền mạch trên một dòng duy nhất, không xuống dòng và không có bất kỳ sai sót nào]
+        * [Đáp án dạng số hoặc biểu thức ngắn gọn. Đối với các đáp án là số vô tỷ hoặc có nhiều cách biểu diễn tương đương (ví dụ: $\ln(A/B)$), hãy chuyển sang dạng số thập phân và làm tròn đến hai chữ số sau dấu phẩy.]
+        
+        (Lưu ý: Đáp án sẽ nằm trên một dòng mới, bắt đầu bằng dấu `*` và một khoảng trắng. **Đảm bảo rằng sau dấu `*` LUÔN LUÔN là đáp án cụ thể, không được để trống.** **Không in đậm đáp án, chỉ thêm dấu `*` ở đầu đáp án.**)
+*   **Nội dung lời giải:** Lời giải phải chi tiết, rõ ràng, dễ hiểu, trình bày từng bước giải quyết vấn đề. **Đặc biệt, toàn bộ nội dung lời giải cho mỗi câu phải được viết liền mạch trên một dòng duy nhất, không có ký tự xuống dòng, không có dấu chấm đầu mục hay bất kỳ định dạng nào gây ngắt dòng. Đây là quy tắc TUYỆT ĐỐI và không có ngoại lệ.**
+*   **Tương thích kỹ thuật:** Đầu ra cần có cấu trúc rõ ràng để có thể chuyển đổi sang định dạng QTI và tải lên nền tảng Canvas.
+
+**5. Yêu cầu chung về Câu hỏi (SP-cat-Style):**
+*   Mỗi câu hỏi phải đảm bảo có đủ dữ kiện để giải.
+*   Đề thi phải đảm bảo mức phân hóa đa dạng giữa các phổ điểm.
+
+**6. Đối tượng Học sinh (SP-cat-Mastery & SP-cat-Resource):**
+*   Học sinh đã học xong chương trình sách giáo khoa cả 3 lớp 10, 11, 12 theo Chương trình GDPT năm 2018.
+*   Học sinh được phép sử dụng máy tính trong quá trình làm bài.
+
+**7. Mục tiêu của Đề thi (SP-cat-Aim):**
+*   Luyện tập cho học sinh về chủ đề Đạo hàm, Nguyên hàm, Tích phân trước kỳ thi thật.
+
+**8. Phân bố thời gian:**
+* Mỗi câu nhận biết nên có dưới 1m thời gian làm bài
+* Mỗi câu thông hiểu nên có 1m - 2m thời gian làm bài
+* Mỗi câu vận dụng nên có 3m - 5m thời gian làm bài
+* Mỗi câu vận dụng cao nên có 5m trở lên thời gian làm bài
+
+**Yêu cầu về FORMAT**
+* Không có tiêu đề
+**Định dạng đầu ra:**
+*   **Tuyệt đối không có bất kỳ lời giải thích hay phần giải thích nào đi kèm ngoài cấu trúc đã định.**
+*   **Đầu ra phải là một luồng câu hỏi, đáp án và lời giải liên tục, không có bất kỳ tiêu đề phần nào (ví dụ: "Phần 1", "Phần 2") hay các dấu phân cách khác.** Các câu hỏi sẽ được đánh số liên tiếp từ 1 đến hết.
+*   **Mỗi câu hỏi sẽ được định dạng như sau:**
+    *   **Đối với câu hỏi trắc nghiệm khách quan (MCQ 4 lựa chọn):**
+        
+        ::Câu [Số thứ tự câu]:: [Nội dung câu hỏi được viết trên một dòng duy nhất, không xuống dòng. Nếu có hình ảnh, mô tả nội dung hình ảnh trong dấu ngoặc đơn ngay sau phần đề bài liên quan, ví dụ: "(như hình vẽ, đồ thị hàm bậc ba đi qua $(-1,0)$, $(1,-4)$, $(0,-2)$, $(2,0)$)" mà không chèn link ảnh hay xuống dòng.]?
+        ... [một khoảng trắng] [Nội dung lời giải chi tiết cho câu này, được viết liền mạch trên một dòng duy nhất, không xuống dòng và không có bất kỳ sai sót nào]
+        a) [Lựa chọn A]
+        b) [Lựa chọn B]
+        *c) [Lựa chọn C]
+        d) [Lựa chọn D]
+        
+        (Lưu ý: Dấu `*` sẽ đứng trước lựa chọn đúng. Chỉ có một lựa chọn đúng cho mỗi câu. **Không in đậm lựa chọn đúng, chỉ thêm dấu `*` ở đầu lựa chọn.**)
+    *   **Đối với câu hỏi Đúng/Sai (nhiều mệnh đề):**
+        
+        ::Câu [Số thứ tự câu]:: [Nội dung câu hỏi chính, kết thúc bằng "Các mệnh đề sau đúng hay sai:?" được viết trên một dòng duy nhất, không xuống dòng. Nếu có hình ảnh, mô tả nội dung hình ảnh trong dấu ngoặc đơn ngay sau phần đề bài liên quan, ví dụ: "(như hình vẽ, đồ thị hàm bậc ba đi qua $(-1,0)$, $(1,-4)$, $(0,-2)$, $(2,0)$)" mà không chèn link ảnh hay xuống dòng.]?
+        
+        	a) [Mệnh đề a được viết trên một dòng duy nhất, không xuống dòng.]
+        
+        	b) [Mệnh đề b được viết trên một dòng duy nhất, không xuống dòng.]
+        ... [một khoảng trắng] [Nội dung lời giải chi tiết cho từng mệnh đề, được viết liền mạch trên một dòng duy nhất, không xuống dòng và không có bất kỳ sai sót nào]
+        * [Đáp án dạng chuỗi ngắn gọn, ví dụ: "ĐĐ", "ĐS", "SĐ", "SS" tùy thuộc vào sự đúng sai của các mệnh đề. Đảm bảo có khoảng trắng sau dấu `*`]
+        
+        (Lưu ý: Các mệnh đề `a)`, `b)` phải được thụt lề bằng **một tab** hoặc **4 dấu cách**. Giữa nội dung câu hỏi chính và mệnh đề `a)`, cũng như giữa các mệnh đề (`a)` và `b)`), sẽ có **một dòng trống**. **Không có dòng trống giữa mệnh đề cuối cùng và dòng `...`**. **Không in đậm đáp án, chỉ thêm dấu `*` ở đầu đáp án và một khoảng trắng.**)
+    *   **Đối với câu hỏi Trả lời ngắn: Chỉ được có kết quả là số làm tròn đến 2 chữ số sau dấu phẩy**
+        
+        ::Câu [Số thứ tự câu]:: [Nội dung câu hỏi được viết trên một dòng duy nhất, không xuống dòng. Nếu có hình ảnh, mô tả nội dung hình ảnh trong dấu ngoặc đơn ngay sau phần đề bài liên quan, ví dụ: "(như hình vẽ, đồ thị hàm bậc ba đi qua $(-1,0)$, $(1,-4)$, $(0,-2)$, $(2,0)$)" mà không chèn link ảnh hay xuống dòng.]?
+        ... [một khoảng trắng] [Nội dung lời giải chi tiết cho câu này, được viết liền mạch trên một dòng duy nhất, không xuống dòng và không có bất kỳ sai sót nào]
+        * [Đáp án dạng số hoặc biểu thức ngắn gọn. Đối với các đáp án là số vô tỷ hoặc có nhiều cách biểu diễn tương đương (ví dụ: $\ln(A/B)$), hãy chuyển sang dạng số thập phân và làm tròn đến hai chữ số sau dấu phẩy.]
+        
+        (Lưu ý: Đáp án sẽ nằm trên một dòng mới, bắt đầu bằng dấu `*` và một khoảng trắng. **Đảm bảo rằng sau dấu `*` LUÔN LUÔN là đáp án cụ thể, không được để trống.** **Không in đậm đáp án, chỉ thêm dấu `*` ở đầu đáp án.**)
+*   **Nội dung lời giải:** Lời giải phải chi tiết, rõ ràng, dễ hiểu, trình bày từng bước giải quyết vấn đề. **Đặc biệt, toàn bộ nội dung lời giải cho mỗi câu phải được viết liền mạch trên một dòng duy nhất, không có ký tự xuống dòng, không có dấu chấm đầu mục hay bất kỳ định dạng nào gây ngắt dòng. Đây là quy tắc TUYỆT ĐỐI và không có ngoại lệ.**
+*   **Tương thích kỹ thuật:** Đầu ra cần có cấu trúc rõ ràng để có thể chuyển đổi sang định dạng QTI và tải lên nền tảng Canvas.
+
+**LƯU Ý CỰC KỲ QUAN TRỌNG:**
+**KHÔNG được phép trùng lặp đáp án trong cùng một câu**
+**PHẢI CÓ DÒNG TRỐNG GIỮA ĐỀ BÀI VÀ CÂU a), VÀ GIỮA CÂU a) VỚI CÂU b)**
+**CÁC CÂU a), b) PHẢI ĐƯỢC VIẾT THỤT LỀ ĐÚNG 1 TAB.**
+
+**LƯU Ý QUAN TRỌNG**
+* Đáp án đúng: Dùng * cho trắc nghiệm.
+* Tiêu đề câu hỏi: Phải dùng "::Câu X::  "
+* Không có metadata phức tạp - text2qti tự động nhận dạng loại câu hỏi
+* Viết LaTeX math: Có thể sử dụng $...$ cho công thức toán học
+
+**FORMAT TƯƠNG TỰ NHƯ SAU:**
+::Câu 1::  Tính tích phân $\int_{0}^{1} e^{2x} dx$:
+*a) $\frac{e^2 - 1}{2}$
+b) $e^2 - 1$
+c) $\frac{e^2}{2}$
+d) $e^2$
+
+[Tiếp tục 14 câu trắc nghiệm khác...]
+
+::Câu 16::  Cho hàm số $f(x) = x^3 - 27x + 81$:
+
+a) Hàm số đã cho có đạo hàm là $f'(x) = 3x^2 - 27$.
+
+b) Phương trình $f'(x) = 0$ có tập nghiệm là $S = \{3\}$.
+*ĐS
+
+[Tiếp tục 5 câu trả lời đúng sai khác...]
+
+::Câu 22::  Một người nông dân muốn rào một khu vườn hình chữ nhật, có một cạnh là tường. Nếu người đó có 20m rào, diện tích lớn nhất của khu vườn có thể rào là bao nhiêu?
+*50
+
+[Tiếp tục 8 câu trả lời ngắn khác...]
+
+**LƯU Ý CỰC KỲ QUAN TRỌNG:**
+**KHÔNG được phép trùng lặp đáp án trong cùng một câu**
+**PHẢI CÓ DÒNG TRỐNG GIỮA ĐỀ BÀI VÀ CÂU a), VÀ GIỮA CÂU a) VỚI CÂU b)**
+**CÁC CÂU a), b) PHẢI ĐƯỢC VIẾT THỤT LỀ ĐÚNG 1 TAB.**
+__________________________________________________________________________________________________________________________________________________
+**FILE THAM KHẢO:**
+*Dưới đây là file tham khảo chứa bài mẫu với độ khó vừa phải cho học sinh thi tốt nghiệp được chọn lọc qua nhiều năm , không được sao chép lại các đề trong file tham khảo (có thể sửa số , dữ kiện ) file tham khảo gồm 3 file với 2 chủ đề lớn , 2 dạng bài :
+*TRẮC NGHIỆM KHÁCH QUAN:
+**1.Nguyên Hàm: **
+::Câu 1:: Trong không gian Oxyz, cho điểm A(1; -2; 3). Hình chiếu vuông góc của A trên mặt phẳng (Oxy) có tọa độ là:
+*a) (1; -2; 0)
+b) (1; 0; 3)
+c) (0; -2; 3)
+d) (0; 0; 3)
+
+::Câu 2:: Nguyên hàm của hàm số $f(x) = x^3 + x$ là:
+a) $x^4 + x^2 + C$
+*b) $\frac{1}{4}x^4 + \frac{1}{2}x^2 + C$
+c) $3x^2 + 1 + C$
+d) $x^3 + x + C$
+
+::Câu 3:: Cho hàm số $F(x)$ thoả mãn $F'(x) = \frac{1}{2x-1}$ và $F(1) = 1$. Khẳng định nào sau đây đúng?
+a) $F(x) = \ln|2x-1| + 1$
+b) $F(x) = \frac{1}{2}\ln|2x-1| + 1$
+c) $F(x) = \ln(2x-1) + 1$
+*d) $F(x) = \frac{1}{2}\ln|2x-1| + \frac{1}{2}$
+
+::Câu 4:: Họ các nguyên hàm của hàm số $f(x) = x^2 - 3x + \frac{1}{x}$ là
+*a) $\frac{x^3}{3} - \frac{3x^2}{2} + \ln|x| + C$
+b) $x^3 - 3x^2 + \ln|x| + C$
+c) $\frac{x^3}{3} - \frac{3x^2}{2} - \frac{1}{x^2} + C$
+d) $2x - 3 - \frac{1}{x^2} + C$
+
+::Câu 5:: $\int (x^2 + 2x) dx$ bằng
+a) $\frac{x^3}{3} + x^2 + C$
+b) $x^3 + x^2 + C$
+c) $2x + 2 + C$
+*d) $\frac{x^3}{3} + x^2 + C$
+
+::Câu 6:: Nếu $F(x)$ là nguyên hàm của hàm số $f(x) = \frac{1}{x-1}$ thì
+a) $F(x) = \ln(x-1) + C$
+b) $F(x) = \frac{1}{(x-1)^2} + C$
+*c) $F(x) = \ln|x-1| + C$
+d) $F(x) = -\frac{1}{(x-1)^2} + C$
+
+::Câu 7:: Cho hàm số $f(x) = \sin x + \cos x$. Khẳng định nào dưới đây là đúng?
+a) $\int f(x) dx = \cos x - \sin x + C$
+*b) $\int f(x) dx = -\cos x + \sin x + C$
+c) $\int f(x) dx = \cos x + \sin x + C$
+d) $\int f(x) dx = -\cos x - \sin x + C$
+
+::Câu 8:: Biết $\int f(x) dx = x^2 + 2x + C$ thì $f(x)$ bằng
+a) $2x + 2$
+b) $x^2 + 2x$
+*c) $2x + 2$
+d) $x^2 + 2x + C$
+
+::Câu 9:: Nguyên hàm của hàm số $f(x) = e^{2x}$ là
+*a) $\frac{1}{2}e^{2x} + C$
+b) $2e^{2x} + C$
+c) $e^{2x} + C$
+d) $e^{2x} + C$
+
+::Câu 10:: Họ nguyên hàm của hàm số $f(x) = 2^x$ là.
+*a) $\frac{2^x}{\ln 2} + C$
+b) $2^x \ln 2 + C$
+c) $2^x + C$
+d) $2^x + C$
+
+::Câu 21:: Nguyên hàm của hàm số $f(x) = e^x$ là
+*a) $e^x + C$
+b) $e^{x+1} + C$
+c) $x e^{x-1} + C$
+d) $\frac{e^x}{x+1} + C$
+
+::Câu 22:: Họ các nguyên hàm của hàm số $f(x) = \frac{1}{2x+1}$ là
+*a) $\frac{1}{2}\ln|2x+1| + C$
+b) $\ln|2x+1| + C$
+c) $-\frac{1}{2(2x+1)^2} + C$
+d) $-\frac{1}{(2x+1)^2} + C$
+
+::Câu 23:: Nguyên hàm của hàm số $f(x) = \sin 2x$ là:
+*a) $-\frac{1}{2}\cos 2x + C$
+b) $\frac{1}{2}\cos 2x + C$
+c) $-2\cos 2x + C$
+d) $2\cos 2x + C$
+
+::Câu 24:: Gọi $F(x)$ là một nguyên hàm của hàm số $f(x) = x^2 - 2x + 3$ thoả mãn $F(1) = 0$. Tính $F(2)$.
+*a) $\frac{7}{3}$
+b) $\frac{10}{3}$
+c) $\frac{4}{3}$
+d) $\frac{13}{3}$
+
+::Câu 25:: Nguyên hàm của hàm số $f(x) = \frac{1}{\sqrt{x}}$ là
+*a) $2\sqrt{x} + C$
+b) $\frac{1}{2\sqrt{x}} + C$
+c) $-\frac{1}{2\sqrt{x}} + C$
+d) $\sqrt{x} + C$
+
+::Câu 26:: Họ các nguyên hàm của hàm số $f(x) = \frac{1}{x^2 + 1}$ là
+*a) $\arctan x + C$
+b) $\ln(x^2+1) + C$
+c) $\frac{1}{x} + C$
+d) $-\frac{1}{x} + C$
+
+::Câu 27:: Họ nguyên hàm của hàm số $f(x) = \frac{1}{\sqrt{2x+1}}$ là
+*a) $\sqrt{2x+1} + C$
+b) $\frac{1}{2}\sqrt{2x+1} + C$
+c) $\frac{1}{\sqrt{2x+1}} + C$
+d) $\frac{1}{2\sqrt{2x+1}} + C$
+
+::Câu 28:: Nguyên hàm của hàm số $f(x) = \frac{1}{x^2 - 1}$ là
+*a) $\frac{1}{2}\ln|\frac{x-1}{x+1}| + C$
+b) $\ln|x^2-1| + C$
+c) $\frac{1}{2}\ln|\frac{x+1}{x-1}| + C$
+d) $\frac{1}{x} + C$
+
+::Câu 29:: Nguyên hàm của hàm số $f(x) = \frac{1}{x^2 + 4}$ là
+*a) $\frac{1}{2}\arctan(\frac{x}{2}) + C$
+b) $\arctan(\frac{x}{2}) + C$
+c) $\frac{1}{4}\arctan(\frac{x}{2}) + C$
+d) $\frac{1}{2}\ln(x^2+4) + C$
+
+::Câu 30:: Cho $F(x)$ là một nguyên hàm của hàm số $f(x) = x^2 - 2x + 3$ và $F(1) = 0$. Tính $F(2)$.
+*a) $\frac{7}{3}$
+b) $\frac{10}{3}$
+c) $\frac{4}{3}$
+d) $\frac{13}{3}$
+
+
+::Câu 51:: Cho hàm số $f(x) = \frac{1}{x^2 + 4x + 5}$. Khẳng định nào dưới đây đúng?
+*a) $\int f(x) dx = \arctan(x+2) + C$
+b) $\int f(x) dx = \frac{1}{2}\arctan(\frac{x+2}{2}) + C$
+c) $\int f(x) dx = \ln(x^2+4x+5) + C$
+d) $\int f(x) dx = \frac{1}{2}\ln(x^2+4x+5) + C$
+
+::Câu 52:: Họ nguyên hàm của hàm số $f(x) = \frac{1}{x^2 - 2x + 2}$ là
+*a) $\arctan(x-1) + C$
+b) $\ln(x^2-2x+2) + C$
+c) $\frac{1}{2}\ln(x^2-2x+2) + C$
+d) $\frac{1}{2}\arctan(x-1) + C$
+
+::Câu 53:: Họ tất cả các nguyên hàm của hàm số $f(x) = \frac{1}{x^2 - 4x + 5}$ là:
+*a) $\arctan(x-2) + C$
+b) $\frac{1}{2}\arctan(\frac{x-2}{2}) + C$
+c) $\ln(x^2-4x+5) + C$
+d) $\frac{1}{2}\ln(x^2-4x+5) + C$
+
+::Câu 54:: Tìm tất cả nguyên hàm của hàm số $f(x) = \frac{1}{x^2 - 6x + 10}$.
+*a) $\arctan(x-3) + C$
+b) $\frac{1}{2}\arctan(\frac{x-3}{2}) + C$
+c) $\ln(x^2-6x+10) + C$
+d) $\frac{1}{2}\ln(x^2-6x+10) + C$
+
+::Câu 55:: Tìm nguyên hàm $\int \frac{1}{x^2 + 2x + 1} dx$.
+*a) $-\frac{1}{x+1} + C$
+b) $\frac{1}{x+1} + C$
+c) $\ln|x+1| + C$
+d) $-\ln|x+1| + C$
+
+
+**2.Tích Phân: **
+::Câu 1:: Biết $f(x)$ là hàm số liên tục trên $R$ là số thực thỏa mãn $\int_{1}^{2} f(x) d x=1$ và $\int_{1}^{3} f(x) d x=5$. Tính $\int_{2}^{3} f(x) d x$.
+a) $A. 4$
+*b) $B. 6$
+c) $C. -4$
+d) $D. -6$
+
+::Câu 2:: Cho $\int_{1}^{2} f(x) d x=2$ và $\int_{1}^{2} g(x) d x=3$. Tích phân $\int_{1}^{2}[f(x)+g(x)] d x$ bằng:
+a) $A. 5$
+b) $B. -1$
+*c) $C. 6$
+d) $D. 1$
+
+::Câu 4:: Cho $\int_{1}^{2} f(x) d x=3$. Khi đó $\int_{1}^{2} 2 f(x) d x$ bằng:
+a) $A. 3$
+*b) $B. 6$
+c) $C. \frac{3}{2}$
+d) $D. 5$
+
+::Câu 5:: Cho hàm số $f(x)$ liên tục trên $R$ và $a$ là số thực tùy ý thuộc đoạn $[1 ; 2]$. Nếu biết $\int_{1}^{2} f(x) d x=3$ và $\int_{2}^{3} f(x) d x=5$, thì giá trị của $\int_{1}^{3} f(x) d x$ là bao nhiêu?
+*a) $A. 8$
+b) $B. 2$
+c) $C. -2$
+d) $D. 15$
+
+::Câu 6:: Một vật chuyển động với vận tốc $v(t)=2 t+1 \mathrm{~(m/s)}$, với thời gian $t$ tính bằng giây. Tính quãng đường vật đi được trong khoảng thời gian từ $t=0$ đến $t=2$.
+a) $A. 2 \mathrm{~m}$
+b) $B. 4 \mathrm{~m}$
+c) $C. 5 \mathrm{~m}$
+*d) $D. 6 \mathrm{~m}$
+
+::Câu 7:: Cho hàm số $f(x)$ có đạo hàm liên tục trên đoạn $[1 ; 2]$ và $f(1)=1, f(2)=2$. Khi đó $\int_{1}^{2} f^{\prime}(x) d x$ bằng
+*a) $A. 1$
+b) $B. -1$
+c) $C. 3$
+d) $D. 2$
+
+::Câu 8:: Biết $\int_{0}^{1} f(x) d x=2$ và $\int_{0}^{1} g(x) d x=3$. Tính $\int_{0}^{1}[f(x)-g(x)] d x$ bằng.
+*a) $A. -1$
+b) $B. 5$
+c) $C. 1$
+d) $D. -5$
+
+::Câu 9:: Cho hàm số $f(x)$ liên tục trên đoạn $[1 ; 2]$ và $a$ là số thực tùy ý thuộc đoạn $[1 ; 2]$. Nếu $\int_{1}^{2} f(x) d x=5$ và $\int_{1}^{2} g(x) d x=6$ thì tích phân $\int_{1}^{2}[f(x)+g(x)] d x$ bằng
+*a) $A. 11$
+b) $B. -1$
+c) $C. 5$
+d) $D. -1$
+
+::Câu 10:: Biết rằng $F(x)$ là một nguyên hàm của hàm số $f(x)$ trên đoạn $[-1 ; 2]$ và $F(-1)=2, F(2)=5$. Giá trị của $\int_{-1}^{2} f(x) d x$ bằng
+a) $A. 3$
+b) $B. -3$
+c) $C. 7$
+*d) $D. 2$
+
+::Câu 11:: Nếu $\int_{1}^{2} f(x) d x=3$ thì $\int_{1}^{2}[f(x)+1] d x$ bằng
+*a) $A. 4$
+b) $B. 3$
+c) $C. 2$
+d) $D. 1$
+
+::Câu 12:: Cho $\int_{1}^{2} f(x) d x=3$. Tích phân $\int_{1}^{2}[2 f(x)-1] d x$ bằng
+a) $A. 8$
+b) $B. -4$
+*c) $C. 12$
+d) $D. 4$
+
+::Câu 13:: Cho hàm số $f(x)$ liên tục trên $R$. Biết $\int_{1}^{2} f(x) d x=3$ thì $\int_{1}^{2} 3 f(x) d x$ bằng
+a) $A. 1$
+*b) $B. 9$
+c) $C. 3$
+d) $D. 6$
+
+::Câu 14:: Nếu $\int_{1}^{2} f(x) d x=3$ và $\int_{1}^{2} g(x) d x=-1$ thì $\int_{1}^{2}[f(x)-g(x)] d x$ bằng:
+a) $A. 2$
+*b) $B. 4$
+c) $C. -4$
+d) $D. -2$
+
+::Câu 15:: Nếu $\int_{1}^{3} f(x) d x=2$ thì $\int_{1}^{3} 5 f(x) d x$ bằng:
+*a) $A. 10$
+b) $B. 2$
+c) $C. 5$
+d) $D. 7$
+
+::Câu 16:: Cho hàm số $f(x)$ liên tục trên $R$. Biết hàm số $F(x)$ là một nguyên hàm của hàm số $f(x)$ trên $R$ thoả mãn $F(2)=7$ và $F(4)=4$. Giá trị của $\int_{2}^{4} f(x) d x$ là
+a) $A. -11$
+*b) $B. -3$
+c) $C. 3$
+d) $D. 11$
+
+::Câu 17:: Cho $\int_{1}^{2} f(x) d x=2$ và $\int_{1}^{2} g(x) d x=3$. Giá trị tích phân $\int_{1}^{2}[f(x)-g(x)] d x$ bằng
+*a) $A. -1$
+b) $B. 1$
+c) $C. 5$
+d) $D. 6$
+
+::Câu 19:: Cho hàm số $f(x)$ liên tục trên $R$ thỏa mãn $\int_{1}^{3} f(x) d x=2$ và $\int_{3}^{4} f(x) d x=3$. Khi đó $\int_{1}^{4} f(x) d x$ bằng
+a) $A. 6$
+b) $B. 1$
+*c) $C. 5$
+d) $D. -1$
+
+::Câu 20:: Nếu $\int_{1}^{3} f(x) d x=2$ thì $\int_{1}^{3}[f(x)+2] d x$ bằng
+*a) $A. 6$
+b) $B. 5$
+c) $C. 8$
+d) $D. 4$
+
+
+*TRẮC NGHIỆM ĐÚNG SAI *
+*Đạo hàm + Tích phân *
+::Câu 3:: Cho hàm số \( f \) có đạo hàm \( f' \). Biết \( f(1) = 0 \).
+
+a) Hàm số \( F(x) = f(x)^2 \) là một nguyên hàm của hàm số \( 2f(x)f'(x) \).
+
+b) \( \int f(x)dx = x^2 + C \), với \( C \) là hằng số.
+
+... Đáp án đúng và lời giải: a. a) Đúng vì theo quy tắc đạo hàm hàm hợp, \((f(x)^2)' = 2f(x)f'(x)\). b) Sai vì không có cơ sở.
+*   ĐS
+
+::Câu 4:: Cho hàm số \( y = \frac{1}{\sqrt{1-x^2}} \).
+
+a) Hàm số \( y \) có tập xác định là đoạn \( (-1;1) \).
+
+b) Nếu hàm số \( F \) là một nguyên hàm của hàm số \( f(x) = \frac{1}{\sqrt{1 - x^2}} \) và thoả mãn \( F(0) = 0 \) thì \( F(1) = \frac{\pi}{2} \).
+
+... Đáp án đúng và lời giải: ab. a) Đúng, điều kiện xác định là \(1-x^2 > 0\). b) Đúng, vì \(F(x) = \arcsin x\) và \(\arcsin(1) = \frac{\pi}{2}\).
+*   ĐĐ
+
+::Câu 5:: Cho hàm số \( f(x) = x^2 \).
+
+a) \( \int_0^2 f(x) dx = \frac{8}{3} \).
+
+b) Gọi \( F \) là một nguyên hàm của hàm số \( f \). Biết \( F(1) = \frac{1}{3}, F(2) = \frac{8}{3} \). Khi đó tìm được \( F(2) - F(1) = \frac{7}{3} \).
+
+... Đáp án đúng và lời giải: ab. a) Đúng vì \(\int_0^2 x^2 dx = \frac{8}{3}\). b) Đúng vì \(F(2) - F(1) = \int_1^2 x^2 dx = \frac{7}{3}\).
+*   ĐĐ
+
+::Câu 6:: Cho hàm số \( f(x) = \frac{1}{x^2+1} \).
+
+a) \( \int f(x)dx = \arctan x + C \).
+
+b) Gọi \( F \) là nguyên hàm của hàm số \( f \) thoả mãn \( F(0) = 0 \) và \( F(1) = \frac{\pi}{4} \). Khi đó tổng tử và mẫu là 5.
+
+... Đáp án đúng và lời giải: ab. a) Đúng, đây là công thức nguyên hàm cơ bản. b) Đúng, vì \(F(x) = \arctan x\) và \(F(1) = \frac{\pi}{4}\).
+*   ĐĐ
+
+::Câu 7:: Cho hàm số \( f \) liên tục và có đạo hàm trên \( \mathbb{R} \). Các mệnh đề sau đây đúng hay sai?
+
+a) Nếu \( f' \) âm thì \( f \) nghịch biến.
+
+b) Nếu \( f \) có điểm uốn tại \( x = a \) thì \( f''(a) = 0 \).
+
+... Đáp án đúng và lời giải: a. a) Đúng, đây là định lý về tính đơn điệu. b) Sai, mệnh đề đảo mới đúng và cần thêm điều kiện.
+*   ĐS
+
+::Câu 8:: Cho hình phẳng \( H \) giới hạn bởi cung tròn của đường tròn tâm \( O \) và bán kính \( R \), parabol \( y = ax^2 \), các đường thẳng \( x = 0 \), \( x = a \).
+
+a) Diện tích hình phẳng \( H \) bằng \( \frac{\pi R^2}{2} - \int_0^a ax^2 dx \).
+
+b) Parabol có phương trình là \( y = ax^2 \).
+
+... Đáp án đúng và lời giải: b. Đây là phương trình tổng quát của một parabol có đỉnh tại gốc tọa độ.
+*   SB
+
+::Câu 9:: Xét hàm số \( f(x) = e^x \) trên khoảng \( (0; +\infty) \).
+
+a) \( f'(x) = e^x \).
+
+b) Nếu \( f(x) = \ln x \), thì \( f'(x) = \frac{1}{x} \).
+
+... Đáp án đúng và lời giải: ab. a) Đúng, đạo hàm của \(e^x\) là chính nó. b) Đúng, đây là công thức đạo hàm cơ bản.
+*   ĐĐ
+
+::Câu 10:: Cho hàm số \( f \) có đồ thị \( (C) \) và hàm số \( g \) có đồ thị \( (C') \).
+
+a) \( f(x) = g(x) + C \), với \( C \) là hằng số.
+
+b) Nếu \( g(x) \) là một hàm số liên tục trên \( [0; x] \) và \( F(x) \) là một nguyên hàm của \( f(x) \), thì \( F(x) = \int_0^x g(t) dt + 1 \).
+
+... Đáp án đúng và lời giải: Không có đáp án nào đúng. a) Sai vì thiếu điều kiện \(f'(x)=g'(x)\). b) Sai về mặt khái niệm.
+*   SS
+
+::Câu 11:: Gọi hàm số \( F(x) \) là một nguyên hàm của hàm số \( f(x) = x \ln x \), với \( x > 0 \).
+
+a) \( F(x) = \frac{x^2}{2} \ln x - \frac{x^2}{4} + C \).
+
+b) \( \int \ln x dx = x \ln x - x + C \).
+
+... Đáp án đúng và lời giải: ab. a) Đúng, đây là kết quả nguyên hàm từng phần. b) Đúng, đây là công thức nguyên hàm cơ bản.
+*   ĐĐ
+
+::Câu 12:: Cho hàm số \( f(x) = e^{-x^2} \) và \( F \) là một nguyên hàm của \( f \).
+
+a) Ta có \( f'(x) = -2x e^{-x^2} \).
+
+b) Nếu \( F(0) = 0 \), thì \( F(x) = \int_0^x e^{-t^2} dt \).
+
+... Đáp án đúng và lời giải: ab. a) Đúng theo quy tắc đạo hàm hàm hợp. b) Đúng, đây là định nghĩa của nguyên hàm theo tích phân.
+*   ĐĐ
+
+
+
+
+

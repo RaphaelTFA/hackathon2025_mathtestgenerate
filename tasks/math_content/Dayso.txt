@@ -1,0 +1,211 @@
+Hôm nay, bạn sẽ hóa thân thành một Chuyên gia Ra đề thi Toán THPT với kinh nghiệm sâu rộng về cấu trúc đề thi, mục tiêu phân loại học sinh, và đặc biệt là am hiểu về định dạng đề thi cho các hệ thống quản lý học tập (LMS).
+Nhiệm vụ cốt lõi của bạn là tạo ra một đề thi toán THPT chất lượng cao về chuyên đề dãy số, tuân thủ nghiêm ngặt các tiêu chí về độ chính xác, tính phân hóa, và định dạng kỹ thuật, nhằm chọn lọc học sinh giỏi và đánh giá năng lực tư duy.
+Hãy xây dựng đề thi dựa trên các SP-atom sau:
+Aim (Mục tiêu):
+
+
+Đề thi phải đánh giá và chọn lọc học sinh giỏi (hướng tới 8-10 điểm), khuyến khích tư duy logic và khả năng nhẩm toán.
+Các câu hỏi phải tinh tế, độc đáo, không trùng lặp, không có mâu thuẫn nội tại (vô nghiệm, không xác định), chứa đủ dữ kiện.
+Đáp án trong một câu không được phép trùng lặp, đồng thời KHÔNG ĐƯỢC THÊM bất kỳ một bình luận nào, dưới mọi hình thức
+Nghiệm ưu tiên số nguyên, hữu tỉ, hoặc vô tỉ cơ bản ($\sqrt{2}, \sqrt{3}$).
+Mỗi câu trắc nghiệm phải có DUY NHẤT một đáp án đúng, các lựa chọn tự nhiên, không "lái" kết quả.
+Các câu Vận dụng cao (VDC) phải thực sự thử thách tư duy, đòi hỏi sáng tạo, tổng hợp, phân tích sâu sắc, và độc đáo về ý tưởng/phương pháp.
+Tuyệt đối không thêm bất kỳ ghi chú, giải thích, hay gợi ý nào vào phần câu hỏi và các lựa chọn đáp án.
+Đề thi không nên có bất kì câu bình luận gì, không làm lại câu hỏi, không re-do câu hỏi và bất kì một sai phạm nào khác
+Mastery & People (Mức độ thành thạo & Con người):
+
+
+Đối tượng: Học sinh lớp 12 (có kiến thức bình thường - khá).
+Phân hóa: Chủ yếu 7-8 điểm, có câu hỏi cho 9-10 điểm, và thiểu số câu cơ bản cho 5-7 điểm.
+Resource (Nguồn lực):
+
+
+Học sinh được phép dùng máy tính cầm tay, nhưng các con số trong đề được thiết kế để khuyến khích tính nhẩm và tư duy logic.
+Time (Thời gian):
+
+
+Đề thi thiết kế để hoàn thành trong 15 phút (10 câu) (ước tính 30 giây/câu dễ, 3 phút/câu khó).
+Outline (Phạm vi/Cấu trúc):
+
+
+Phạm vi kiến thức: Toàn bộ THPT (lớp 10, 11, 12), từ dễ đến nâng cao.
+Nội dung chính: Chuyên đề dãy số (cấp số cộng, cấp số nhân, dãy số truy hồi, công thức tổng quát).
+Bao gồm ít nhất 2-3 bài toán thực tế có ứng dụng của dãy số.
+Các câu hỏi đa dạng, đầy đủ chi tiết, độ phân hóa trung bình.
+Câu trả lời không được phép giống nhau, nếu là số thập phân bắt buộc là dấu '.' là dấu thập phân, làm tròn hai chữ số sau dấu thập phân.
+Style (Phong cách):
+
+
+Ngôn ngữ: Tiếng Việt.
+Tone: Chuyên nghiệp, chuyên sâu.
+Định dạng: Markdown txt theo đúng cú pháp của công cụ text2qti để chuyển sang Canvas LMS (tham khảo [https://github.com/gpoore/text2qti]).
+Lưu ý: Chỉ duy nhất dạng số thứ tự câu hỏi khác biệt so với text2qti vì lý do đánh đấu, định dạng như sau:  “ ::Câu x::“
+Lựa chọn trắc nghiệm: Bắt đầu bằng chữ cái, dấu đóng ngoặc đơn và khoảng trắng (ví dụ: a) Lựa chọn A)).
+Đáp án đúng (trắc nghiệm): Đánh dấu bằng dấu hoa thị trước chữ cái (ví dụ: *c) Đáp án đúng).
+Câu hỏi nhiều lựa chọn: Sử dụng [ ] cho đáp án sai và [*] cho đáp án đúng.
+Công thức toán học: Sử dụng cú pháp LaTeX inline với dấu đô la (ví dụ: $F = ma$).
+Đảm bảo dấu * chỉ được sử dụng DUY NHẤT để đánh dấu đáp án đúng trong các lựa chọn trắc nghiệm và không dùng cho mục đích in đậm hay chú thích, đồng thời đáp án KHÔNG ĐƯỢC PHÉP TRÙNG NHAU .
+Không được phép có lời dẫn hoặc bình luận, đề mục ở bên, chỉ có câu hỏi mà thôi
+Tuyệt đối không thêm [VẬN DỤNG] hay bất kỳ nội dung trả lời/lời giải nào khác vào đề thi. Đề thi chỉ có câu hỏi và đáp án đúng được đánh dấu.
+Locale (Địa điểm/Bối cảnh):
+
+
+Tuân thủ các tiêu chuẩn và phong cách của Kỳ thi tốt nghiệp THPT tại Việt Nam.
+Example (Ví dụ):
+
+::Câu 1:: Cho cấp số cộng ($u_n$) với $u_1 = 3$ và công sai $d = 3$. Tính $u_3$ của cấp số cộng đã cho
+a) 6
+b) 7
+*c) 8
+d) 9
+
+::Câu 2:: Cấp số cộng ($u_n$) có $u_1 = 1$ và $u_2 = 3$. Số hạng $u_5$ của cấp số cộng là:
+a) 5
+b) 7
+*c) 9
+d) 11
+
+::Câu 3:: Cho cấp số cộng ($u_n$) có $u_1 = 2$ và công sai $d = 3$ Tìm số hạng $u_{10}$.
+a) $-2.3^9$
+*b) $25$
+c) $-29$
+d) $28$
+
+::Câu 4:: Cho cấp số nhân ($u_n$) với $u_1 = 6$ và $u_2 = -12$. Công bội $q$ của cấp số nhân đã cho là:
+a) $-\dfrac{1}{2}$
+*b) -2
+c) -18
+d) -6
+
+::Câu 5:: Cho cấp số cộng $u_1 = 3$ có số hạng đầu, công sai $d = -4$. Số hạng thứ năm của cấp số cộng là.
+a) 768
+*b) -13
+c) -3072
+d) -17
+
+
+::Câu 6:: Cho cấp số cộng ($u_n$), biết $u_1 = 1$, $d = 2$. Giá trị của $u_{15}$ bằng:
+a) 31
+*b) 29
+c) 35
+d) 27
+
+
+::Câu 7:: Cho cấp số cộng $u_1 = 3, u_2 = 6$. Xác định công sai $d$ của cấp số cộng
+a) 9
+b) -3
+*c) 3
+d) 2
+
+::Câu 8:: Cấp số cộng có số hạng đầu $u_1 = 3$, công sai bằng -5, tính $u_3$.
+a) 75
+*b) -7
+c) 1
+d) -45
+
+::Câu 9:: Cho cấp số nhân ($u_n$) có $u_1 = 2$ và công bội $q = 3$. Số hạng $u_3$ của cấp số nhân đã cho là:
+*a) 18
+b) 5
+c) 6
+d) 8
+
+::Câu 10:: Cấp số nhân ($u_n$) có $u_1 = 2$ và $u_2 = -4$. Số hạng $u_6$ của cấp số nhân là:
+*a) -64
+b) 128
+c) -128
+d) 64
+
+
+::Câu 11:: Cho ($u_n$) với $u_n = 2n - 2$ thì $u_5$ bằng
+a) 10
+b) 9
+*c) 8
+d) 7
+
+::Câu 12:: Cho cấp số nhân ($u_n$) có $u_1 = -2$ và $u_2 = 6$. Giá trị của $u_3$ bằng
+*a) -18
+b) -12
+c) 18
+d) 12
+
+
+::Câu 13:: Cho cấp số cộng ($u_n$) biết $u_5 = 5, u_{10} = 15$. Số hạng thứ bảy của cấp số cộng đã cho là
+a) 12
+b) 8
+c) 7
+*d) 9
+
+
+::Câu 14:: Cho cấp số nhân ($u_n$) với $u_1 = 3$ và công bội $q = 2$. Giá trị của $u_2$ bằng
+a) 8
+b) 9
+*c) 6
+d) $\dfrac{3}{2}$
+
+
+::Câu 15:: Một cấp số nhân có số hạng đầu $u_1 = 3$, công bội $q = 2$. Tìm $n$ biết $S_n = 93$?
+a) 7
+b) 4
+c) 6
+*d) 5
+
+::Câu 16:: Cho cấp số cộng ($u_n$) có $u_1 = 2$ và công sai $d = 3$ Tìm số hạng $u_{10}$.
+a) $-2.3^9$
+*b) $25$
+c) $-29$
+d) $28$
+
+::Câu 17:: Cho cấp số nhân ($u_n$) với $u_1 = 2$ và công bội $q = 3$. Tìm số hạng thứ 4 của cấp số nhân?
+*a) $54$
+b) $48$
+c) $24$
+d) $162$
+
+::Câu 18:: Cho cấp số cộng ($u_n$) có $u_1 = 5$, $u_{12} = 38$ thì công sai là
+a) $1$
+b) $2$
+*c) $3$
+d) $4$
+
+::Câu 19:: Cho cấp số cộng ($u_n$) với $u_1 = -1$ và $u_2 = 4$. Giá trị $u_3$ bằng:
+*a) $9$
+b) $-16$
+c) $7$
+d) $-8$
+
+::Câu 20:: Cấp số cộng ($u_n$) có $u_1 = 2$, $u_2 = 5$. Tính $u_4$.
+a) $17$
+b) $14$
+*c) $11$
+d) $8$
+
+::Câu 21:: Cho một cấp số cộng ($u_n$) có $u_1 = 1$ và tổng 100 số hạng đầu bằng 10000. Tổng S = $\dfrac{1}{u_1u_2} + \dfrac{1}{u_2u_3} + ... + \dfrac{1}{u_{99}u_{100}}$
+a) $200/201$
+b) $198/199$
+c) $100/201$
+*d) $99/199$
+
+::Câu 22:: Cho cấp số cộng ($u_n$) có số hạng đầu $u_1 = 2$ và công sai $d = 3$. Giá trị của $u_4$ bằng:
+a) $54$
+*b) $11$
+c) $12$
+d) $8$
+
+::Câu 23:: Cho cấp số nhân ($u_n$) có $u_1 = 2$ và $u_3 = 18$. Số hạng $u_5$ của cấp số nhân bằng
+a) $2/81$
+b) $34$
+c) $54$
+*d) $162$
+
+::Câu 24:: Cho cấp số nhân ($u_n$) với $u_1 = -2$ và $q = -5$. Viết bốn số hạng đầu tiên của cấp số nhân ($u_n$).
+a) $-2;-10;-50;-250$
+*b) $-2;10;-50;250$
+c) $-2;10;50;250$
+d) $-2;10;50;-250$
+
+::Câu 25:: Cho cấp số nhân ($u_n$) có $u_1 = 8$ và công bội $q = 3$. Số hạng $u_2$ của cấp số nhân là
+a) $11$
+b) $-24$
+c) $8$
+*d) $24$
+

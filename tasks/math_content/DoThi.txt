@@ -1,0 +1,62 @@
+**"Hãy tạo 10 bài toán lý thuyết đồ thị dành cho học sinh THPT Việt Nam đang ôn thi tốt nghiệp. Mỗi bài toán phải đạt mức độ "Vận dụng" (tương đương Phần III trong ma trận đề tham khảo của Bộ GD-ĐT 2025), đòi hỏi học sinh phải suy luận logic sâu sắc và vận dụng kiến thức một cách sáng tạo, không chỉ đơn thuần là áp dụng công thức.
+
+**Các tiêu chí và ràng buộc cụ thể cho MỖI bài toán:**
+    - "Tăng tính mới lạ: tránh trùng đề trong kho, thêm bài tự đặt, ít xuất hiện."
+    - "Đẩy cao độ khó phân hóa: bổ sung câu xác suất, logarit, hình với lời giải dài."
+    - "Gia tăng phương án nhiễu logic: làm distractor gần đúng, từng bước dễ gây nhầm."
+*   **Chủ đề:** Tập trung vào Lý thuyết đồ thị, đặc biệt là các khái niệm và tính chất liên quan đến đỉnh, cạnh, bậc, đường đi, chu trình hoặc cây, phù hợp với chương trình sách giáo khoa Toán lớp 11 và 12 của Việt Nam.
+*   **Độ khó (Aim):** Phải là một trong những câu hỏi phân loại cao nhất trong đề thi, nhằm kiểm tra khả năng tư duy bậc cao của học sinh giỏi.
+*   **Thời gian giải (Time):** Một học sinh giỏi có thể hoàn thành bài toán này trong khoảng 3 đến 5 phút. Điều này có nghĩa là bài toán không được quá phức tạp về mặt tính toán số học hay yêu cầu vẽ đồ thị lớn, mà phải tập trung vào sự "tinh tế" trong lập luận.
+*   **Định dạng (Style):**
+**Định dạng đầu ra:**
+*   **Tuyệt đối không có bất kỳ lời giải thích hay phần giải thích nào đi kèm ngoài cấu trúc đã định.**
+Câu trả lời không được phép giống nhau, nếu là số thập phân bắt buộc là dấu '.' là dấu thập phân, làm tròn hai chữ số sau dấu thập phân.
+*   **Đầu ra phải là một luồng câu hỏi, đáp án và lời giải liên tục, không có bất kỳ tiêu đề phần nào (ví dụ: "Phần 1", "Phần 2") hay các dấu phân cách khác.** Các câu hỏi sẽ được đánh số liên tiếp từ 1 đến hết.
+*   **Mỗi câu hỏi sẽ được định dạng như sau:**
+    *   **Đối với câu hỏi trắc nghiệm khách quan (MCQ 4 lựa chọn):**
+            
+            ::Câu [Số thứ tự câu]:: [Nội dung câu hỏi được viết trên một dòng duy nhất, không xuống dòng. Nếu có hình ảnh, mô tả nội dung hình ảnh trong dấu ngoặc đơn ngay sau phần đề bài liên quan, ví dụ: "(như hình vẽ, đồ thị hàm bậc ba đi qua $(-1,0)$, $(1,-4)$, $(0,-2)$, $(2,0)$)" mà không chèn link ảnh hay xuống dòng.]?
+            ... [một khoảng trắng] [Nội dung lời giải chi tiết cho câu này, được viết liền mạch trên một dòng duy nhất, không xuống dòng và không có bất kỳ sai sót nào]
+            a) [Lựa chọn A]
+            b) [Lựa chọn B]
+            *c) [Lựa chọn C]
+            d) [Lựa chọn D]
+            
+            (Lưu ý: Dấu `*` sẽ đứng trước lựa chọn đúng. Chỉ có một lựa chọn đúng cho mỗi câu. **Không in đậm lựa chọn đúng, chỉ thêm dấu `*` ở đầu lựa chọn.**)
+        *   **Đối với câu hỏi Đúng/Sai (nhiều mệnh đề):**
+            
+            ::Câu [Số thứ tự câu]:: [Nội dung câu hỏi chính, kết thúc bằng "Các mệnh đề sau đúng hay sai:?" được viết trên một dòng duy nhất, không xuống dòng. Nếu có hình ảnh, mô tả nội dung hình ảnh trong dấu ngoặc đơn ngay sau phần đề bài liên quan, ví dụ: "(như hình vẽ, đồ thị hàm bậc ba đi qua $(-1,0)$, $(1,-4)$, $(0,-2)$, $(2,0)$)" mà không chèn link ảnh hay xuống dòng.]?
+            
+                a) [Mệnh đề a được viết trên một dòng duy nhất, không xuống dòng.]
+            
+                b) [Mệnh đề b được viết trên một dòng duy nhất, không xuống dòng.]
+            ... [một khoảng trắng] [Nội dung lời giải chi tiết cho từng mệnh đề, được viết liền mạch trên một dòng duy nhất, không xuống dòng và không có bất kỳ sai sót nào]
+            * [Đáp án dạng chuỗi ngắn gọn, ví dụ: "ĐĐ", "ĐS", "SĐ", "SS" tùy thuộc vào sự đúng sai của các mệnh đề. Đảm bảo có khoảng trắng sau dấu `*`]
+            
+            (Lưu ý: Các mệnh đề `a)`, `b)` phải được thụt lề bằng **một tab** hoặc **4 dấu cách**. Giữa nội dung câu hỏi chính và mệnh đề `a)`, cũng như giữa các mệnh đề (`a)` và `b)`), sẽ có **một dòng trống**. **Không có dòng trống giữa mệnh đề cuối cùng và dòng `...`**. **Không in đậm đáp án, chỉ thêm dấu `*` ở đầu đáp án và một khoảng trắng.**)
+        *   **Đối với câu hỏi Trả lời ngắn: Chỉ được có kết quả là số làm tròn đến 2 chữ số sau dấu phẩy**
+            
+            ::Câu [Số thứ tự câu]:: [Nội dung câu hỏi được viết trên một dòng duy nhất, không xuống dòng. Nếu có hình ảnh, mô tả nội dung hình ảnh trong dấu ngoặc đơn ngay sau phần đề bài liên quan, ví dụ: "(như hình vẽ, đồ thị hàm bậc ba đi qua $(-1,0)$, $(1,-4)$, $(0,-2)$, $(2,0)$)" mà không chèn link ảnh hay xuống dòng.]?
+            ... [một khoảng trắng] [Nội dung lời giải chi tiết cho câu này, được viết liền mạch trên một dòng duy nhất, không xuống dòng và không có bất kỳ sai sót nào]
+            * [Đáp án dạng số hoặc biểu thức ngắn gọn. Đối với các đáp án là số vô tỷ hoặc có nhiều cách biểu diễn tương đương (ví dụ: $\ln(A/B)$), hãy chuyển sang dạng số thập phân và làm tròn đến hai chữ số sau dấu phẩy.]
+            
+            (Lưu ý: Đáp án sẽ nằm trên một dòng mới, bắt đầu bằng dấu `*` và một khoảng trắng. **Đảm bảo rằng sau dấu `*` LUÔN LUÔN là đáp án cụ thể, không được để trống.** **Không in đậm đáp án, chỉ thêm dấu `*` ở đầu đáp án.**)
+    *   **Nội dung lời giải:** Lời giải phải chi tiết, rõ ràng, dễ hiểu, trình bày từng bước giải quyết vấn đề. **Đặc biệt, toàn bộ nội dung lời giải cho mỗi câu phải được viết liền mạch trên một dòng duy nhất, không có ký tự xuống dòng, không có dấu chấm đầu mục hay bất kỳ định dạng nào gây ngắt dòng. Đây là quy tắc TUYỆT ĐỐI và không có ngoại lệ.**
+    *   **Tương thích kỹ thuật:** Đầu ra cần có cấu trúc rõ ràng để có thể chuyển đổi sang định dạng QTI và tải lên nền tảng Canvas.
+
+*   **Tài nguyên học sinh (Resource):** Học sinh có máy tính cầm tay, nhưng bài toán nên hạn chế tối đa việc phụ thuộc vào máy tính, chủ yếu dựa vào khả năng suy luận.
+*   **Đối tượng (People):** Học sinh THPT Việt Nam, với nền tảng kiến thức đã được trang bị từ sách giáo khoa.
+
+**Ví dụ về dạng câu hỏi mong muốn (minh họa phong cách và độ khó):**
+(LLM cần phân tích cấu trúc và tinh thần của các ví dụ này để tạo ra bài toán tương tự, không sao chép nội dung)
+
+*   **Ví dụ E1:** Một công ty muốn xây dựng một mạng lưới cáp quang kết nối 15 địa điểm khác nhau. Để tiết kiệm chi phí, họ muốn tổng chiều dài cáp quang là ngắn nhất có thể, đồng thời đảm bảo mọi địa điểm đều có thể liên lạc được với nhau (trực tiếp hoặc gián tiếp). Nếu biết rằng không có hai địa điểm nào được kết nối trực tiếp mà phải đi qua một trạm trung chuyển, hỏi số lượng trạm trung chuyển ít nhất cần có để mạng lưới này hoạt động là bao nhiêu? (Giả sử các trạm trung chuyển cũng được tính là một địa điểm trong tổng số 15 địa điểm).
+*   **Ví dụ E2:** Trong một cuộc họp có 20 người. Mỗi người bắt tay với đúng 3 người khác. Hỏi tổng số cái bắt tay đã diễn ra trong cuộc họp đó là bao nhiêu?
+*   **Ví dụ E3:** Một khu vườn có 10 cây được trồng sao cho mỗi cây được nối bằng một con đường thẳng với đúng 2 cây khác. Hỏi có bao nhiêu cách để tạo thành một hoặc nhiều vòng tròn khép kín từ các con đường này mà không có con con đường nào bị lặp lại và mỗi cây chỉ thuộc về đúng một vòng tròn?
+
+**Lưu ý quan trọng:** Tránh các bài toán có lời giải quá dài dòng hoặc yêu cầu học sinh phải trình bày nhiều bước phức tạp. Mục tiêu là một bài toán "đánh đố" về mặt tư duy trong một khoảng thời gian ngắn.
+
+**Định dạng đầu ra mong muốn:**
+Cung cấp một **danh sách Markdown** gồm 5 câu hỏi bài toán, mỗi câu hỏi được định dạng theo chuẩn đã nêu, kèm theo đáp án và giải thích.
+
+

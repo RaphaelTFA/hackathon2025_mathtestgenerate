@@ -1,0 +1,256 @@
+**ROLE**: bạn là một giáo viên trung học phổ thông, nằm trong ban ra đề thi tốt nghiệp môn toán
+
+**YÊU CẦU**: hãy sinh cho tôi bộ câu hỏi toán cho kỳ thi Trung học phổ thông Quốc gia
+10 câu hỏi trắc nghiệm khách quan (mỗi câu có 4 lựa chọn A, B, C, D).
+5 câu hỏi Đúng Sai (mỗi câu có 2 ý nhỏ (a), (b) và yêu cầu thí sinh trả lời Đúng(Đ) hoặc Sai(S) cho từng ý).
+5 câu hỏi Trả lời ngắn: BẮT BUỘC đáp án là số thập phân, làm tròn đến 2 chữ số sau phần thập phân.
+    - "Tăng tính mới lạ: tránh trùng đề trong kho, thêm bài tự đặt, ít xuất hiện."
+    - "Đẩy cao độ khó phân hóa: bổ sung câu xác suất, logarit, hình với lời giải dài."
+    - "Gia tăng phương án nhiễu logic: làm distractor gần đúng, từng bước dễ gây nhầm."
+    Câu trả lời không được phép giống nhau, nếu là số thập phân bắt buộc là dấu '.' là dấu thập phân, làm tròn hai chữ số sau dấu thập phân.
+**MỤC ĐÍCH**: đánh giá và phân hóa rõ ràng năng lực của các học sinh giỏi, những em cần thử thách tư duy cao độ để đạt điểm tối đa trong kỳ thi tốt nghiệp THPT tại Việt Nam. Đồng thời, giúp học sinh ôn tập và củng cố kiến thức, làm quen với các dạng bài thường gặp cũng như nhận biết cách xử lý với một số câu lạ, mang tính vận dụng cao.
+
+**CHỦ ĐỀ**: hình học không gian theo chương trình của bộ giáo dục đào tạo Việt Nam lớp 10, 11, 12, trong đó chủ đạo là lớp 12
+
+**NGÔN NGỮ & KÝ HIỆU**: Dùng ngôn ngữ ký hiệu chuẩn, được quy ước trong chương trình toán Trung học phổ thông, nhưng không nên quá hiện đại vì nếu giáo viên chấm thuộc thế hệ cũ thì có thể không hiểu
+
+**ĐỐI TƯỢNG THÍ SINH**: học sinh khá giỏi thường là người cố gắng ôn để được điểm cao
+
+**ĐỘ KHÓ**: tăng dần từ nhận biết -> thông hiểu -> vận dụng.
+
+**THỜI GIAN GIẢI DỰ TÍNH**: 30 giây - 2 phút mỗi câu dựa theo độ khó
+
+**LƯU Ý**: 
+- Bạn nên cho vài liên hệ với thực tế, tình huống, ngữ cảnh gần gũi với đời sống văn hóa của người dân Việt Nam, như "Hồ hoàn kiếm là một địa điểm du lịch hấp dẫn, ở trung tâm là tháp bút tạo bởi các hình trụ,..., ..., tính thể tích....". 
+- Vector, hệ tọa độ Oxyz không nằm trong phần hình học không gian
+- Bạn không cần phải cho hình ảnh đối với mỗi câu
+- Bạn chỉ cần output các câu hỏi, không cần output mấy thông tin xung quanh không cần thiết như thông tin độ khó của câu, tiêu đề đầu trang, tiêu đề các phần...
+- Tránh lặp lại câu hỏi và trong một câu hỏi tránh lặp lại đáp án
+update trong format: không cần lời giải nữa
+
+### Định dạng đề bài:
+*   **Mỗi câu hỏi sẽ được định dạng như sau:**
+    *   **Đối với câu hỏi trắc nghiệm khách quan (MCQ 4 lựa chọn):**
+        
+        ::Câu [Số thứ tự câu]:: [Nội dung câu hỏi được viết trên một dòng duy nhất, không xuống dòng. Nếu có hình ảnh, mô tả nội dung hình ảnh trong dấu ngoặc đơn ngay sau phần đề bài liên quan, ví dụ: "(như hình vẽ, đồ thị hàm bậc ba đi qua $(-1,0)$, $(1,-4)$, $(0,-2)$, $(2,0)$)" mà không chèn link ảnh hay xuống dòng.]?
+        ... [một khoảng trắng] [Nội dung lời giải chi tiết cho câu này, được viết liền mạch trên một dòng duy nhất, không xuống dòng và không có bất kỳ sai sót nào]
+        a) [Lựa chọn A]
+        b) [Lựa chọn B]
+        *c) [Lựa chọn C]
+        d) [Lựa chọn D]
+        
+        (Lưu ý: Dấu `*` sẽ đứng trước lựa chọn đúng. Chỉ có một lựa chọn đúng cho mỗi câu. **Không in đậm lựa chọn đúng, chỉ thêm dấu `*` ở đầu lựa chọn.**)
+    *   **Đối với câu hỏi Đúng/Sai (nhiều mệnh đề):**
+        
+        ::Câu [Số thứ tự câu]:: [Nội dung câu hỏi chính, kết thúc bằng "Các mệnh đề sau đúng hay sai:?" được viết trên một dòng duy nhất, không xuống dòng. Nếu có hình ảnh, mô tả nội dung hình ảnh trong dấu ngoặc đơn ngay sau phần đề bài liên quan, ví dụ: "(như hình vẽ, đồ thị hàm bậc ba đi qua $(-1,0)$, $(1,-4)$, $(0,-2)$, $(2,0)$)" mà không chèn link ảnh hay xuống dòng.]?
+			
+        	a) [Mệnh đề a được viết trên một dòng duy nhất, không xuống dòng.]
+
+        	b) [Mệnh đề b được viết trên một dòng duy nhất, không xuống dòng.]
+        ... [Nội dung lời giải chi tiết cho từng mệnh đề, được viết liền mạch trên một dòng duy nhất, không xuống dòng và không có bất kỳ sai sót nào]
+        * [Đáp án dạng chuỗi ngắn gọn, ví dụ: "ĐĐ", "ĐS", "SĐ", "SS" tùy thuộc vào sự đúng sai của các mệnh đề. Đảm bảo có khoảng trắng sau dấu `*`]
+        
+        (Lưu ý: Các mệnh đề `a)`, `b)` phải được thụt lề bằng **một tab** hoặc **4 dấu cách**. Giữa nội dung câu hỏi chính và mệnh đề `a)`, cũng như giữa các mệnh đề (`a)` và `b)`), sẽ có **một dòng trống**. **Không có dòng trống giữa mệnh đề cuối cùng và dòng `...`**. **Không in đậm đáp án, chỉ thêm dấu `*` ở đầu đáp án và một khoảng trắng.**)
+    *   **Đối với câu hỏi Trả lời ngắn: Chỉ được có kết quả là số làm tròn đến 2 chữ số sau dấu phấy**
+        
+        ::Câu [Số thứ tự câu]:: [Nội dung câu hỏi được viết trên một dòng duy nhất, không xuống dòng. Nếu có hình ảnh, mô tả nội dung hình ảnh trong dấu ngoặc đơn ngay sau phần đề bài liên quan, ví dụ: "(như hình vẽ, đồ thị hàm bậc ba đi qua $(-1,0)$, $(1,-4)$, $(0,-2)$, $(2,0)$)" mà không chèn link ảnh hay xuống dòng.]?
+        ... [Nội dung lời giải chi tiết cho câu này, được viết liền mạch trên một dòng duy nhất, không xuống dòng và không có bất kỳ sai sót nào]
+        * [Đáp án dạng số hoặc biểu thức ngắn gọn. Đối với các đáp án là số vô tỷ hoặc có nhiều cách biểu diễn tương đương (ví dụ: $\ln(A/B)$), hãy chuyển sang dạng số thập phân và làm tròn đến hai chữ số sau dấu phẩy.]
+        
+        (Lưu ý: Đáp án sẽ nằm trên một dòng mới, bắt đầu bằng dấu `*` và một khoảng trắng. **Đảm bảo rằng sau dấu `*` LUÔN LUÔN là đáp án cụ thể, không được để trống.** **Không in đậm đáp án, chỉ thêm dấu `*` ở đầu đáp án.**)
+*   **Nội dung lời giải:** Lời giải phải chi tiết, rõ ràng, dễ hiểu, trình bày từng bước giải quyết vấn đề. **Đặc biệt, toàn bộ nội dung lời giải cho mỗi câu phải được viết liền mạch trên một dòng duy nhất, không có ký tự xuống dòng, không có dấu chấm đầu mục hay bất kỳ định dạng nào gây ngắt dòng. Đây là quy tắc TUYỆT ĐỐI và không có ngoại lệ.**
+*   **Tương thích kỹ thuật:** Đầu ra cần có cấu trúc rõ ràng để có thể chuyển đổi sang định dạng QTI và tải lên nền tảng Canvas.
+### Ví dụ về cách ra đề
+
+::Câu 1:: Công thức tính thể tích của khối chóp có diện tích đáy là $B$ và chiều cao $h$ là
+... Lời giải: Thể tích khối chóp có diện tích đáy là $B$ và chiều cao $h$ là $V = \frac{1}{3}Bh$.
+a) $V=3Bh$.
+*b) $V=\frac{1}{3}Bh$.
+c) $V=2Bh$.
+d) $V=Bh$.
+
+::Câu 2:: Một khối hộp chữ nhật có ba kích thước là 5,6,7 có thể tích bằng
+... Lời giải: Thể tích khối hộp chữ nhật: $V = 5.6.7 = 210$.
+a) 70.
+b) 35.
+*c) 210.
+d) 105.
+
+::Câu 3:: Cho hình lăng trụ có diện tích một đáy là $B$, chiều cao $h$. Khi đó, thể tích của khối lăng trụ được tính theo công thức nào dưới đây?
+... Lời giải: Từ công thức thể tích lăng trụ, ta chọn B.
+a) $V=\frac{4}{3}Bh$.
+*b) $V=Bh$.
+c) $V=\frac{2}{3}Bh$.
+d) $V=\frac{1}{3}Bh$.
+
+::Câu 4:: Công thức tính thể tích của một khối trụ có bán kính đáy là $R$ và chiều cao bằng $h$ là
+... Lời giải: Thể tích của một khối trụ có bán kính đáy là $R$ và chiều cao bằng $h$ là: $V = \pi R^2h$
+a) $V=2\pi R^2h$.
+b) $V=\frac{4}{3}\pi R^2h$.
+c) $V=\frac{1}{3}\pi R^2h$.
+*d) $V=\pi R^2h$.
+
+::Câu 5:: Cho khối lăng trụ đều có diện tích đáy bằng $1 (m^2)$ và chiều cao bằng $3 (m)$. Thể tích khối lăng trụ đã cho bằng
+... Lời giải: Ta có: $V=B.h=3.1=3(m^3)$.
+a) $\frac{3\sqrt{3}}{4}(m^3)$.
+b) $1(m^3)$.
+c) $\frac{\sqrt{3}}{4}(m^3)$.
+*d) $3(m^3)$.
+
+::Câu 6:: Cho hình chóp $S.ABC$ có đáy $ABC$ là tam giác vuông tại $A$ với $AB=a, AC=2a$, cạnh $SA$ vuông góc với $(ABC)$ và $SA=a\sqrt{3}$. Tính thể tích khối chóp $S.ABC$.
+... Lời giải: Ta có: $V_{S.ABC}=\frac{1}{3}S_{ABC}.SA=\frac{1}{3}.\frac{1}{2}.AB.AC.SA=\frac{a^3\sqrt{3}}{2}$.
+*a) $\frac{a^3\sqrt{3}}{3}$.
+b) $\frac{a^3\sqrt{3}}{6}$.
+c) $\frac{a^3\sqrt{3}}{4}$.
+d) $a^3\sqrt{3}$.
+
+::Câu 7:: Cho khối chóp $S.ABC$, có $SA$ vuông góc với đáy, đáy là tam giác vuông tại $B$, $SA=2a, AB=3a, BC=4a$. Thể tích khối chóp đã cho bằng
+... Lời giải: Ta có: $V=\frac{1}{3}SA.\frac{1}{2}AB.BC=\frac{1}{6}.2a.3a.4a=4a^3$.
+a) $24a^3$.
+b) $8a^3$.
+c) $12a^3$.
+*d) $4a^3$.
+
+::Câu 8:: Cho khối chóp có diện tích $B$ và thể tích $V$. Chiều cao của khối chóp đã cho là
+... Lời giải: Ta có $V=\frac{1}{3}B.h \Leftrightarrow h=\frac{3V}{B}$.
+*a) $h=\frac{3V}{B}$.
+b) $h=\frac{1}{3}V.B$.
+c) $h=\frac{V}{B}$.
+d) $h=\frac{V}{3B}$.
+
+::Câu 9:: Cho khối lăng trụ có diện tích đáy $S=10cm^2$, cạnh bên có độ dài bằng $10cm$ và tạo với mặt đáy một góc bằng $60^\circ$. Thể tích khối lăng trụ đã cho là
+... Lời giải: Xét khối lăng trụ $ABC.A'B'C'$ có đáy là tam giác $ABC$. Gọi H là hình chiếu của $A'$ trên mặt phẳng $(ABC) \Rightarrow A'H \perp (ABC)$. Suy ra $AH$ là hình chiếu của $AA'$ trên mặt phẳng $(ABC)$. Do đó $60^\circ = (AA',(ABC)) = (AA',AH) = \widehat{A'AH}$. Tam giác $A'AH$ vuông tại H, có $A'H=AA'.\sin \widehat{A'AH} = 5\sqrt{3}$. Vậy $V=S_{ABC}.A'H=50\sqrt{3} cm^3$.
+a) $V=100cm^3$.
+*b) $V=50\sqrt{3}cm^3$.
+c) $V=50cm^3$.
+d) $V=100\sqrt{3}cm^3$.
+
+::Câu 10:: Cho hình chóp đều $S.ABCD$ có tất cả các cạnh bằng $4\sqrt{3}$. Thể tích khối chóp $S.ABCD$ là
+a) $8\sqrt{6}$.
+b) $12\sqrt{6}$.
+c) $4\sqrt{6}$.
+*d) $32\sqrt{6}$.
+
+::Câu 1:: Cho hình chóp S.ABCD có SA $$ \perp $$ (ABCD), SA = a$$ \sqrt{3} $$, ABCD là hình vuông tâm là O cạnh bằng a. Gọi M là trung điểm của SA. Trong mp(SAB) kẻ AH vuông góc với SB. Khi đó:
+
+   a) AH $$ \perp $$ (SBC).
+
+   b) d(A,(SBC)) = $$ \frac{\sqrt{3}}{3} $$ a.
+... Lời giải: abcxyz
+* ĐS
+
+::Câu 2:: Cho hình chóp S.ABCD có đáy ABCD là hình chữ nhật với AB = 2a, AD = 6a. Cạnh bên SA vuông góc với mặt phẳng đáy, cạnh bên SB = 4a.
+
+   a) SA = 2$$ \sqrt{3} $$a.
+
+   b) Góc giữa đường thẳng SD và mặt phẳng (ABCD) bằng 30°.
+... Lời giải: abcxyz
+* ĐĐ
+
+
+
+::Câu 3:: Cho hình hộp chữ nhật ABCD.A'B'C'D' có AB = 2, AD = 4, AA' = 1.
+
+   a) Nếu gọi $$ \varphi $$ là góc giữa đường thẳng AC' và mặt phẳng (A'B'C'D') thì $$ \sin{\varphi} = \frac{1}{21} $$.
+
+   b) Khoảng cách giữa hai đường thẳng AC và B'D' bằng 1.
+... Lời giải: abcxyz
+* SĐ
+
+
+
+::Câu 4:: Cho hình chóp S.ABC có mặt bên (SAB) vuông góc với mặt phẳng đáy và tam giác SAB đều cạnh 2a. Biết tam giác ABC vuông tại C và cạnh AC = a$$ \sqrt{3} $$. . Gọi H là trung điểm AB. Các mệnh đề sau đúng hay sai?
+
+   a) Mặt phẳng (SHC) và (ABC) vuông góc với nhau.
+
+   b) Thể tích của khối chóp S.ABC bằng $$ \frac{a^3}{6} $$.
+... Lời giải: abcxyz
+* ĐS
+
+::Câu 5:: Cho hình chóp S.ABCD có đáy ABCD là hình vuông cạnh a. Biết cạnh SA vuông góc với mặt phẳng đáy và SA = a$$ \sqrt{3} $$. Vẽ đường cao AH của tam giác SAB . Vẽ đường cao AK của tam giác SAD. Khi đó:
+
+   a) BC $$ \perp $$ AH .
+
+   b) tan(SC,(ABCD)) = $$ \frac{\sqrt{6}}{2} $$ .
+... Lời giải: abcxyz
+* ĐĐ
+
+::Câu 6:: Cho hình chóp S.ABCD có đáy ABCD là hình vuông và SA vuông góc với đáy, $$SA = 2a, AB = a$$.
+
+   a) Thể tích khối chóp S.ABCD bằng $$ \frac{2a^3}{3} $$.
+
+   b) Khoảng cách giữa hai đường thẳng SA và BC bằng $$ \frac{2a}{\sqrt{5}} $$.
+... Lời giải: abcxyz
+* ĐS
+
+::Câu 7:: Cho hình chóp S.ABCD có đáy ABCD là hình thoi tâm O, $$AB = 4a$$ và $$ \widehat{BAD} = 120^{\circ} $$. Gọi H là trung điểm của AO. Biết SH vuông góc với mặt phẳng (ABCD) và $$SH = a\sqrt{3}$$.
+
+   a) Gọi $$ \alpha $$ là số đo góc phẳng nhị diện [S, CD, A], khi đó $$ \tan \alpha = \frac{2}{3} $$.
+
+   b) Thể tích khối chóp S.ABCD bằng $$ 8a^3 $$.
+... Lời giải: abcxyz
+* ĐĐ
+
+::Câu 8:: Cho hình chóp tứ giác đều S.ABCD có cạnh đáy bằng a, $$O = AC \cap BD$$ biết $$SO = \frac{a\sqrt{3}}{2}$$. Gọi M, N lần lượt là trung điểm của các cạnh AD và BC.
+
+   a) $$ (SMN) \perp (ABCD) $$.
+
+   b) $$ d(A, (SBC)) = \frac{a\sqrt{3}}{3} $$.
+... Lời giải: abcxyz
+* ĐS
+
+::Câu 9:: Cho hình chóp S.ABCD có đáy ABCD là hình chữ nhật $$AB = a, AD = a\sqrt{3}$$. Cạnh bên SA vuông góc với đáy và $$SA = 2a$$.
+
+   a) Khoảng cách từ điểm A đến mặt phẳng (SCD) bằng $$ a\sqrt{3} $$.
+
+   b) Thể tích khối chóp S.ABCD là $$ \frac{a^3\sqrt{3}}{3} $$.
+... Lời giải: abcxyz
+* SĐ
+
+::Câu 10:: Cho lăng trụ đứng ABC.A'B'C' có $$AC = a, BC = 2a, \widehat{ACB} = 120^{\circ}$$ có thể tích V. Gọi M là trung điểm của BB'. Khi đó:
+
+   a) Biết khoảng cách giữa hai mặt đáy lăng trụ bằng 2a. Khi đó $$ V = a^3\sqrt{3} $$.
+   
+   b) $$ d(C', (ABB'A')) = \frac{a\sqrt{21}}{7} $$.
+... Lời giải: abcxyz
+* ĐĐ
+
+::Câu 1:: Cho hình chóp $S.ABCD$ có đáy là hình thang vuông tại $A$ và $D$, $AB = AD = 1$cm, $CD = 2$cm. Tam giác $SBD$ cân tại $S$ và nằm trong mặt phẳng vuông góc với mặt phẳng $(ABCD)$. Biết thể tích khối chóp $S.ABCD$ bằng $\sqrt{2}$ cm$^3$. Khoảng cách từ điểm $A$ đến mặt phẳng $(SBC)$ bằng bao nhiêu centimet? (Kết quả làm tròn đến hàng phần trăm)
+... Lời giải: abcxyz
+* 0,69
+* 0.69
+
+::Câu 2:: Cho hình chóp tứ giác đều $S.ABCD$ có cạnh đáy bằng 2, cạnh bên bằng $2\sqrt{2}$. Tính khoảng cách giữa hai đường thẳng $AB$ và $SD$.
+... Lời giải: abcxyz
+* 0,9
+* 0.9
+
+::Câu 3:: Cho hình chóp tứ giác đều $S.ABCD$, cạnh đáy bằng 2, cạnh bên bằng 3. Tính khoảng cách giữa hai đường thẳng $AB$ và $SD$ (làm tròn kết quả đến hàng phần trăm)?
+... Lời giải: abcxyz
+* 1,87
+* 1.87
+
+::Câu 4:: Cho lăng trụ đứng $ABC.A'B'C'$ có đáy là tam giác đều cạnh bằng $2\sqrt{3}$, cạnh bên $AA' = 3$. Gọi $M, N$ theo thứ tự là trung điểm của $BC, B'C'$. Tính khoảng cách giữa hai đường thẳng $AM$ và $CN$.
+... Lời giải: abcxyz
+* 1,5
+* 1.5
+
+::Câu 5:: Cho hình lăng trụ đứng $ABC.A'B'C'$ có đáy là tam giác đều cạnh bằng $6\sqrt{3}$ (cm). Khoảng cách giữa hai đường thẳng $AA'$ và $BC$ bằng bao nhiêu centimet?
+... Lời giải: abcxyz
+* 9
+
+::Câu 11:: Vào ngày lễ tình nhân, Ronaldo đã tặng cho cô bạn gái Georgina một viên kim cương vô cùng giá trị. Viên kim cương nằm trong một gói quà độc đáo có dạng hình chóp tứ giác đều với cạnh đáy bằng 4 dm, vị trí đặt kim cương là tâm của mặt cầu nội tiếp hình chóp đó. Từ vị trí tâm $O$ của đáy hình chóp, có một sợi dây dùng để treo một quả cầu nhỏ, bên trong quả cầu đó chứa những lời chúc có cánh của huyền thoại bóng đá dành cho người tình. Gói quà được treo cân bằng trong căn phòng sao cho đỉnh hình chóp ở vị trí cao nhất và đáy hình chóp song song với mặt đất; khi đó viên kim cương và quả cầu đối xứng nhau qua $O$; đồng thời tâm quả cầu cách đều tất cả các cạnh hình chóp. Hỏi gói quà hình chóp đó có thể tích bao nhiêu dm khối (làm tròn đến hàng đơn vị)?
+... Lời giải: abcxyz
+* 9
+
+::Câu 12:: Một chiếc thang có dạng hình thang cân có chiều dài thanh bên 6 m. Khoảng cách hai chân thang là 80 cm và hai ngọn thang là 60 cm. Thang được dựa vào bờ tường. Tính góc giữa đường thẳng chân tường và thanh bên của hình thang. (Đơn vị độ, làm tròn đến hàng đơn vị)
+... Lời giải: abcxyz
+* 89
+
+::Câu 13:: Một chiếc lều hình chóp có đáy là hình vuông, mỗi cạnh dài $200cm$. Đỉnh lều nằm thẳng đứng phía trên tâm của hình vuông và chiều cao của chiếc lều là $206cm$. Người ta dùng 4 cọc bằng nhau nối từ 4 góc của đáy đến đỉnh lều để dựng lều. Chiều dài tối thiểu của mỗi cây cọc là bao nhiêu centimet (làm tròn kết quả đến hàng đơn vị của $cm$)?
+... Lời giải: abcxyz
+* 250cm
+* 250
+* 250 cm
+
+

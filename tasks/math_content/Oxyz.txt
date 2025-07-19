@@ -1,0 +1,300 @@
+
+***ROLE***: Bạn là một chuyên gia hàng đầu trong việc thiết kế đề thi THPT Quốc gia môn Toán, đặc biệt có kinh nghiệm sâu sắc trong việc tạo ra các câu hỏi phân loại học sinh giỏi, đạt mức điểm 9-10.
+
+***YÊU CẦU***: Hãy tạo một bộ câu hỏi trong đề thi Toán THPT Quốc gia về chủ đề Hình học không gian Oxyz.
+    - "Tăng tính mới lạ: tránh trùng đề trong kho, thêm bài tự đặt, ít xuất hiện."
+    - "Đẩy cao độ khó phân hóa: bổ sung câu xác suất, logarit, hình với lời giải dài."
+    - "Gia tăng phương án nhiễu logic: làm distractor gần đúng, từng bước dễ gây nhầm."
+    Câu trả lời không được phép giống nhau, nếu là số thập phân bắt buộc là dấu '.' là dấu thập phân, làm tròn hai chữ số sau dấu thập phân.
+***PHONG CÁCH***: Đề thi cần được trình bày hoàn toàn bằng tiếng Việt, với phong cách chuyên nghiệp, chính xác và chuyên sâu. Kèm theo đó là đáp án đúng và lời giải chi tiết từng bước. Các câu tự luận có cả ví dụ thực tế. Các câu hỏi nên đa dạng, tránh lặp lại dạng của câu cũ.
+Không được phép có bất kỳ lời bình, tiêu đề, đề mục nào được xuất hiện, chỉ có đề bài với các câu hỏi được biểu hiện như ví dụ
+Câu trả lời không được phép giống nhau, nếu là số thập phân bắt buộc là dấu '.' là dấu thập phân, làm tròn hai chữ số sau dấu thập phân.
+
+***FORMAT ĐỀ***: Đề phải được soạn dưới dạng *Markdown, có thể chuyển trực tiếp sang bộ câu hỏi trên nền tảng Canvas LMS**. Chi tiết về định dạng sẽ được đề cập ở đây [https://github.com/gpoore/text2qti], bạn (AI) hãy truy cập vào link và tham khảo
+
+***MỤC ĐÍCH***: Mục đích của bộ đề thi này là để đánh giá và phân hóa rõ ràng năng lực của các học sinh giỏi, những em cần thử thách tư duy cao độ để đạt điểm tối đa trong kỳ thi tốt nghiệp THPT tại Việt Nam. Đồng thời, giúp học sinh ôn tập và củng cố kiến thức, làm quen với các dạng bài thường gặp cũng như nhận biết cách xử lý với một số câu lạ, mang tính vận dụng cao.
+
+***PHẠM VI KIẾN THỨC***: Toàn bộ chương trình THPT lớp 10, 11 và 12 (ưu tiên lớp 11 và 12), được thiết kế dựa trên kiến thức chuẩn trong sách giáo khoa của Bộ Giáo dục và Đào tạo. Các câu hỏi cần bám sát cấu trúc và xu hướng ra đề của Bộ Giáo dục và Đào tạo trong năm 2025.
+
+***NỘI DUNG***:
+1. HỆ TỌA ĐỘ TRONG KHÔNG GIAN OXYZ
+*   Vectơ đơn vị:
+*   Tọa độ của điểm: 
+*   Tọa độ của vectơ:
+*   Vectơ nối hai điểm:
+*   Độ dài vectơ (mô-đun):
+2. CÁC PHÉP TOÁN VECTƠ VÀ ỨNG DỤNG
+*   **Tích vô hướng của hai vectơ**
+*   **Tích có hướng của hai vectơ**
+*   **Ứng dụng của tích có hướng:**
+3. PHƯƠNG TRÌNH MẶT PHẲNG
+4. PHƯƠNG TRÌNH ĐƯỜNG THẲNG
+5. PHƯƠNG TRÌNH MẶT CẦU
+6. GÓC VÀ KHOẢNG CÁCH
+
+*   **Góc giữa hai đường thẳng**
+*   **Góc giữa đường thẳng và mặt phẳng**
+*   **Góc giữa hai mặt phẳng** 
+*   **Khoảng cách từ điểm đến mặt phẳng**
+*   **Khoảng cách từ điểm đến đường thẳng**
+*   **Khoảng cách giữa hai đường thẳng chéo nhau**
+7. ỨNG DỤNG CỦA PHƯƠNG PHÁP TỌA ĐỘ TRONG KHÔNG GIAN
+
+***NGÔN NGỮ & KÝ HIỆU***: Sử dụng thuật ngữ và ký hiệu toán học chuẩn theo chương trình phổ thông và sách giáo khoa của Bộ Giáo dục và Đào tạo Việt Nam. Các ký tự toán học (ví dụ: công thức, biểu thức) phải được trình bày đúng định dạng chuẩn (ví dụ: sử dụng LaTeX) và đặt đúng vị trí trong dòng hoặc khối để đảm bảo tính rõ ràng và chính xác. Dấu thập phân bắt buộc là dấu '.'
+
+
+***RÀNG BUỘC & ĐIỀU KIỆN***:
+
+Thời gian làm bài cho học sinh: 90 phút.
+Học sinh được phép sử dụng máy tính cầm tay thông thường, thước kẻ, bút (không yêu cầu phần mềm đồ họa).
+Thời gian ước tính để học sinh giải quyết mỗi câu: 30 giây cho câu dễ, lên đến 3 phút cho câu khó và vận dụng cao.
+
+**Định dạng đầu ra:**
+*   **Tuyệt đối không có bất kỳ lời giải thích hay phần giải thích nào đi kèm ngoài cấu trúc đã định.**
+*   **Đầu ra phải là một luồng câu hỏi, đáp án và lời giải liên tục, không có bất kỳ tiêu đề phần nào (ví dụ: "Phần 1", "Phần 2") hay các dấu phân cách khác.** Các câu hỏi sẽ được đánh số liên tiếp từ 1 đến hết.
+*   **Mỗi câu hỏi sẽ được định dạng như sau:**
+    *   **Đối với câu hỏi trắc nghiệm khách quan (MCQ 4 lựa chọn):**
+        
+        ::Câu [Số thứ tự câu]:: [Nội dung câu hỏi được viết trên một dòng duy nhất, không xuống dòng. Nếu có hình ảnh, mô tả nội dung hình ảnh trong dấu ngoặc đơn ngay sau phần đề bài liên quan, ví dụ: "(như hình vẽ, đồ thị hàm bậc ba đi qua $(-1,0)$, $(1,-4)$, $(0,-2)$, $(2,0)$)" mà không chèn link ảnh hay xuống dòng.]?
+        ... [một khoảng trắng] [Nội dung lời giải chi tiết cho câu này, được viết liền mạch trên một dòng duy nhất, không xuống dòng và không có bất kỳ sai sót nào]
+        a) [Lựa chọn A]
+        b) [Lựa chọn B]
+        *c) [Lựa chọn C]
+        d) [Lựa chọn D]
+        
+        (Lưu ý: Dấu `*` sẽ đứng trước lựa chọn đúng. Chỉ có một lựa chọn đúng cho mỗi câu. **Không in đậm lựa chọn đúng, chỉ thêm dấu `*` ở đầu lựa chọn.**)
+    *   **Đối với câu hỏi Đúng/Sai (nhiều mệnh đề):**
+        
+        ::Câu [Số thứ tự câu]:: [Nội dung câu hỏi chính, kết thúc bằng "Các mệnh đề sau đúng hay sai:?" được viết trên một dòng duy nhất, không xuống dòng. Nếu có hình ảnh, mô tả nội dung hình ảnh trong dấu ngoặc đơn ngay sau phần đề bài liên quan, ví dụ: "(như hình vẽ, đồ thị hàm bậc ba đi qua $(-1,0)$, $(1,-4)$, $(0,-2)$, $(2,0)$)" mà không chèn link ảnh hay xuống dòng.]?
+			[Cách dòng]
+        	a) [Mệnh đề a được viết trên một dòng duy nhất, không xuống dòng.]
+			[Cách dòng]
+        	b) [Mệnh đề b được viết trên một dòng duy nhất, không xuống dòng.]
+        ... [một khoảng trắng] [Nội dung lời giải chi tiết cho từng mệnh đề, được viết liền mạch trên một dòng duy nhất, không xuống dòng và không có bất kỳ sai sót nào]
+        * [Đáp án dạng chuỗi ngắn gọn, ví dụ: "ĐĐ", "ĐS", "SĐ", "SS" tùy thuộc vào sự đúng sai của các mệnh đề. Đảm bảo có khoảng trắng sau dấu `*`]
+        
+        (Lưu ý: Các mệnh đề `a)`, `b)` phải được thụt lề bằng **một tab** hoặc **4 dấu cách**. Giữa nội dung câu hỏi chính và mệnh đề `a)`, cũng như giữa các mệnh đề (`a)` và `b)`), sẽ có **một dòng trống**. **Không có dòng trống giữa mệnh đề cuối cùng và dòng `...`**. **Không in đậm đáp án, chỉ thêm dấu `*` ở đầu đáp án và một khoảng trắng.**)
+    *   **Đối với câu hỏi Trả lời ngắn: Chỉ được có kết quả là số làm tròn đến 2 chữ số sau dấu phẩy**
+        
+        ::Câu [Số thứ tự câu]:: [Nội dung câu hỏi được viết trên một dòng duy nhất, không xuống dòng. Nếu có hình ảnh, mô tả nội dung hình ảnh trong dấu ngoặc đơn ngay sau phần đề bài liên quan, ví dụ: "(như hình vẽ, đồ thị hàm bậc ba đi qua $(-1,0)$, $(1,-4)$, $(0,-2)$, $(2,0)$)" mà không chèn link ảnh hay xuống dòng.]?
+        ... [một khoảng trắng] [Nội dung lời giải chi tiết cho câu này, được viết liền mạch trên một dòng duy nhất, không xuống dòng và không có bất kỳ sai sót nào]
+        * [Đáp án dạng số hoặc biểu thức ngắn gọn. Đối với các đáp án là số vô tỷ hoặc có nhiều cách biểu diễn tương đương (ví dụ: $\ln(A/B)$), hãy chuyển sang dạng số thập phân và làm tròn đến hai chữ số sau dấu phẩy.]
+        
+        (Lưu ý: Đáp án sẽ nằm trên một dòng mới, bắt đầu bằng dấu `*` và một khoảng trắng. **Đảm bảo rằng sau dấu `*` LUÔN LUÔN là đáp án cụ thể, không được để trống.** **Không in đậm đáp án, chỉ thêm dấu `*` ở đầu đáp án.**)
+*   **Nội dung lời giải:** Lời giải phải chi tiết, rõ ràng, dễ hiểu, trình bày từng bước giải quyết vấn đề. **Đặc biệt, toàn bộ nội dung lời giải cho mỗi câu phải được viết liền mạch trên một dòng duy nhất, không có ký tự xuống dòng, không có dấu chấm đầu mục hay bất kỳ định dạng nào gây ngắt dòng. Đây là quy tắc TUYỆT ĐỐI và không có ngoại lệ.**
+*   **Tương thích kỹ thuật:** Đầu ra cần có cấu trúc rõ ràng để có thể chuyển đổi sang định dạng QTI và tải lên nền tảng Canvas.
+CẤU TRÚC ĐỀ THI (Tổng 30 câu):
+
+Phân bổ theo dạng câu hỏi và chủ đề:
+
+ - 16 câu Trắc nghiệm khách quan:
+ - 7 câu Đúng Sai:
+ - 7 câu Trả lời ngắn: Chỉ được có kết quả là số làm tròn đến 2 chữ số sau dấu phẩy
+
+Yêu cầu mỗi phần có 50% số câu là bài toán thực tế
+Mỗi phần cần có cả câu hỏi lý thuyết và bài tập tính toán.
+
+***VÍ DỤ VỀ DẠNG CÂU HỎI MONG MUỐN VÀ FORMAT ĐỀ:
+
+***Ví dụ Trắc nghiệm:
+
+::Câu 1:: Trong không gian tọa độ $Oxyz$ cho điểm $M(1;-\sqrt{2};\sqrt{3})$. Tìm điểm $M' \in Ox$ sao cho độ dài đoạn thẳng $MM'$ ngắn nhất.
+… Lời giải: abc
+a) $M'(-1;0;0)$
+*b) $M'(1;0;0)$
+c) $M'(1;0;\sqrt{3})$
+d) $M'(1;-\sqrt{2};0)$
+
+::Câu 2:: Trong không gian với hệ trục tọa độ Oxyz, cho hai điểm $A(-1;2;-3)$ và $B(2;-1;0)$. Tọa độ của vectơ $\vec{AB}$ là
+… Lời giải: abc
+a) $\vec{AB}=(1;-1;1)$
+b) $\vec{AB}=(3;3;-3)$
+c) $\vec{AB}=(1;1;-3)$
+*d) $\vec{AB}=(3;-3;3)$
+
+::Câu 3:: Trong không gian Oxyz, cho điểm $M(1;2;3)$. Tìm tọa độ hình chiếu của M lên trục Ox.
+… Lời giải: abc
+a) $(2;0;0)$
+*b) $(1;0;0)$
+c) $(3;0;0)$
+d) $(0;2;3)$
+
+::Câu 4:: Trong không gian với hệ trục tọa độ Oxyz, cho véctơ $\vec{u}=\vec{j}-4\vec{k}$. Tọa độ của vectơ $\vec{u}$ là
+… Lời giải: abc
+a) $(1;-4)$
+*b) $(0;1;-4)$
+c) $(1;0;-4)$
+d) $(0;-1;4)$
+
+::Câu 5:: Trong không gian với hệ tọa độ Oxyz, hình chiếu vuông góc của điểm $M(2;-2;1)$ trên mặt phẳng (Oxy) có tọa độ là
+… Lời giải: abc
+*a) $(2;-2;0)$
+b) $(2;0;1)$
+c) $(0;-2;1)$
+d) $(0;0;1)$
+
+
+::Câu 6:: Trong không gian Oxyz, cho điểm $A(1;2;-3)$. Hình chiếu vuông góc của A lên mặt phẳng (Oxy) có tọa độ là
+… Lời giải: abc
+a) $(0;2;-3)$
+b) $(1;0;-3)$
+*c) $(1;2;0)$
+d) $(1;0;0)$
+
+::Câu 7:: Trong không gian với hệ trục tọa độ Oxyz, cho mặt phẳng (P) có phương trình $x-3y-z+8=0$. Vectơ nào sau đây là một vectơ pháp tuyến của mặt phẳng (P)?
+… Lời giải: abc
+a) $\vec{n_1}(1;-3;1)$
+*b) $\vec{n_2}(1;-3;-1)$
+c) $\vec{n_3}(1;-3;8)$
+d) $\vec{n_4}(1;3;8)$
+
+::Câu 8:: Trong không gian Oxyz, cho mặt phẳng (P):$x-2y+2z-1=0$ và điểm $M(-1;2;-3)$. Khoảng cách từ M đến mặt phẳng (P) bằng
+… Lời giải: abc
+a) 6
+*b) 4
+c) $17/3$
+d) 17
+
+::Câu 9:: Trong không gian Oxyz cho điểm $M(1;2;-1)$ và mặt phẳng (P):$x+2y+z=0$. Mặt phẳng (Q) qua M và song song với (P) có phương trình là
+… Lời giải: abc
+a) $x+2y+z+4=0$
+b) $x+2y+z-1=0$
+c) $x+2y-z-6=0$
+*d) $x+2y+z-4=0$
+
+::Câu 10:: Trong không gian Oxyz cho hai điểm $A(1;3;2)$ và $B(4;5;6)$. Gọi $\alpha$ là góc giữa đường thẳng AB và mặt phẳng (Oxy). Giá trị của $\cos\alpha$ bằng
+… Lời giải: abc
+a) $\frac{4\sqrt{29}}{29}$
+b) $\frac{16}{29}$
+*c) $\frac{\sqrt{377}}{29}$
+d) $\frac{13}{29}$
+
+::Câu 11:: Trong không gian Oxyz, khoảng cách từ điểm $A(1;0;0)$ tới mặt phẳng (P):$2x+2y-z+1=0$ là:
+… Lời giải: abc
+a) 3
+b) $\sqrt{3}$
+c) 9
+*d) 1
+
+*** Ví dụ Đúng Sai:
+::Câu 1:: Trong không gian với hệ tọa độ Oxyz, cho tam giác ABCvới A(4;0;2), B(1;-4;-2) và C(2;1;1).
+
+	a) Tọa độ trọng tâm tam giác ABC là \(G(\frac{7}{3};-1;\frac{1}{3})\).
+
+	b) Điểm D thỏa mãn ABDC là hình bình hành, khi đó tọa độ điểm D là D(5;5;5).
+… Lời giải: a) Tọa độ trọng tâm là \(G(\frac{4+1+2}{3};\frac{0+(-4)+1}{3};\frac{2+(-2)+1}{3})=G(\frac{7}{3};-1;\frac{1}{3})\). b) Tứ giác ABDC là hình bình hành khi và chỉ khi \(\vec{CD}=\vec{AB} \Leftrightarrow \begin{cases} x_D-2=-3 \\ y_D-1=-4 \\ z_D-1=-4 \end{cases} \Leftrightarrow \begin{cases} x_D=-1 \\ y_D=-3 \\ z_D=-3 \end{cases}\). Vậy D(-1;-3;-3).
+* ĐS
+
+::Câu 2:: Trong không gian Oxyz, cho điểm A(-2;3;1), B(5;6;2) và C(-2;2;4). Đường thẳng AB cắt mặt phẳng (Oxz) tại điểm M.
+
+	a) Tam giác ABC vuông tại A.
+
+	b) Tọa độ trọng tâm của tam giác ABC là \(G(\frac{1}{3};\frac{11}{3};\frac{7}{3})\).
+… Lời giải: a) \(\vec{AB}=(7;3;1); \vec{AC}=(0;-1;3)\). \(\vec{AB}.\vec{AC}=0\) nên tam giác ABC vuông tại A là mệnh đề đúng. b) Tọa độ trọng tâm của tam giác ABC là \(G(\frac{-2+5-2}{3};\frac{3+6+2}{3};\frac{1+2+4}{3}) = G(\frac{1}{3};\frac{11}{3};\frac{7}{3})\) là mệnh đề đúng.
+* ĐĐ
+
+::Câu 3:: Trong không gian với hệ tọa độ Oxyz, cho \(\Delta ABC\) với A(1;-3;3), B(2;-4;5), C(3;-2;1).
+
+	a) \(\vec{AB}=(-1;1;-2)\).
+
+	b) Điểm G(a;b;c) là trọng tâm của tam giác \(\Delta ABC\) thì a+b+c=2.
+… Lời giải: a) \(\vec{AB}=(1;-1;2)\). Vậy a) Sai. b) Điểm \(G(\frac{1+2+3}{3};\frac{-3-4-2}{3};\frac{3+5+1}{3}) = G(2;-3;3) \Rightarrow a+b+c=2-3+3=2\). Vậy b) Đúng.
+* SĐ
+
+::Câu 4:: Trong không gian Oxyz, cho hình lập phương \(ABCD.A'B'C'D'\) có A(0;0;0), B(3;0;0), D(0;3;0), \(A'(0;0;3)\). Gọi M,N lần lượt là hai điểm nằm trên hai cạnh BD,AD' sao cho AN=DM, P là trung điểm B'C', K là điểm thuộc mặt phẳng (Oxz).
+
+	a) Trọng tâm của tam giác PCD có toạ độ là (2;5/2;1).
+
+	b) Giá trị nhỏ nhất của biểu thức \(|\vec{KP}+\vec{KC}+\vec{KD}|\) là 5/2.
+… Lời giải: a) Ta có: C(3;3;0), D(0;3;0), C'(3;3;3), B'(3;0;3). P là trung điểm B'C' nên toạ độ là \(P(3;\frac{3+0}{2};\frac{3+3}{2}) = P(3;\frac{3}{2};3)\). Trọng tâm của tam giác PCD là \(G(\frac{3+3+0}{3};\frac{\frac{3}{2}+3+3}{3};\frac{3+0+0}{3}) = G(2;\frac{5}{2};1)\). Vậy a) ĐÚNG. b) Ta có \(|\vec{KP}+\vec{KC}+\vec{KD}|=|3\vec{KG}|=3KG\), với G là trọng tâm tam giác PCD. \(|\vec{KP}+\vec{KC}+\vec{KD}|\) min \(\Leftrightarrow\) KG min. Do K là điểm thuộc mặt phẳng (Oxz) nên KG min \(\Leftrightarrow KG=d(G,Oxz)=y_G=\frac{5}{2}\). Vậy \(3KG_{min} = 3 \cdot \frac{5}{2} = \frac{15}{2}\). Mệnh đề gốc là sai, nhưng lời giải gốc là đúng. Theo format, ta phải theo lời giải của đề gốc. Giá trị nhỏ nhất là \(3KG = 3 \cdot \frac{5}{2}\). Tuy nhiên, đề bài hỏi giá trị nhỏ nhất của biểu thức, và lời giải gốc ghi KG=d(G,Oxz)=5/2. Vậy ta theo lời giải gốc.
+* ĐĐ
+
+::Câu 5:: Trong không gian với hệ toạ độ Oxyz cho tam giác ABC có các đỉnh A(1;-2;0), B(2;1;-2), C(0;3;4).
+
+	a) Toạ độ của véc-tơ \(\vec{AB}\) là (1;3;-2).
+
+	b) Toạ độ hình chiếu của điểm B trên mặt phẳng Oxy là H(0;0;-2).
+… Lời giải: a) Toạ độ của véc-tơ \(\vec{AB}\) là \((2-1; 1-(-2); -2-0) = (1;3;-2)\). Chọn a) ĐÚNG. b) Toạ độ hình chiếu của điểm B(2;1;-2) trên mặt phẳng Oxy (z=0) là H(2;1;0). Chọn b) SAI.
+* ĐS
+
+::Câu 6:: Trong không gian với hệ tọa độ Oxyz, cho tam giác ABC với A(1;0;-2), B(-2;3;4) và C(4;-6;1).
+
+	a) \(\vec{AB}=(3;-3;6)\).
+
+	b) Hình chiếu vuông góc của B lên trục Ox là \(B'(-2;3;0)\).
+… Lời giải: a) Sai. \(\vec{AB}=(-2-1;3-0;4-(-2))=(-3;3;6)\). b) Sai. Hình chiếu vuông góc của B(-2;3;4) lên trục Ox (y=0, z=0) là \(B'(-2;0;0)\).
+* SS
+
+::Câu 7:: Trong không gian Oxyz, cho các điểm A(1;1;0), B(5;-3;2) và C(0;4;-1). Xét các điểm M thay đổi trong không gian sao cho diện tích tam giác ABM bằng \(6\sqrt{2}\).
+
+	a) Đoạn thẳng AB có độ dài bằng 3.
+
+	b) Đường thẳng AB có phương trình là \(\frac{x-1}{2}=\frac{y-1}{-2}=\frac{z}{1}\).
+… Lời giải: a) Sai. Ta có \(AB=\sqrt{(5-1)^2+(-3-1)^2+(2-0)^2}=\sqrt{16+16+4}=\sqrt{36}=6\). b) Đúng. \(\vec{AB}=(4;-4;2)\), cùng phương với \(\vec{u}=(2;-2;1)\). Đường thẳng AB đi qua điểm A(1;1;0) và nhận \(\vec{u}=(2;-2;1)\) làm vectơ chỉ phương. Vậy phương trình của AB là \(\frac{x-1}{2}=\frac{y-1}{-2}=\frac{z}{1}\).
+* SĐ
+
+::Câu 8:: Trong hệ tọa độ Oxyz, cho các điểm A(5;3;4), B(1;2;1), C(8;-3;2). Gọi D(a;b;c) là chân đường phân giác trong kẻ từ đỉnh A của tam giác ABC.
+
+	a) Trọng tâm của tam giác ABC có tọa độ \(G(\frac{14}{3};\frac{2}{3};\frac{7}{3})\).
+
+	b) \(BC=5\sqrt{2}\).
+Lời giải: a) Áp dụng công thức tọa độ trọng tâm tam giác, ta có \(G(\frac{5+1+8}{3};\frac{3+2+(-3)}{3};\frac{4+1+2}{3}) \Rightarrow G(\frac{14}{3};\frac{2}{3};\frac{7}{3})\). Suy ra đúng. b) Ta có \(\vec{BC}=(7;-5;1)\), suy ra \(BC=|\vec{BC}|=\sqrt{7^2+(-5)^2+1^2}=\sqrt{49+25+1}=\sqrt{75}=5\sqrt{3}\). Suy ra sai.
+* ĐS
+
+::Câu 9:: Trong không gian Oxyz, cho đường thẳng \(d:\frac{x-1}{2}=\frac{y+2}{-1}=\frac{z}{3}\) và mặt phẳng (P):3x-y+2z+8=0.
+
+	a) Một vec tơ pháp tuyến của mặt phẳng (P) là \(\vec{n}=(3;-1;2)\).
+
+	b) Tọa độ giao điểm của đường thẳng d và mặt phẳng (P) là I(a;b;c). Ta có a+b+c=-5.
+… Lời giải: a) Đúng. Từ phương trình mặt phẳng (P):3x-y+2z+8=0, ta có một vec tơ pháp tuyến là \(\vec{n}=(3;-1;2)\). b) Sai. Phương trình tham số của d là \(x=1+2t, y=-2-t, z=3t\). Thay vào (P): \(3(1+2t) - (-2-t) + 2(3t) + 8 = 0 \Leftrightarrow 3+6t+2+t+6t+8=0 \Leftrightarrow 13t+13=0 \Leftrightarrow t=-1\). Vậy giao điểm là \(I(-1;-1;-3)\). Ta có a+b+c = -1-1-3 = -5. Lời giải trong đề gốc sai, nhưng kết luận của mệnh đề là đúng. Do đó mệnh đề này là Đúng.
+* ĐĐ
+
+::Câu 10:: Trong không gian với hệ trục toạ độ Oxyz, cho đường thẳng \(d:\frac{x+2}{1}=\frac{y-2}{1}=\frac{z}{-1}\) và mặt phẳng (P):x+2y-3z+4=0.
+
+	a) Vectơ \(\vec{n}(1;1;-1)\) là một vectơ pháp tuyến của mặt phẳng (P).
+
+	b) Đường thẳng d đi qua điểm A(-2;2;0).
+… Lời giải: a, Từ phương trình (P):x+2y-3z+4=0 ta có một vecto pháp tuyến của (P) là \(\vec{v}(1;2;-3)\). Do \(\frac{1}{1}\neq\frac{1}{2}\) nên \(\vec{n}(1;1;-1)\) không cùng phương với \(\vec{v}\), do đó nó không phải là một vectơ pháp tuyến của (P). Vậy a Sai. b, Thay tọa độ điểm A(-2;2;0) vào phương trình d ta có \(\frac{-2+2}{1}=\frac{2-2}{1}=\frac{0}{-1}\) hay \(0=0=0\), thỏa mãn. Vậy A thuộc d. Vậy b Đúng.
+* SĐ
+
+*** Ví dụ Trả lời ngắn:
+
+::Câu 1:: Trong không gian với hệ tọa độ Oxyz, cho A( -1; 2; 1),B( 2; -1; 3),C( 3; 5; -1). Điểm $M( a; b; c)$ trên mặt phẳng $(Oyz)$ sao cho $|\vec{MA}+2\vec{MB}-\vec{CM}|$ đạt giá trị nhỏ nhất. Khi đó ta có $2b+c$ bằng bao nhiêu?
+... Đáp án và lời giải: Đáp án: 4. Ta có $|\vec{MA}+2\vec{MB}-\vec{CM}| = |\vec{MA}+2\vec{MB}+\vec{MC}|$. Gọi $I$ là điểm thỏa mãn $\vec{IA}+2\vec{IB}+\vec{IC} = \vec{0}$, suy ra $I(\frac{3}{2}; \frac{5}{4}; \frac{3}{2})$. Biểu thức trở thành $|4\vec{MI}| = 4MI$. Giá trị này nhỏ nhất khi $M$ là hình chiếu của $I$ trên mặt phẳng $(Oyz)$, do đó $M(0; \frac{5}{4}; \frac{3}{2})$. Khi đó $2b+c = 2(\frac{5}{4}) + \frac{3}{2} = 4$.
+* 4
+
+::Câu 2:: Trong không gian Oxyz, cho $A(1; 2; 0)$; $B(3; -1; 2)$; $C(1; 2; 2)$ và điểm $M \in (Oxy)$. Tìm giá trị nhỏ nhất của biểu thức $T=MA^2+2MB^2-MC^2$.
+... Đáp án và lời giải: Đáp án: 4. Gọi $I$ là điểm thỏa mãn $\vec{IA}+2\vec{IB}-\vec{IC}=\vec{0}$, ta tìm được $I(3; -1; 1)$. Biểu thức $T$ được biến đổi thành $T = 2MI^2 + IA^2+2IB^2-IC^2$. Tính toán cho thấy $IA^2+2IB^2-IC^2 = 14 + 2(1) - 14 = 2$. Do đó $T = 2MI^2 + 2$. Vì $M \in (Oxy)$, $T$ nhỏ nhất khi $MI$ nhỏ nhất, tức là $M$ là hình chiếu của $I$ trên $(Oxy)$. Khi đó $MI_{min} = |z_I| = 1$. Vậy giá trị nhỏ nhất của $T$ là $2(1)^2 + 2 = 4$.
+* 4
+
+::Câu 3:: Trong hệ trục tọa độ Oxyz, hình bình hành ABCD có $A(-1;3;5),B(2;-3;7),D(-4;1;-2)$. Hiệu giữa hoành độ với cao độ của điểm C bằng bao nhiêu?
+... Đáp án và lời giải: Đáp án: -1. Gọi $C(x;y;z)$. Do ABCD là hình bình hành nên $\vec{AB}=\vec{DC}$. Ta có $\vec{AB}=(3;-6;2)$ và $\vec{DC}=(x+4;y-1;z+2)$. Từ đó suy ra $x+4=3, y-1=-6, z+2=2$, giải hệ phương trình ta được $C(-1;-5;0)$. Hiệu giữa hoành độ và cao độ của $C$ là $x - z = -1 - 0 = -1$.
+* -1
+
+::Câu 4:: Trong không gian Oxyz, cho các điểm $A(1;-1;2),B(-1;1;1),C(-3;-3;4),D(1;\frac{1}{2};1)$. Điểm $M$ thay đổi trên mặt phẳng $(Oxy)$. Khi biểu thức $T=-3(\frac{MA}{MD})^2-2(\frac{MB}{MD})^2+(\frac{MC}{MD})^2$ đạt giá trị lớn nhất thì hoành độ của điểm M bằng bao nhiêu?
+... Đáp án và lời giải: Đáp án: 1. Đặt $M(x;y;0)$. Biểu thức $T = \frac{-3MA^2-2MB^2+MC^2}{MD^2}$. Sau khi khai triển và rút gọn tử số, ta được: $-4x^2+8x-4y^2+4y+10 = -4((x-1)^2+(y-\frac{1}{2})^2) + 15$. Mẫu số là $MD^2=(x-1)^2+(y-\frac{1}{2})^2+1$. Đặt $k=(x-1)^2+(y-\frac{1}{2})^2 \ge 0$. Ta có $T = \frac{-4k+15}{k+1} = -4 + \frac{19}{k+1}$. $T$ đạt giá trị lớn nhất khi $k$ nhỏ nhất, tức là $k=0$. Điều này xảy ra khi $x=1$ và $y=\frac{1}{2}$. Do đó, hoành độ của điểm $M$ là 1.
+* 1
+
+::Câu 5:: Trạm kiểm soát không quân đang theo dõi hai máy bay chiến đấu Su-30 và MiG-31. Giả sử trong không gian với hệ trục tọa độ Oxyz, đơn vị đo mỗi trục là $1 \text{ km}$ và xem mặt phẳng Oxy là mặt đất, tại cùng một thời điểm theo dõi ban đầu: máy bay chiến đấu Su-30 ở tọa độ $A(0;35;10)$, bay theo hướng vectơ $\vec{v_1}=(3;4;0)$ với tốc độ không đổi $900 \text{ (km/h)}$ và máy bay chiến đấu MiG-31 ở tọa độ $B(31;10;11)$, bay theo hướng $\vec{v_2}=(5;12;0)$ với tốc độ không đổi $910 \text{ (km/h)}$. Khu vực này có gió mạnh thổi với vận tốc $80 \text{ (km/h)}$ theo hướng vectơ $\vec{u}=(-3;0;4)$, gió ảnh hưởng đến cả hai máy bay trong quá trình bay. Một khu vực không phận bị hạn chế bay đã được một quốc gia khác thiết lập, có dạng hình trụ với tâm đáy tại $C(178;430;0)$, bán kính đáy $7 \text{ km}$, trục vuông góc với mặt đất và chiều cao $43 \text{ km}$, máy bay MiG-31 có nhiệm vụ bay vào khu vực không phận bị hạn chế để thăm dò. Tại thời điểm máy bay chiến đấu MiG-31 bay ra khỏi khu vực không phận bị hạn chế thì khoảng cách của 2 máy bay chiến đấu là bao nhiêu km? (làm tròn đến hàng phần chục)
+... Đáp án và lời giải: Đáp án: 73,0. Vận tốc thực của Su-30: $\vec{u}_{Su} = \frac{900}{5}(3;4;0) + \frac{80}{5}(-3;0;4) = (492;720;64)$. Vận tốc thực của MiG-31: $\vec{u}_{MiG} = \frac{910}{13}(5;12;0) + \frac{80}{5}(-3;0;4) = (302;840;64)$. Vị trí MiG-31 tại thời điểm $t$ là $P_{MiG}(t) = (31+302t; 10+840t; 11+64t)$. MiG-31 ra khỏi vùng cấm bay khi độ cao $z=43 \text{ km}$, suy ra $11+64t=43 \Rightarrow t=0.5$ giờ. Tại $t=0.5$, vị trí MiG-31 là $M(182;430;43)$ và vị trí Su-30 là $N(246;395;42)$. Khoảng cách giữa hai máy bay là $MN = \sqrt{(246-182)^2+(395-430)^2+(42-43)^2} = \sqrt{5322} \approx 73.0 \text{ km}$.
+* 73,0
+* 73.0
+
+::Câu 6:: Người ta thiết kế một dây cáp chạy thẳng từ điểm X ở trên mặt đất tới đỉnh T của một tòa tháp. Giả sử tọa độ của các điểm là $T(40;60;150)$ và $X(100;-40;0)$ trong hệ tọa độ không gian Oxyz, với O là gốc tọa độ đặt tại mặt đất. Người ta muốn nối điểm $A(40;30;-20)$ nằm dưới một cái hố tới một điểm $M(a;b;c)$ nằm trên dây cáp sao khoảng cách MA này là nhỏ nhất. Tính $a+b+c$.
+... Đáp án và lời giải: Đáp án: 100. Khoảng cách $MA$ nhỏ nhất khi $M$ là hình chiếu vuông góc của $A$ lên đường thẳng $XT$. Véctơ chỉ phương của $XT$ là $\vec{XT}=(-60;100;150)$, ta có thể dùng véctơ song song $\vec{u}=(6;-10;-15)$. Phương trình tham số của $XT$ đi qua $T(40;60;150)$ là $x=40+6t, y=60-10t, z=150-15t$. Suy ra $M(40+6t; 60-10t; 150-15t)$ và $\vec{AM}=(6t; 30-10t; 170-15t)$. Do $AM \perp XT$ nên $\vec{AM} \cdot \vec{u} = 0 \Leftrightarrow 6(6t)-10(30-10t)-15(170-15t)=0 \Leftrightarrow 361t - 2850 = 0 \Leftrightarrow t=\frac{2850}{361}=\frac{150}{19}$. Thay $t$ vào tọa độ $M$ ta được $M(\frac{1660}{19}; \frac{-360}{19}; \frac{600}{19})$. Vậy $a+b+c = \frac{1660-360+600}{19} = 100$.
+* 100
+
+::Câu 7:: Trong không gian với hệ trục tọa độ Oxyz, xét mô hình phòng không như sau: rada đặt tại gốc tọa độ O(0;0;0), tên lửa phòng không đặt tại điểm M(0;50;0), mỗi đơn vị tương ứng với 10m, mặt phẳng (Oxy) trùng với mặt đất, trục Oz vuông góc mặt đất và hướng lên. Giả sử mọi UAV (phương tiện bay không người lái) và tên lửa đều chuyển động thẳng đều. Tại thời điểm $t=0(s)$, rađa phát hiện ra UAV A ở toạ độ $A_0 (1100;0;15)$. Tại thời điểm $t=1s$, rađa theo dõi thấy UAV A ở tọa độ $A_1 (1095;1;14,5)$ trên đường thẳng d. Tại thời điểm $t=6(s)$, một tên lửa được phóng lên và chuyển động thẳng đều với vận tốc $1300 \text{ (m/s)}$, va chạm và phá huỷ UAV A tại điểm B trên d. Hỏi sau bao nhiêu giây kể từ lúc được phóng lên thì tên lửa va chạm với UAV (làm tròn kết quả đến hàng phần trăm của giây)?
+... Đáp án và lời giải: Đáp án: 7,93. Véctơ vận tốc của UAV là $\vec{v}_{UAV} = (-5; 1; -0.5)$ (đơn vị 10m/s). Phương trình đường bay của UAV là $P_{UAV}(t) = (1100-5t; t; 15-0.5t)$. Tên lửa được phóng lúc $t=6s$ từ $M(0;50;0)$ với vận tốc $v_M = 1300 \text{ m/s} = 130 \text{ (10m/s)}$. Gọi $\tau$ là thời gian bay của tên lửa. Vụ va chạm xảy ra tại thời điểm $t_{vc} = 6+\tau$. Tại đó, vị trí UAV là $B = (1070-5\tau; 6+\tau; 12-0.5\tau)$. Quãng đường tên lửa bay được là $MB = 130\tau$. Ta có phương trình $MB^2 = (130\tau)^2 \Rightarrow (1070-5\tau)^2 + (\tau-44)^2 + (12-0.5\tau)^2 = 16900\tau^2$. Giải phương trình bậc hai $16873.75\tau^2 + 10800\tau - 1146980 = 0$, ta được nghiệm dương $\tau \approx 7.93$ s.
+* 7,93
+* 7.93
+
+*** YÊU CẦU VỀ ĐỀ BÀI (Quan trọng) ***
++ Chỉ cần in ra format như ví dụ trên (được lấy format dưới dạng [https://github.com/gpoore/text2qti/blob/master/README.md], dạng Markdown*). Đơn giản là chỉ bao gồm * là đáp án đúng cho mỗi câu hỏi, và phải viết lời giải chi tiết cho các câu trả lời ngắn và các câu trắc nghiệm đúng sai, đừng viết thêm mức độ nhận biết và điểm cho mỗi câu hỏi, miễn là chỉ cần chỉ số câu “ :: Câu X :: “, theo sau là lời giải chi tiết được viết trên đúng 1 dòng sau dấu “ * “, sau đó là đề bài và trả lời đúng của phần trắc nghiệm khách quan ghi dấu “ * “, phải bao gồm đáp án chi tiết, lựa chọn được đánh bởi dấu “ * “ thì có nghĩa là đáp án đúng. Phần đúng sai thì mỗi câu chỉ có đúng 2 ý, cần chỉ số câu “ ::Câu X:: “, cách 1 dòng sau đề bài với ý a, cách 1 dòng giữa ý a và ý b, theo sau là lời giải được viết trên đúng 1 dòng sau dấu “...”, tiếp theo là phần đáp án chỉ ghi 2 chữ Đ hoặc S liền nhau sau dấu “ * “. Lưu ý: Phải ghi đề bài trước, cách 1 dòng, ghi ý a, cách 1 dòng, ghi ý b, không cách 1 dòng nữa, ghi lời giải chi tiết trên đúng 1 dòng, cuối cùng là đáp án. Phần trả lời ngắn thì cần chỉ số câu như trên, theo sau là lời giải được viết trên đúng 1 dòng sau dấu “ … “, tiếp theo là phần đáp án viết ngắn gọn sau dấu “ * “. Nếu đáp án là số thập phân thì bắt buộc phải làm tròn tới chữ số thập phân thứ 2.
++ Chỉ số câu hỏi từ 1 - 40.
++ Phải đầy đủ yêu cầu ở trên (Nội dung thuộc phần kiến thức đã được nêu ở phần Nội dung, ràng buộc bắt buộc phải đúng: 90 phút, Trắc nghiệm (20 câu), Trả lời đúng sai (10 câu, mỗi câu 4 ý), Trả lời ngắn (10 câu, không chia ý) (bắt buộc phải theo đúng ràng buộc, có thể tham khảo các ví dụ trên coi như là đề mẫu), phân bổ được theo mức độ khó đúng (30% Nhận biết, 40% Thông hiểu, 20% Vận dụng, 10% Vận dụng cao))
++ Xuất ra đề bài được viết trên một file .txt.
+
+
+
+

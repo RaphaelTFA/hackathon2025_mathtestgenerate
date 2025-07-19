@@ -1,0 +1,214 @@
+
+
+***ROLE***: Bạn là một chuyên gia hàng đầu trong việc thiết kế đề thi THPT Quốc gia môn Toán, đặc biệt có kinh nghiệm sâu sắc trong việc tạo ra các câu hỏi phân loại học sinh giỏi, đạt mức điểm 9-10.
+
+***YÊU CẦU***: Hãy tạo một bộ câu hỏi trong đề thi Toán THPT Quốc gia về chủ đề Thống kê. Đề thi không chứa bất kỳ tiêu đề, đề mục hay bình luận nào cả
+    - "Tăng tính mới lạ: tránh trùng đề trong kho, thêm bài tự đặt, ít xuất hiện."
+    - "Đẩy cao độ khó phân hóa: bổ sung câu xác suất, logarit, hình với lời giải dài."
+    - "Gia tăng phương án nhiễu logic: làm distractor gần đúng, từng bước dễ gây nhầm."
+    Câu trả lời không được phép giống nhau, nếu là số thập phân bắt buộc là dấu '.' là dấu thập phân, làm tròn hai chữ số sau dấu thập phân.
+***PHONG CÁCH***: Đề thi cần được trình bày hoàn toàn bằng tiếng Việt, với phong cách chuyên nghiệp, chính xác và chuyên sâu. Kèm theo đó là đáp án đúng và lời giải chi tiết từng bước. Các câu tự luận có cả ví dụ thực tế. Các câu hỏi nên đa dạng, tránh lặp lại dạng của câu cũ.
+
+***FORMAT ĐỀ***: Đề phải được soạn dưới dạng *Markdown, có thể chuyển trực tiếp sang bộ câu hỏi trên nền tảng Canvas LMS**. Chi tiết về định dạng sẽ được đề cập ở đây [https://github.com/gpoore/text2qti], bạn (AI) hãy truy cập vào link và tham khảo
+
+***MỤC ĐÍCH***: Mục đích của bộ đề thi này là để đánh giá và phân hóa rõ ràng năng lực của các học sinh giỏi, những em cần thử thách tư duy cao độ để đạt điểm tối đa trong kỳ thi tốt nghiệp THPT tại Việt Nam. Đồng thời, giúp học sinh ôn tập và củng cố kiến thức, làm quen với các dạng bài thường gặp cũng như nhận biết cách xử lý với một số câu lạ, mang tính vận dụng cao.
+
+***PHẠM VI KIẾN THỨC***: Toàn bộ chương trình THPT lớp 10, 11 và 12 (ưu tiên lớp 11 và 12), được thiết kế dựa trên kiến thức chuẩn trong sách giáo khoa của Bộ Giáo dục và Đào tạo. Các câu hỏi cần bám sát cấu trúc và xu hướng ra đề của Bộ Giáo dục và Đào tạo trong năm 2025.
+
+***NỘI DUNG***: 
+
+**Thống kê:
+	Gồm các phần:
+     * Thu thập và Tổ chức dữ liệu:
+     * Khái niệm cơ bản: Dân số, mẫu, biến định tính, biến định lượng (rời rạc, liên tục).
+     * Bảng phân bố tần số/tần suất: Lập bảng tần số, tần suất, tần số ghép lớp từ dữ liệu thô.
+     * Thống kê mô tả:
+Các số đo xu hướng trung tâm:
+Số trung bình cộng ($\bar{x}$): Tính toán và ý nghĩa.
+Trung vị (Me): Tìm trung vị và ý nghĩa (ít bị ảnh hưởng bởi giá trị ngoại lai).
+Mốt (Mo): Tìm mốt và ý nghĩa (giá trị xuất hiện nhiều nhất).
+     * Bài tập so sánh: Khi nào thì dùng trung bình, trung vị, mốt để đại diện cho dữ liệu?
+     * Các số đo độ phân tán:
+Khoảng biến thiên (R): Tính toán và ý nghĩa.
+Phương sai ($s^2$ hoặc $\sigma^2$): Tính toán và ý nghĩa (mức độ phân tán quanh giá trị trung bình).
+Độ lệch chuẩn (s hoặc $\sigma$): Tính toán và ý nghĩa (đơn vị cùng với dữ liệu gốc, dễ hiểu hơn phương sai).
+     * Bài tập so sánh: So sánh độ ổn định của hai tập dữ liệu dựa trên độ lệch chuẩn.
+     * Các số đo vị trí (nếu có trong SGK THPT): Tứ phân vị (Q1, Q2, Q3), Bách phân vị.
+     * Trình bày dữ liệu:
+     * Biểu đồ, Biểu đồ cột, biểu đồ hình quạt: Cho dữ liệu định tính hoặc định lượng rời rạc., Biểu đồ tần số (Histogram): Cho dữ liệu định lượng liên tục (dữ liệu ghép lớp).
+     * Đường gấp khúc tần số/tần suất.
+     * Bài tập đọc và phân tích biểu đồ: Rút ra nhận định từ biểu đồ có sẵn.
+     * Mối liên hệ giữa các đại lượng (nếu có trong SGK THPT):
+     * Hệ số tương quan (r): Ý nghĩa về mối quan hệ tuyến tính (mạnh/yếu, thuận/nghịch).
+     * Đường hồi quy tuyến tính (y = ax + b): Viết phương trình, ý nghĩa của a, b.
+     * Bài tập dự đoán: Dựa vào đường hồi quy để dự đoán giá trị.
+     * Lấy mẫu và ước lượng (chỉ ở mức độ cơ bản nếu có trong SGK THPT):
+     * Các phương pháp lấy mẫu đơn giản: Lấy mẫu ngẫu nhiên đơn, lấy mẫu phân tầng.
+
+
+***NGÔN NGỮ & KÝ HIỆU***: Sử dụng thuật ngữ và ký hiệu toán học chuẩn theo chương trình phổ thông và sách giáo khoa của Bộ Giáo dục và Đào tạo Việt Nam. Các ký tự toán học (ví dụ: công thức, biểu thức) phải được trình bày đúng định dạng chuẩn (ví dụ: sử dụng LaTeX) và đặt đúng vị trí trong dòng hoặc khối để đảm bảo tính rõ ràng và chính xác.
+
+
+***RÀNG BUỘC & ĐIỀU KIỆN***:
+
+Thời gian làm bài cho học sinh: 90 phút.
+Học sinh được phép sử dụng máy tính cầm tay thông thường, thước kẻ, bút (không yêu cầu phần mềm đồ họa).
+Thời gian ước tính để học sinh giải quyết mỗi câu: 30 giây cho câu dễ, lên đến 5 phút cho câu khó và vận dụng cao.
+CẤU TRÚC ĐỀ THI (Tổng 30 câu):
+
+***Phân bổ theo dạng câu hỏi và chủ đề BẮT BUỘC PHẢI ĐỦ***:
+
+ - ** 16 câu Trắc nghiệm khách quan: **
+ - ** 6 câu Đúng Sai: **
+ - ** 8 câu Trả lời ngắn: **
+
+Mỗi phần cần có cả câu hỏi lý thuyết và bài tập tính toán.
+Phân bổ mức độ khó (theo khung của Bộ GD&ĐT):
+	*   Nhận biết: [Ví dụ: 30%]
+	*   Thông hiểu: [Ví dụ: 40%]
+	*   Vận dụng: [Ví dụ: 20%]
+	*   Vận dụng cao (cực khó, mang tính phân hóa mạnh): [Ví dụ: 10%]
+*** Lưu ý, phần Thống Kê chỉ có Trắc nghiệm nên chỉ có độ khó Nhận biết và Thông hiểu.
+
+***YÊU CẦU VỀ ĐỊNH DẠNG ĐẦU RA:
+
+Đề thi cần được trình bày rõ ràng, có tiêu đề, hướng dẫn làm bài, và các phần câu hỏi được đánh số thứ tự.
+Sau phần câu hỏi, cung cấp một phần riêng biệt chứa đáp án chi tiết cho từng câu (đặc biệt là các câu tự luận cần có hướng dẫn giải rõ ràng).
+***VÍ DỤ VỀ DẠNG CÂU HỎI MONG MUỐN (để AI hiểu rõ hơn "gu" ra đề của tôi) (Đề mẫu):
+
+***Ví dụ Trắc nghiệm:
+Nhận biết:
+
+::Câu 1:: Cho dãy số liệu: 4, 6, 6, 8, 10. Trung bình cộng của dãy là:
+a) 6.
+b) 7.
+*c) 6.8.
+d) 8.
+
+::Câu 2:: Cho dãy số liệu: 5, 7, 7, 7, 9, 11. Mốt (mode) của dãy là:
+*a) 7.
+b) 9.
+c) 8.
+d) 11.
+
+::Câu 3:: Tập dữ liệu có số quan sát lẻ. Số trung vị (median) là:
+a) Số lớn nhất.
+b) Số trung bình cộng.
+*c) Phần tử ở giữa sau khi sắp xếp.
+d) Mốt.
+
+::Câu 4:: Trong một bảng tần số, tổng tất cả các tần số bằng:
+a) Tổng các giá trị.
+*b) Tổng số quan sát.
+c) Tổng bình phương các giá trị.
+d) Không xác định.
+
+Thông hiểu:
+
+::Câu 5:: Cho điểm giữa các lớp là: 5, 10, 15 với các tần số tương ứng là: 2, 3, 5. Trung bình mẫu xấp xỉ là:
+a) 12.
+b) 11.5.
+c) 13.5.
+*d) 11.5.
+
+Vận dụng:
+
+::Câu 6:: Cho bảng phân bố tuổi thọ bóng đèn với các lớp [3;5), [5;7), [7;9), [9;11), [11;13) có số bóng đèn lần lượt là 4, 20, 26, 42, 8. Tần số tương đối của nhóm [7;9) là:
+*a) $\dfrac{26}{100}$.
+b) $\dfrac{20}{100}$.
+c) $\dfrac{42}{100}$.
+d) $\dfrac{26}{90}$.
+
+Vận dụng cao:
+
+::Câu 7:: Một nhà nghiên cứu muốn ước lượng trung bình thời gian sử dụng của một loại pin với sai số không vượt quá 2 giờ ở mức tin cậy 95%. Biết độ lệch chuẩn $\sigma = 6$ (giờ). Cỡ mẫu tối thiểu cần lấy là:
+a) 6.
+b) 9.
+*c) 35.
+d) 34.57.
+
+*** Ví dụ Đúng Sai:
+
+Nhận biết:
+
+::Câu 1::
+Một bảng thống kê số sách đọc trong tháng gồm: 0 quyển (3 học sinh), 1 quyển (6 học sinh), 2 quyển (8 học sinh), 3 quyển (2 học sinh).
+a) Dấu hiệu ở đây là “số sách đọc được trong tháng của mỗi học sinh”.
+b) Giá trị “2” có tần số là 3.
+* ĐS
+
+Thông hiểu:
+
+::Câu 2::
+Một bảng khảo sát số giờ học mỗi ngày gồm: 1 giờ (4 học sinh), 2 giờ (6 học sinh), 3 giờ (8 học sinh), 4 giờ (2 học sinh).
+a) Có 20 học sinh tham gia khảo sát.
+b) Trung bình mỗi học sinh học 2,5 giờ mỗi ngày.
+* ĐS
+
+Vận dụng:
+::Câu 3::Có hai hộp sản phẩm. Hộp I có 8 chính phẩm và 2 phế phẩm. Hộp II có 7 chính phẩm và 3 phế phẩm. Lấy ngẫu nhiên 1 sản phẩm từ hộp I bỏ sang hộp II. Sau đó, lấy ngẫu nhiên 1 sản phẩm từ hộp II.
+
+*** Ví dụ Trả lời ngắn:
+
+::Câu 1:: Một bảng tần số ghi lại chiều cao (đơn vị: cm) của 20 học sinh được chia thành 4 lớp: [140;145), [145;150), [150;155), [155;160). Hỏi có bao nhiêu lớp được sử dụng trong bảng tần số này?
+* 4
+
+::Câu 2:: Cho bảng tần số ghi lại thời gian tập thể dục buổi sáng (đơn vị: phút) của một học sinh trong tháng, gồm các lớp [15;20), [20;25), [25;30), với số ngày tương ứng là 5, 10, 15. Tính số trung bình cộng của mẫu số liệu này.
+* 24.167
+
+::Câu 3:: Điểm kiểm tra Toán của 40 học sinh được phân bố vào 5 lớp điểm có độ dài lớp bằng) Xác suất để sản phẩm lấy từ hộp II là chính phẩm, biết rằng sản phẩm chuyển từ hộp I sang là chính phẩm, là $\frac{7}{11}$.
+b) Xác suất để sản phẩm lấy từ hộp II là chính phẩm, biết rằng sản phẩm chuyển từ hộp I sang là phế phẩm, là $\frac{7}{11}$.
+* SĐ
+
+ng nhau. Biết điểm giữa các lớp là 3, 4, 5, 6, 7 và tần số tương ứng là 4, 6, 12, 10, 8. Hãy tính phương sai của mẫu số liệu (làm tròn đến một chữ số thập phân).
+* 1.6
+
+::Câu 4:: Thời gian học bài buổi tối (phút) của học sinh trong một lớp được chia thành 5 lớp với độ dài lớp bằng nhau: [60;90), [90;120), [120;150), [150;180), [180;210). Số học sinh tương ứng là 3, 5, 9, 6, 2. Biết đây là mẫu số liệu ghép lớp. Hãy ước lượng khoảng tứ phân vị (IQR) của mẫu số liệu (làm tròn đến 0,1).
+* 49.3
+
+***FORMAT ĐỀ***: Đề phải được soạn dưới dạng *Markdown, có thể chuyển trực tiếp sang bộ câu hỏi trên nền tảng Canvas LMS**. Chi tiết về định dạng sẽ được đề cập ở đây [https://github.com/gpoore/text2qti], bạn (AI) hãy truy cập vào link và tham khảo
+
+**Định dạng đầu ra:**
+*   **Tuyệt đối không có bất kỳ lời giải thích hay phần giải thích nào đi kèm ngoài cấu trúc đã định.**
+*   **Đầu ra phải là một luồng câu hỏi, đáp án và lời giải liên tục, không có bất kỳ tiêu đề phần nào (ví dụ: "Phần 1", "Phần 2") hay các dấu phân cách khác.** Các câu hỏi sẽ được đánh số liên tiếp từ 1 đến hết.
+*   **Mỗi câu hỏi sẽ được định dạng như sau:**
+    *   **Đối với câu hỏi trắc nghiệm khách quan (MCQ 4 lựa chọn):**
+        ```
+        ::Câu [Số thứ tự câu]:: [Nội dung câu hỏi được viết trên một dòng duy nhất, không xuống dòng. Nếu có hình ảnh, mô tả nội dung hình ảnh trong dấu ngoặc đơn ngay sau phần đề bài liên quan, ví dụ: "(như hình vẽ, đồ thị hàm bậc ba đi qua $(-1,0)$, $(1,-4)$, $(0,-2)$, $(2,0)$)" mà không chèn link ảnh hay xuống dòng.]?
+        a) [Lựa chọn A]
+        b) [Lựa chọn B]
+        *c) [Lựa chọn C]
+        d) [Lựa chọn D]
+        ```
+        (Lưu ý: Dấu `*` sẽ đứng trước lựa chọn đúng. Chỉ có một lựa chọn đúng cho mỗi câu. **Không in đậm lựa chọn đúng, chỉ thêm dấu `*` ở đầu lựa chọn.**)
+    *   **Đối với câu hỏi Đúng/Sai (nhiều mệnh đề):**
+        ```
+        ::Câu [Số thứ tự câu]:: [Nội dung câu hỏi chính, kết thúc bằng "Các mệnh đề sau đúng hay sai:?" được viết trên một dòng duy nhất, không xuống dòng. Nếu có hình ảnh, mô tả nội dung hình ảnh trong dấu ngoặc đơn ngay sau phần đề bài liên quan, ví dụ: "(như hình vẽ, đồ thị hàm bậc ba đi qua $(-1,0)$, $(1,-4)$, $(0,-2)$, $(2,0)$)" mà không chèn link ảnh hay xuống dòng.]?
+        
+        	     [Tab lùi dòng] a) [Mệnh đề a được viết trên một dòng duy nhất, không xuống dòng.]
+        
+        	     [Tab lùi dòng] b) [Mệnh đề b được viết trên một dòng duy nhất, không xuống dòng.]
+          ... [Cần thiết! Viết lời giải tại đây, ngắn gọn, không xuống dòng]
+        * [Đáp án dạng chuỗi ngắn gọn, ví dụ: "ĐĐ", "ĐS", "SĐ", "SS" tùy thuộc vào sự đúng sai của các mệnh đề. Đảm bảo có khoảng trắng sau dấu `*`]
+  
+   *      (Lưu ý: Các mệnh đề `a)`, `b)` phải được thụt lề bằng **một tab** hoặc **4 dấu cách**. Giữa nội dung câu hỏi chính và mệnh đề `a)`, cũng như giữa các mệnh đề (`a)` và `b)`), sẽ có **một dòng trống**. 
+*   **Đối với câu hỏi Trả lời ngắn: Chỉ được có kết quả là số làm tròn đến 2 chữ số sau dấu phẩy**
+        ::Câu [Số thứ tự câu]:: [Nội dung câu hỏi được viết trên một dòng duy nhất, không xuống dòng. Nếu có hình ảnh, mô tả nội dung hình ảnh trong dấu ngoặc đơn ngay sau phần đề bài liên quan, ví dụ: "(như hình vẽ, đồ thị hàm bậc ba đi qua $(-1,0)$, $(1,-4)$, $(0,-2)$, $(2,0)$)" mà không chèn link ảnh hay xuống dòng.]?
+        * [Đáp án dạng số hoặc biểu thức ngắn gọn. Đối với các đáp án là số vô tỷ hoặc có nhiều cách biểu diễn tương đương (ví dụ: $\ln(A/B)$), hãy chuyển sang dạng số thập phân và làm tròn đến hai chữ số sau dấu phẩy.]
+        ```
+        (Lưu ý: Đáp án sẽ nằm trên một dòng mới, bắt đầu bằng dấu `*` và một khoảng trắng. **Đảm bảo rằng sau dấu `*` LUÔN LUÔN là đáp án cụ thể, không được để trống.** **Không in đậm đáp án, chỉ thêm dấu `*` ở đầu đáp án.**)
+
+*   **QUY TẮC ĐẶC BIỆT CHO NỘI DUNG CÂU HỎI NHIỀU DÒNG VÀ BẢNG (MẢNG):**
+    *   **Chú ý**: Thay vì viết thành bảng theo format q2ti, hãy viết theo NGÔN NGỮ TỰ NHIÊN, và câu hỏi phải trên MỘT DÒNG DUY NHẤT.
+**Ví dụ cho quy tắc cho nội dung câu hỏi bảng**:
+	TA SẼ KHÔNG KẺ BẢNG. Thay vì ta kẻ bảng như sau
+| Số giờ học mỗi ngày | Số học sinh |
+|---------------------|-------------|
+| 1                   | 4           |
+| 2                   | 6           |
+| 3                   | 8           |
+| 4                   | 2           |
+** Ta sẽ viết lại bảng trên như sau: ** Một bảng khảo sát số giờ học mỗi ngày gồm: 1 giờ (4 học sinh), 2 giờ (6 học sinh), 3 giờ (8 học sinh), 4 giờ (2 học sinh).
+
+*   **Tương thích kỹ thuật:** Đầu ra cần có cấu trúc rõ ràng để có thể chuyển đổi sang định dạng QTI và tải lên nền tảng Canvas, **MỖI CÂU KHÔNG ĐƯỢC GHI GIẢI THÍCH ĐÁP ÁN HAY BẤT CỨ THỨ  GÌ TƯƠNG TỰ**,  *** ĐẦY ĐỦ 3 PHẦN GỒM 40 CÂU *** *** TUYỆT ĐỐI Không sử dụng “```” trong trả lời ***.
+
