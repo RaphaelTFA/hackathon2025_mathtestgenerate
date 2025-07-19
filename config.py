@@ -7,4 +7,4 @@
 
 TASK_ID = 5
 LLM_API_KEY = ""
-MODEL = "anthropic/claude-sonnet-4"
+MODEL = "moonshotai/kimi-k2"
