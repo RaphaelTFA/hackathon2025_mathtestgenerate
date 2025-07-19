@@ -30,14 +30,14 @@ def math_evaluation():
     messages = [
         {"role" : "developer", "content" : rules},
     ]
-    # call_llm(messages = messages)
+    call_llm(messages = messages)
     num_of_test = 1000
     test = [[[] for _ in range(num_of_test)] for _ in range(3)]
     for i in range(11):
         print(f"[SYSTEM] Evaluating math part {i + 1}: {content[i]}")
-        # task = generate_math(content[i])
-        # with open(f"judge_system/output/math/part{i + 1}.txt", "w", encoding="utf-8") as out_f:
-        #     out_f.write(str(task))
+        task = generate_math(content[i])
+        with open(f"judge_system/output/math/part{i + 1}.txt", "w", encoding="utf-8") as out_f:
+            out_f.write(str(task))
         questions = extract_questions(f"judge_system/output/math/part{i + 1}.txt")
         ques_bank = [[] for _ in range(3)]
         for ques in questions:
@@ -87,7 +87,4 @@ def math_evaluation():
             for i in range(len(merge_test)):
                 out_f.write(f"{i + 1}. {merge_test[i]}\n\n")
     print(f"[SYSTEM] Generating completed!")
-            # feedback = call_llm(messages = messages)
-    # with open("judge_system/output/math/feedback.txt", "w", encoding="utf-8") as out_f:
-    #     out_f.write(str(feedback))
     return
