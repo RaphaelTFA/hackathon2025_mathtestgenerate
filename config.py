@@ -7,4 +7,12 @@
 
 TASK_ID = 5
 LLM_API_KEY = ""
-MODEL = "moonshotai/kimi-k2"
+MODEL = "anthropic/claude-sonnet-4"
+
+base_matrix = {
+    2025 : [
+                [3, 1, 0, 2, 2, 2, 2, 2, 0, 1, 0],
+                [0, 0, 1, 0, 0, 1, 0, 1, 1, 0, 0],
+                [0, 1, 0, 0, 1, 1, 0, 1, 1, 0, 1]
+           ]
+}
